@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "https://s3.ap-south-1.amazonaws.com/protos.dev/Schemas/toQuiz/0.0.1/schema.json",
+    "items": {
+        "id": "/items",
+        "properties": {
+            "options": {
+                "id": "/items/properties/options",
+                "items": {
+                    "id": "/items/properties/options/items",
+                    "properties": {
+                        "fact": {
+                            "default": "",
+                            "description": "",
+                            "id": "/items/properties/options/items/properties/fact",
+                            "title": "The Fact",
+                            "type": "string"
+                        },
+                        "gif_image": {
+                            "default": "",
+                            "description": "",
+                            "id": "/items/properties/options/items/properties/gif_image",
+                            "title": "Image",
+                            "type": "string"
+                        },
+                        "option": {
+                            "default": "",
+                            "description": "",
+                            "id": "/items/properties/options/items/properties/option",
+                            "title": "The title of the Option",
+                            "type": "string"
+                        },
+                        "right_or_wrong": {
+                            "default": false,
+                            "description": "",
+                            "id": "/items/properties/options/items/properties/right_or_wrong",
+                            "title": "Right or Wrong",
+                            "type": "boolean"
+                        }
+                    },
+                    "required": [
+                        "option"
+                    ],
+                    "type": "object"
+                },
+                "type": "array"
+            },
+            "question": {
+                "default": "",
+                "description": "",
+                "id": "/items/properties/question",
+                "title": "Title of the question",
+                "type": "string"
+            },
+            "question_no": {
+                "default": 1,
+                "description": "",
+                "id": "/items/properties/question_no",
+                "maximum": 15,
+                "minimum": 1,
+                "title": "Question No.",
+                "type": "integer"
+            }
+        },
+        "required": [
+            "question_no",
+            "question",
+            "options"
+        ],
+        "type": "object"
+    },
+    "maxItems": 15,
+    "minItems": 1,
+    "type": "array"
+}
