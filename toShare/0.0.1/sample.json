@@ -1,0 +1,20 @@
+{
+  "cover_image": "cover.png",
+  "cover_title": "Feature", // "Opinion", "Breaking News", "Profile",
+  "logo_image": "scroll.png",
+  "facebook": {
+    "width": 2,
+    "height": 1,
+    "min_height": 246
+  },
+  "twitter": {
+    "width": 2,
+    "height":1,
+    "min_height": 506
+  },
+  "instagram": {
+    "width": 1,
+    "height": 1,
+    "min_height": 640
+  }
+}
