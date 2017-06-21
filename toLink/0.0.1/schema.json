@@ -5,9 +5,9 @@
     "properties": {
         "url": {
             "default": "www.facebook.com",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "",
             "id": "/properties/url",
-            "title": "The Url Schema",
+            "title": "Enter the URL",
             "type": "string"
         }
     },
