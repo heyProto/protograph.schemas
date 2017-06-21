@@ -1,0 +1,12 @@
+{
+  "name": "John",
+  "description": "",
+  "additional_info": [
+    {
+      "age": 30
+    },
+    {
+      "dob": "12/12/2000"
+    }
+  ]
+}
