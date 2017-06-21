@@ -3,22 +3,41 @@
   "definitions": {},
   "id": "https://s3.ap-south-1.amazonaws.com/protos.dev/Schemas/toExplain/0.0.1/schema.json",
   "properties": {
-    "explainer_header": {
-      "description": "",
-      "id": "/properties/explainer_header",
-      "title": "Title",
-      "type": "string"
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "explainer_header": {
+          "default": "",
+          "description": "",
+          "id": "/properties/data/properties/explainer_header",
+          "title": "Title",
+          "type": "string"
+        },
+        "explainer_text": {
+          "default": "",
+          "description": "",
+          "id": "/properties/data/properties/explainer_text",
+          "title": "Description",
+          "type": "string"
+        }
+      },
+      "required": [
+        "explainer_text",
+        "explainer_header"
+      ],
+      "type": "object",
+      "title": "Card Data"
     },
-    "explainer_text": {
-      "description": "",
-      "id": "/properties/explainer_text",
-      "title": "Description",
-      "type": "string"
-    }
+    "mandatory_config": {
+      "id": "/properties/mandatory_config",
+      "properties": {},
+      "type": "object"
+    },
+    "title": "Mandatory Config"
   },
   "required": [
-    "explainer_text",
-    "explainer_header"
+    "mandatory_config",
+    "data"
   ],
   "type": "object"
 }
