@@ -4,7 +4,7 @@
     "id": "http://example.com/example.json",
     "properties": {
         "text": {
-            "default": "This is a paragraph.",
+            "default": "",
             "description": "",
             "id": "/properties/text",
             "title": "Paragraph Text",
