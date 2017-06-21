@@ -5,9 +5,8 @@
     "properties": {
         "headline": {
             "default": "What does the election mean for Brexit and what does Brexit mean for the election?",
-            "description": "An explanation about the purpose of this instance.",
             "id": "/properties/headline",
-            "title": "The Headline Schema",
+            "title": "Enter the headline:",
             "type": "string"
         }
     },
