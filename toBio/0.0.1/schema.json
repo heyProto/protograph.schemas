@@ -3,28 +3,39 @@
     "definitions": {},
     "id": "http://example.com/example.json",
     "properties": {
-        "additional_info": {
-            "id": "/properties/additional_info",
-            "items": {
-                "id": "/properties/additional_info/items",
-                "properties": {
-                    "age": {
-                        "id": "/properties/additional_info/items/properties/age",
-                        "type": "integer"
-                    }
-                },
-                "type": "object"
-            },
-            "type": "array"
+        "age": {
+            "default": 20,
+            "description": "Enter your age",
+            "id": "/properties/age",
+            "title": "The Age Schema",
+            "type": "integer"
+        },
+        "date_of_birth": {
+            "default": "2-2-1997",
+            "description": "Enter your DoB",
+            "id": "/properties/date_of_birth",
+            "title": "The Date_of_birth Schema",
+            "type": "string"
         },
         "description": {
+            "default": "This is John's description",
+            "description": "Description",
             "id": "/properties/description",
+            "title": "The Description Schema",
             "type": "string"
         },
         "name": {
+            "default": "John",
+            "description": "Enter your name",
             "id": "/properties/name",
+            "title": "The Name Schema",
             "type": "string"
         }
     },
+    "required": [
+        "age",
+        "date_of_birth",
+        "name"
+    ],
     "type": "object"
 }
