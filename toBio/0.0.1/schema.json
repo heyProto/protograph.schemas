@@ -3,44 +3,37 @@
     "definitions": {},
     "id": "http://example.com/example.json",
     "properties": {
-        "age": {
-            "default": 20,
-            "description": "An explanation about the purpose of this instance.",
-            "id": "/properties/age",
-            "title": "The Age Schema",
-            "type": "integer"
-        },
-        "date_of_birth": {
-            "default": "2-2-1997",
-            "description": "An explanation about the purpose of this instance.",
-            "id": "/properties/date_of_birth",
-            "title": "The Date_of_birth Schema",
-            "type": "string"
+        "additional_info": {
+            "id": "/properties/additional_info",
+            "items": {},
+            "type": "array"
         },
         "description": {
             "default": "This is John's description",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "",
             "id": "/properties/description",
-            "title": "The Description Schema",
+            "title": "Description",
             "type": "string"
         },
         "name": {
             "default": "John",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "",
             "id": "/properties/name",
-            "title": "The Name Schema",
+            "title": "Name",
             "type": "string"
         },
         "url": {
-            "default": "https://cdn.pixabay.com/photo/2017/01/06/23/21/soap-bubble-1959327_960_720.jpg",
-            "description": "An explanation about the purpose of this instance.",
+            "default": "https://www.sitebuilderreport.com/assets/facebook-stock-up-446fff24fb11820517c520c4a5a4c032.jpg",
+            "description": "",
             "id": "/properties/url",
-            "title": "The Url Schema",
+            "title": "Url",
             "type": "string"
         }
     },
     "required": [
-        "url"
+        "url",
+        "name",
+        "description"
     ],
     "type": "object"
 }
