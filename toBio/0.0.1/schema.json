@@ -3,35 +3,36 @@
     "definitions": {},
     "id": "http://example.com/example.json",
     "properties": {
+	"name": {
+            "default": "John",
+            "description": "Enter your name",
+            "id": "/properties/name",
+            "title": "Name",
+            "type": "string"
+        }
+    },
         "age": {
             "default": 20,
             "description": "Enter your age",
             "id": "/properties/age",
-            "title": "The Age Schema",
+            "title": "Age",
             "type": "integer"
         },
         "date_of_birth": {
             "default": "2-2-1997",
             "description": "Enter your DoB",
             "id": "/properties/date_of_birth",
-            "title": "The Date_of_birth Schema",
+            "title": "Date of Birth",
             "type": "string"
         },
         "description": {
             "default": "This is John's description",
-            "description": "Description",
+            "description": "Enter something about yourself",
             "id": "/properties/description",
-            "title": "The Description Schema",
+            "title": "Description",
             "type": "string"
         },
-        "name": {
-            "default": "John",
-            "description": "Enter your name",
-            "id": "/properties/name",
-            "title": "The Name Schema",
-            "type": "string"
-        }
-    },
+        
     "required": [
         "age",
         "date_of_birth",
