@@ -7,28 +7,28 @@
             "default": 20,
             "description": "Enter your age",
             "id": "/properties/age",
-            "title": "Age",
+            "title": "The Age Schema",
             "type": "integer"
         },
         "date_of_birth": {
             "default": "2-2-1997",
             "description": "Enter your DoB",
             "id": "/properties/date_of_birth",
-            "title": "Date of Birth",
+            "title": "The Date_of_birth Schema",
             "type": "string"
         },
         "description": {
             "default": "This is John's description",
-            "description": "Enter your description",
+            "description": "Description",
             "id": "/properties/description",
-            "title": "Description",
+            "title": "The Description Schema",
             "type": "string"
         },
         "name": {
             "default": "John",
             "description": "Enter your name",
             "id": "/properties/name",
-            "title": "Name",
+            "title": "The Name Schema",
             "type": "string"
         }
     },
