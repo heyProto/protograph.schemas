@@ -3,24 +3,49 @@
   "definitions": {},
   "id": "https://s3.ap-south-1.amazonaws.com/protos.dev/Schemas/toBrandAnIntersection/0.0.1/schema.json",
   "properties": {
-    "prism": {
-      "default": "",
-      "description": "",
-      "id": "/properties/prism",
-      "title": "Prism",
-      "type": "string"
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "brand_name": {
+          "default": "",
+          "description": "",
+          "id": "/properties/data/properties/brand_name",
+          "title": "Brand Name",
+          "type": "string"
+        },
+        "prism": {
+          "default": "",
+          "description": "",
+          "id": "/properties/data/properties/prism",
+          "title": "Prism",
+          "type": "string"
+        },
+        "section": {
+          "default": "",
+          "description": "",
+          "id": "/properties/data/properties/section",
+          "title": "Section",
+          "type": "string"
+        }
+      },
+      "required": [
+        "prism",
+        "brand_name",
+        "section"
+      ],
+      "type": "object",
+      "title": "Data Section"
     },
-    "section": {
-      "default": "",
-      "description": "",
-      "id": "/properties/section",
-      "title": "Section",
-      "type": "string"
+    "mandatory_config": {
+      "id": "/properties/mandatory_config",
+      "properties": {},
+      "type": "object",
+      "title": "Mandatory Section"
     }
   },
   "required": [
-    "prism",
-    "section"
+    "mandatory_config",
+    "data"
   ],
   "type": "object"
 }
