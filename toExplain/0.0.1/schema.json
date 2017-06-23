@@ -11,7 +11,7 @@
           "description": "",
           "id": "/properties/data/properties/explainer_header",
           "title": "Title",
-          "type": "textarea"
+          "type": "string"
         },
         "explainer_text": {
           "default": "",
