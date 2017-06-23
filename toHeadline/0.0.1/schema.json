@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "headline": {
+            "default": "What does the election mean for Brexit and what does Brexit mean for the election?",
+            "id": "/properties/headline",
+            "title": "Enter the headline:",
+            "type": "string"
+        }
+    },
+    "required": [
+        "headline"
+    ],
+    "type": "object"
+}
