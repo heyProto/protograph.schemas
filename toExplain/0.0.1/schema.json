@@ -11,14 +11,14 @@
           "description": "",
           "id": "/properties/data/properties/explainer_header",
           "title": "Title",
-          "type": "string"
+          "type": "textarea"
         },
         "explainer_text": {
           "default": "",
           "description": "",
           "id": "/properties/data/properties/explainer_text",
           "title": "Description",
-          "type": "string"
+          "type": "textarea"
         }
       },
       "required": [
