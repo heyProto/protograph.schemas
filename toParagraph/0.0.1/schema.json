@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "text": {
+            "default": "",
+            "description": "",
+            "id": "/properties/text",
+            "title": "Paragraph Text",
+            "type": "string"
+        }
+    },
+    "required": [
+        "text"
+    ],
+    "type": "object"
+}

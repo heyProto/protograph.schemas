@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "quote": {
+            "default": "You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.",
+            "id": "/properties/quote",
+            "title": "Enter a quote:",
+            "type": "string"
+        },
+        "author": {
+            "default": "William W. Purkey",
+            "id": "/properties/author",
+            "title": "Enter the author:",
+            "type": "string"
+        }
+    },
+    "required": [
+        "quote",
+        "author"
+    ],
+    "type": "object"
+}
