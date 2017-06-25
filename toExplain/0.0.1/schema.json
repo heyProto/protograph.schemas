@@ -18,7 +18,8 @@
           "description": "",
           "id": "/properties/data/properties/explainer_text",
           "title": "Description",
-          "type": "textarea"
+          "type": "string",
+          "format": "textarea"
         }
       },
       "required": [
