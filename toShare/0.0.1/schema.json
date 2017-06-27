@@ -5,49 +5,44 @@
           "id": "/properties/data/properties/cover_data",
           "properties": {
             "logo_image": {
-              "title": "Logo image",
+              "title": "",
               "type": "object",
               "properties": {
                 "image": {
                   "type": "string",
                   "format": "data-url",
                   "id": "/properties/data/properties/cover_data/properties/logo_image",
-                  "title": "Upload an image",
-                  "description": "An explanation about the purpose of this instance."
+                  "title": "Upload an image"
                 }
               }
             },
             "cover_title": {
               "type": "string",
               "title": "Cover title",
-              "description": "An explanation about the purpose of this instance.",
               "default": "Feature",
-              "id": "/properties/data/properties/cover_data/properties/cover_title",
-              "default":"Feature"
+              "id": "/properties/data/properties/cover_data/properties/cover_title"
             },
             "fb_image": {
               "type": "object",
-              "title": "Facebook / Twitter cover image",
+              "title": "",
               "properties": {
                 "image": {
-                  "title": "Upload an image",
+                  "title": "Upload an image for Facebook/Twitter",
                   "type": "image",
                   "ratio": "2/1",
-                  "id": "/properties/data/properties/fb_image",
-                  "description": "An explanation about the purpose of this instance."
+                  "id": "/properties/data/properties/fb_image"
                 }
               }
             },
             "instagram_image": {
-              "title": "Instagram cover image",
+              "title": "",
               "type": "object",
               "properties": {
                 "image": {
-                  "title": "Upload an image",
+                  "title": "Upload an image for Instagram",
                   "type": "image",
                   "ratio": "1/1",
-                  "id": "/properties/data/properties/instagram_image",
-                  "description": "An explanation about the purpose of this instance."
+                  "id": "/properties/data/properties/instagram_image"
                 }
               }
             }
