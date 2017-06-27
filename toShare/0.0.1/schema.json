@@ -1,133 +1,60 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "definitions": {},
-  "id": "https://s3.ap-south-1.amazonaws.com/protos.dev/Schemas/toShare/0.0.1/schema.json",
-  "properties": {
-    "cover_image": {
-      "default": "cover.png",
-      "description": "",
-      "id": "/properties/cover_image",
-      "title": "Cover Image",
-      "type": "string"
-    },
-    "cover_title": {
-      "default": "Feature",
-      "description": "An explanation about the purpose of this instance.",
-      "id": "/properties/cover_title",
-      "title": "Cover Title",
-      "type": "string"
-    },
-    "facebook": {
-      "id": "/properties/facebook",
-      "properties": {
-        "height": {
-          "default": 1,
-          "description": "",
-          "id": "/properties/facebook/properties/height",
-          "title": "Height",
-          "type": "integer"
-        },
-        "min_height": {
-          "default": 246,
-          "description": "",
-          "id": "/properties/facebook/properties/min_height",
-          "title": "Minimum Height",
-          "type": "integer"
-        },
-        "width": {
-          "default": 2,
-          "description": "",
-          "id": "/properties/facebook/properties/width",
-          "title": "Width",
-          "type": "integer"
-        }
-      },
-      "required": [
-          "min_height",
-          "width",
-          "height"
-      ],
-      "type": "object"
-    },
-    "instagram": {
-      "id": "/properties/instagram",
-      "properties": {
-        "height": {
-          "default": 1,
-          "description": "",
-          "id": "/properties/instagram/properties/height",
-          "title": "Height",
-          "type": "integer"
-        },
-        "min_height": {
-          "default": 640,
-          "description": "",
-          "id": "/properties/instagram/properties/min_height",
-          "title": "Minimum Height",
-          "type": "integer"
-        },
-        "width": {
-          "default": 1,
-          "description": "",
-          "id": "/properties/instagram/properties/width",
-          "title": "Width",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "min_height",
-        "width",
-        "height"
-      ],
-      "type": "object"
-    },
-    "logo_image": {
-      "default": "scroll.png",
-      "description": "",
-      "id": "/properties/logo_image",
-      "title": "Logo",
-      "type": "string"
-    },
-    "twitter": {
-        "id": "/properties/twitter",
-        "properties": {
-          "height": {
-            "default": 1,
-            "description": "",
-            "id": "/properties/twitter/properties/height",
-            "title": "Height",
-            "type": "integer"
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "definitions": {},
+          "title": "User Data",
+          "id": "/properties/data/properties/cover_data",
+          "properties": {
+            "logo_image": {
+              "title": "Logo image",
+              "type": "object",
+              "properties": {
+                "image": {
+                  "type": "string",
+                  "format": "data-url",
+                  "id": "/properties/data/properties/cover_data/properties/logo_image",
+                  "title": "Upload an image",
+                  "description": "An explanation about the purpose of this instance."
+                }
+              }
+            },
+            "cover_title": {
+              "type": "string",
+              "title": "Cover title",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "Feature",
+              "id": "/properties/data/properties/cover_data/properties/cover_title",
+              "default":"Feature"
+            },
+            "fb_image": {
+              "type": "object",
+              "title": "Facebook / Twitter cover image",
+              "properties": {
+                "image": {
+                  "title": "Upload an image",
+                  "type": "image",
+                  "ratio": "2/1",
+                  "id": "/properties/data/properties/fb_image",
+                  "description": "An explanation about the purpose of this instance."
+                }
+              }
+            },
+            "instagram_image": {
+              "title": "Instagram cover image",
+              "type": "object",
+              "properties": {
+                "image": {
+                  "title": "Upload an image",
+                  "type": "image",
+                  "ratio": "1/1",
+                  "id": "/properties/data/properties/instagram_image",
+                  "description": "An explanation about the purpose of this instance."
+                }
+              }
+            }
           },
-          "min_height": {
-            "default": 506,
-            "description": "",
-            "id": "/properties/twitter/properties/min_height",
-            "title": "Minimum Height",
-            "type": "integer"
-          },
-          "width": {
-            "default": 2,
-            "description": "",
-            "id": "/properties/twitter/properties/width",
-            "title": "Width",
-            "type": "integer"
-          }
-        },
-        "required": [
-          "min_height",
-          "width",
-          "height"
-        ],
-        "type": "object"
-    }
-  },
-  "required": [
-    "instagram",
-    "twitter",
-    "logo_image",
-    "facebook",
-    "cover_title",
-    "cover_image"
-  ],
-  "type": "object"
-}
+          "required": [
+            "cover_title",
+            "logo_image"
+          ],
+          "type": "object"
+  }
