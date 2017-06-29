@@ -28,16 +28,9 @@
       ],
       "type": "object",
       "title": "Card Data"
-    },
-    "mandatory_config": {
-      "id": "/properties/mandatory_config",
-      "properties": {},
-      "type": "object",
-      "title": "Mandatory Config"
     }
   },
   "required": [
-    "mandatory_config",
     "data"
   ],
   "type": "object"
