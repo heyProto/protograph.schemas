@@ -6,10 +6,10 @@
         "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/scroll.png"
       },
       "fb_image": {
-        "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/cover.jpg"
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/cover_facebook.png"
       },
       "instagram_image": {
-        "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/cover.jpg"
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/cover_instagram.png"
       },
       "facebook_message": "",
       "twitter_message": "",
