@@ -1,76 +1,257 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "definitions": {},
-    "id": "https://s3.ap-south-1.amazonaws.com/protos.dev/Schemas/toQuiz/0.0.1/schema.json",
-    "items": {
-        "id": "/items",
-        "properties": {
-            "options": {
-                "id": "/items/properties/options",
-                "items": {
-                    "id": "/items/properties/options/items",
+    "id": "http://example.com/example.json",
+    "properties": {
+        "data": {
+            "id": "/properties/data",
+            "properties": {
+                "basic_datapoints": {
+                    "id": "/properties/data/properties/basic_datapoints",
+                    "title": "Card Details",
                     "properties": {
-                        "fact": {
-                            "default": "",
-                            "description": "",
-                            "id": "/items/properties/options/items/properties/fact",
-                            "title": "The Fact",
+                        "background_image": {
+                            "id": "/properties/data/properties/basic_datapoints/properties/background_image",
+                            "type": "object",
+                            "title": "",
+                            "properties": {
+                                "image": {
+                                    "id": "/properties/data/properties/cover_data/properties/logo_image",
+                                    "title": "Upload a background image",
+                                    "type": "string",
+                                    "format": "data-url"
+                                }
+                            }
+                        },
+                        "introduction": {
+                            "id": "/properties/data/properties/basic_datapoints/properties/introduction",
                             "type": "string"
                         },
-                        "gif_image": {
-                            "default": "",
-                            "description": "",
-                            "id": "/items/properties/options/items/properties/gif_image",
-                            "title": "Image",
+                        "quiz_title": {
+                            "id": "/properties/data/properties/basic_datapoints/properties/quiz_title",
                             "type": "string"
                         },
-                        "option": {
-                            "default": "",
-                            "description": "",
-                            "id": "/items/properties/options/items/properties/option",
-                            "title": "The title of the Option",
+                        "start_button_text": {
+                            "id": "/properties/data/properties/basic_datapoints/properties/start_button_text",
                             "type": "string"
                         },
-                        "right_or_wrong": {
-                            "default": false,
-                            "description": "",
-                            "id": "/items/properties/options/items/properties/right_or_wrong",
-                            "title": "Right or Wrong",
-                            "type": "boolean"
+                        "share_link": {
+                            "id": "/properties/data/properties/basic_datapoints/properties/share_link",
+                            "type": "string",
+                            "condition": {"element": "social_share", "value": true}
+                        },
+                        "share_msg": {
+                            "id": "/properties/data/properties/basic_datapoints/properties/share_msg",
+                            "type": "string",
+                            "condition": {"element": "social_share", "value": true}
                         }
                     },
                     "required": [
-                        "option"
+                        "start_button_text",
+                        "quiz_title"
                     ],
                     "type": "object"
                 },
-                "type": "array"
+                "questions": {
+                    "id": "/properties/data/properties/questions",
+                    "title": "Questions",
+                    "items": {
+                        "id": "/properties/data/properties/questions/items",
+                        "properties": {
+                            "question": {
+                                "default": "This is a sample question?",
+                                "title": "Question",
+                                "id": "/properties/data/properties/questions/items/properties/question",
+                                "type": "string"
+                            },
+                            "options": {
+                                "title": "Answers",
+                                "id": "/properties/data/properties/questions/items/properties/options",
+                                "items": {
+                                    "id": "/properties/data/properties/questions/items/properties/options/items",
+                                    "properties": {
+                                        "fact": {
+                                            "id": "/properties/data/properties/questions/items/properties/options/items/properties/fact",
+                                            "type": "string",
+                                            "title": "Educative Text"
+                                        },
+                                        "gif_image": {
+                                            "id": "/properties/data/properties/questions/items/properties/options/items/properties/gif_image",
+                                            "type": "object",
+                                            "title": "",
+                                            "properties": {
+                                                "image": {
+                                                    "id": "/properties/data/properties/cover_data/properties/logo_image",
+                                                    "title": "Add an educative image",
+                                                    "type": "string",
+                                                    "format": "data-url"
+                                                }
+                                            }
+                                        },
+                                        "option": {
+                                            "default": "Answer Text",
+                                            "title": "Answer Text",
+                                            "id": "/properties/data/properties/questions/items/properties/options/items/properties/option",
+                                            "type": "string"
+                                        },
+                                        "right_or_wrong": {
+                                            "default": true,
+                                            "title": "Is this question right?",
+                                            "id": "/properties/data/properties/questions/items/properties/options/items/properties/right_or_wrong",
+                                            "type": "boolean",
+                                            "condition": { "element": "quiz_type", "value": "scoring" }
+                                        }
+                                    },
+                                    "required": [
+                                        "option"
+                                    ],
+                                    "type": "object"
+                                },
+                                "minItems" : 1,
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "question",
+                            "options"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "result_card_data": {
+                    "id": "/properties/data/properties/result_card_data",
+                    "title": "Related article Links",
+                    "items": {
+                        "id": "/properties/data/properties/result_card_data/items",
+                        "properties": {
+                            "related_article_links": {
+                                "id": "/properties/data/properties/result_card_data/items/properties/related_article_links",
+                                "title": "Related article link URL",
+                                "type": "string",
+                                "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)"
+                            },
+                            "link_description": {
+                                "id": "/properties/data/properties/result_card_data/items/properties/link_description",
+                                "title": "Description on the link",
+                                "type": "string"
+                            },
+                            "link_image": {
+                                "id": "/properties/data/properties/result_card_data/items/properties/link_image",
+                                "type": "object",
+                                "title": "",
+                                "properties": {
+                                    "image": {
+                                        "id": "/properties/data/properties/cover_data/properties/logo_image",
+                                        "title": "Upload a article cover image",
+                                        "type": "string",
+                                        "format": "data-url"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "id": "/properties/data/properties/result_card_data/items/properties/message",
+                                "title": "Result Message",
+                                "type": "string"
+                            },
+                            "upper_limit_of_score_range": {
+                                "id": "/properties/data/properties/result_card_data/items/properties/upper_limit_of_score_range",
+                                "title": "Maximum score",
+                                "type": "integer",
+                                "condition": { "element": "quiz_type", "value": "scoring" }
+                            }
+                        },
+                        "required": [
+                            "related_article_links",
+                            "message",
+                            "link_image",
+                            "link_description"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
             },
-            "question": {
-                "default": "",
-                "description": "",
-                "id": "/items/properties/question",
-                "title": "Title of the question",
-                "type": "string"
-            },
-            "question_no": {
-                "default": 1,
-                "description": "",
-                "id": "/items/properties/question_no",
-                "maximum": 15,
-                "minimum": 1,
-                "title": "Question No.",
-                "type": "integer"
-            }
+            "required": [
+                "basic_datapoints",
+                "questions",
+                "result_card_data"
+            ],
+            "type": "object"
         },
-        "required": [
-            "question_no",
-            "question",
-            "options"
-        ],
-        "type": "object"
+        "mandatory_config": {
+            "id": "/properties/mandatory_config",
+            "title": "Mandatory Configurations",
+            "properties": {
+                "quiz_type": {
+                    "id": "/properties/mandatory_config/properties/quiz_type",
+                    "type": "string",
+                    "enum": [
+                        "general",
+                        "scoring"
+                    ],
+                    "enumNames": [
+                        "General",
+                        "Scoring"
+                    ],
+                    "title": "Quiz Mode"
+                },
+                "language": {
+                    "id": "/properties/mandatory_config/properties/language",
+                    "type": "string",
+                    "enum": [
+                        "english",
+                        "hindi"
+                    ],
+                    "enumNames": [
+                        "English",
+                        "Hindi"
+                    ],
+                    "title": "Language"
+                },
+                "flip_card": {
+                    "id": "/properties/mandatory_config/properties/flip_card",
+                    "type": "boolean",
+                    "title": "Should the card flip after every answer?",
+                    "condition": {"element": "quiz_type", "value": "scoring"}
+                },
+                "revisit_answers": {
+                    "id": "/properties/mandatory_config/properties/revisit_answers",
+                    "type": "boolean",
+                    "title": "Allow users to revisit answers"
+                },
+                "social_share": {
+                    "id": "/properties/mandatory_config/properties/social_share",
+                    "type": "boolean",
+                    "title": "Allow users to share this quiz on social media"
+                },
+                "timer": {
+                    "id": "/properties/mandatory_config/properties/timer",
+                    "type": "boolean",
+                    "title": "Should the Quiz be timer based?",
+                    "condition": {"element": "quiz_type", "value": "scoring"}
+                },
+                "time_per_question": {
+                    "id": "/properties/mandatory_config/properties/time_per_question",
+                    "type": "integer",
+                    "condition": {"element": "timer", "value": true},
+                    "title": "Time user shoud spend on each question. (in seconds)"
+                }
+            },
+            "required": [
+                "revisit_answers",
+                "language",
+                "social_share",
+                "timer",
+                "flip_card",
+                "quiz_type"
+            ],
+            "type": "object"
+        }
     },
-    "maxItems": 15,
-    "minItems": 1,
-    "type": "array"
+    "required": [
+        "mandatory_config",
+        "data"
+    ],
+    "type": "object"
 }
