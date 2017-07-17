@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "title": "Card Data",
+  "id": "/properties/data/properties/cover_data",
+  "properties": {
+    "data": {
+      "title": "",
+      "id": "/properties/data",
+      "properties": {
+        "cover_data": {
+          "title": "",
+          "id": "/properties/cover_data",
+          "properties": {
+            "post_url": {
+              "id": "/properties/data/properties/cover_data/properties/post_url",
+              "title": "Post URL",
+              "type": "string",
+              "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)"
+            },
+            "logo_image": {
+              "title": "",
+              "type": "object",
+              "properties": {
+                "image": {
+                  "type": "string",
+                  "format": "data-url",
+                  "id": "/properties/data/properties/cover_data/properties/logo_image",
+                  "title": "Upload square logo",
+                  "description": ""
+                }
+              }
+            },
+            "cover_title": {
+              "type": "string",
+              "title": "Story Genre",
+              "description": "",
+              "id": "/properties/data/properties/cover_data/properties/cover_title"
+            },
+            "fb_image": {
+              "type": "object",
+              "title": "",
+              "properties": {
+                "image": {
+                  "title": "Facebook/Twitter image",
+                  "type": "string",
+                  "format": "image",
+                  "ratio": "2/1",
+                  "id": "/properties/data/properties/fb_image",
+                  "description": ""
+                }
+              }
+            },
+            "instagram_image": {
+              "title": "",
+              "type": "object",
+              "properties": {
+                "image": {
+                  "title": "Instagram image",
+                  "type": "string",
+                  "format": "image",
+                  "ratio": "1/1",
+                  "id": "/properties/data/properties/instagram_image",
+                  "description": ""
+                }
+              }
+            },
+            "facebook_message": {
+              "id": "/properties/data/properties/cover_data/properties/facebook_message",
+              "title": "Facebook Message",
+              "type": "string",
+              "format": "textarea"
+            },
+            "twitter_message": {
+              "id": "/properties/data/properties/cover_data/properties/twitter_message",
+              "title": "Twitter Message",
+              "type": "string",
+              "format": "textarea",
+              "maxLength": 140
+            },
+            "instagram_message": {
+              "id": "/properties/data/properties/cover_data/properties/instagram_message",
+              "title": "Instagram Message",
+              "type": "string",
+              "format": "textarea"
+            }
+          },
+          "required": [
+            "logo_image",
+            "cover_title",
+            "fb_image",
+            "instagram_image",
+            "facebook_message",
+            "twitter_message",
+            "instagram_message",
+            "post_url"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "cover_data"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "data"
+  ],
+  "type": "object",
+  "push_to_s3":["data/cover_data/logo_image/image", "data/cover_data/fb_image/image", "data/cover_data/instagram_image/image"]
+}

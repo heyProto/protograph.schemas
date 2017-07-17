@@ -1,0 +1,37 @@
+{
+  "data": {
+    "cover_data": {
+      "cover_title": "This is a sample Title",
+      "logo_image": {
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/logo.png"
+      },
+      "fb_image": {
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/facebook.png"
+      },
+      "instagram_image": {
+        "image": "https://s3.ap-south-1.amazonaws.com/assets.cdn.protograph/instagram.png"
+      },
+      "facebook_message": "",
+      "twitter_message": "",
+      "instagram_message": "",
+      "post_url": ""
+    },
+    "social_site_settings": {
+      "facebook": {
+        "width": 2,
+        "height": 1,
+        "min_height": 246
+      },
+      "twitter": {
+        "width": 2,
+        "height":1,
+        "min_height": 506
+      },
+      "instagram": {
+        "width": 1,
+        "height": 1,
+        "min_height": 640
+      }
+    }
+  }
+}
