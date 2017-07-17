@@ -193,14 +193,14 @@
                     "description": "An explanation about the purpose of this instance.",
                     "id": "http://example.com/example.json/properties/data/properties/lat",
                     "title": "The Lat Schema",
-                    "type": "string"
+                    "type": "number"
                 },
                 "lng":{
                     "default": "",
                     "description": "An explanation about the purpose of this instance.",
                     "id": "http://example.com/example.json/properties/data/properties/lng",
                     "title": "The lng Schema",
-                    "type": "string"
+                    "type": "number"
                 }
             },
             "type": "object"
