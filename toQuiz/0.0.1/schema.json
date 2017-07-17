@@ -125,7 +125,7 @@
                             "options"
                         ],
                         "minItems" : 1,
-                        "addButtonText": "Add a new option",
+                        "addButtonText": "Add a new question",
                         "type": "object"
                     },
                     "minItems" : 1,
