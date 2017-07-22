@@ -45,11 +45,11 @@
   },
   "mandatory_config":{
     "language": "english",
-    "quiz_type": "scoring",
+    "quiz_type": "general",
     "timer": false,
-    "time_per_question":10,
+    "time_per_question": 10,
     "flip_card": false,
-    "social_share": true,
+    "social_share": false,
     "revisit_answers": true
   }
 }
