@@ -27,7 +27,7 @@
           "id": "/properties/data/properties/tag",
           "title": "Tag",
           "type": "string"
-        },
+        }
       },
       "required": [
         "explainer_text",
