@@ -42,7 +42,7 @@
     "quiz_type_form": "general",
     "timer": false,
     "time_per_question": 10,
-    "flip_card": false,
+    "flip_card": true,
     "social_share": false,
     "revisit_answers": true
   }
