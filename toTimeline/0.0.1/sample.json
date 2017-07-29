@@ -1,0 +1,127 @@
+{
+  "data": {
+    "events": [
+      {
+        "single_event": {
+          "timestamp_date": "1918-07-18",
+          "message": "Rolihlahla Dalibhunga Mandela is born in Mvezo, South Africa. One of 13 children, he was the eldest child of his father’s third wife. A teacher later gave him the name Nelson."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1942-01-01",
+          "message": "",
+          "photo": "http://timeglobalspin.files.wordpress.com/2013/12/51400478.jpg?w=519"
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1944-07-15",
+          "message": "Mandela marries Evelyn Ntoko Mase. They had four children, one of whom died at the age of 9 months. Nelson and Evelyn divorced in 1958."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1948-01-01",
+          "message": "The National Party wins elections and begins enacting apartheid laws."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1952-08-01",
+          "message": "Mandela and Oliver Tambo found South Africa’s first black-run law firm.",
+          "photo": "http://timeglobalspin.files.wordpress.com/2013/06/130114134870.jpg?w=519"
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1956-12-05",
+          "message": "Mandela is arrested and charged with high treason along with 155 other activists, all of whom are eventually acquitted. The trials of the last 30 defendants, including Mandela, did not end until March 29, 1961."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1958-06-14",
+          "message": "Mandela marries Nomzamo Winifred Madikizela, known as Winnie. They had two daughters and divorced in 1996.",
+          "photo": "http://timeglobalspin.files.wordpress.com/2013/06/130114137440.jpg?w=519"
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1960-03-21",
+          "message": "Police open fire on a crowd of unarmed anti-apartheid protesters in Sharpeville, killing 69 and injuring 180 others.",
+          "youtube_url": "https://www.youtube.com/watch?v=n2EvZ8cYcC8"
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1960-04-08",
+          "message": "The government bans the ANC and declares a state of emergency."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1961-06-01",
+          "message": "Forms the ANC’s military wing, Umkhonto we Sizwe (Spear of the Nation)."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1962-01-11",
+          "message": "Mandela sneaks out of South Africa, traveling the continent and visiting England to drum up support for the ANC’s cause. After receiving military training in North Africa, Mandela returned to South Africa in July.",
+          "photo": "http://timeglobalspin.files.wordpress.com/2013/06/130114134884.jpg?w=519"
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1962-08-05",
+          "message": "Mandela receives a five-year prison sentence on charges of leaving the country illegally and inciting workers to strike. In 1964, after a trial for sabotage, Mandela was sentenced to life in prison without parole. He was sent to Robben Island, off Cape Town, where he remained until 1982."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1980-03-09",
+          "message": "Percy Qoboza, editor of the Johannesburg Sunday Post, launches a campaign for Mandela’s release, noting that he commands a following that is unheard of in this land."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1982-03-31",
+          "message": "Mandela is transferred to Pollsmoor, a maximum-security prison in southern Cape Town."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1985-01-31",
+          "message": "President P.W. Botha offers to free Mandela if he renounces violence. Mandela refuses but soon begins a series of secret meetings with government officials."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1988-08-01",
+          "message": "Mandela is diagnosed with tuberculosis."
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1990-02-02",
+          "message": "De Klerk lifts the ban on the ANC and announces that Mandela will be released from prison “without delay.”"
+        }
+      },
+      {
+        "single_event": {
+          "timestamp_date": "1990-02-11",
+          "message": "Mandela is freed after 27 years.",
+          "photo": "http://timeglobalspin.files.wordpress.com/2012/06/nelson_mandela_071.jpg?w=519"
+        }
+      }
+    ]
+  },
+  "mandatory_config": {
+    "timeline_mode": "single",
+    "timestamp_mode": "date",
+    "timeline_title": "Mandela: A Life of Purpose",
+    "timeline_description": "Nelson Mandela, the revolutionary-turned-prisoner-turned-president who led South Africa out of apartheid and into an era of political and racial reconciliation, passed away on Dec. 5, 2013. He was 95. As both the father of his nation and its conscience, Mandela’s remarkable life changed history and its legacy resonates around the world.",
+    "timeline_image": "http://timeglobalspin.files.wordpress.com/2013/06/130114137421.jpg?w=519"
+  }
+}
