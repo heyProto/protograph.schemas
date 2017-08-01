@@ -257,7 +257,7 @@
           "title": "Category",
           "type": "string",
           "enum": [
-            "Cattle protection", "Petty dispute", "Other", "Other crimes", "Witchcraft", "Suspected child lifting", "Sexual harrassment", "Murder / Death", "Cattle Protection"
+            "Cattle protection", "Other", "Petty dispute", "Sexual harassment", "Suspected child lifting", "Murder / Death", "Petty Dispute", "General crime", "Witchcraft"
           ]
         },
         "is_notable_incident": {
