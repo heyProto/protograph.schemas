@@ -207,12 +207,12 @@
           "type": "string"
         },
         "how_was_the_lynching_planned": {
-          "default": "Sporadic",
+          "default": "Spontaneous",
           "id": "/properties/how_was_the_lynching_planned",
           "title": "How was the lynching planned?",
           "type": "string",
           "enum": [
-            "Planned", "Sporadic", "Neighbourhood watch", "Planned (village decision)", "Dont know"
+            "Planned", "Spontaneous", "Neighbourhood watch", "Planned (village decision)", "Dont know"
           ]
         },
         "accused_names": {
@@ -255,7 +255,10 @@
           "default": "Cattle Slaughter",
           "id": "http://example.com/example.json/properties/data/properties/menu",
           "title": "Category",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Cattle protection", "Petty dispute", "Other", "Other crimes", "Witchcraft", "Suspected child lifting", "Sexual harrassment", "Murder / Death", "Cattle Protection"
+          ]
         },
         "is_notable_incident": {
           "default": "No",
