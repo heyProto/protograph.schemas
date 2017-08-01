@@ -1,18 +1,27 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "definitions": {},
-    "id": "http://example.com/example.json",
-    "properties": {
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "properties": {
         "url": {
-            "default": "www.facebook.com",
-            "description": "",
-            "id": "/properties/url",
-            "title": "Enter the URL",
-            "type": "string"
+          "default": "",
+          "id": "/properties/data/properties/url",
+          "title": "URL",
+          "type": "string"
         }
-    },
-    "required": [
+      },
+      "required": [
         "url"
-    ],
-    "type": "object"
+      ],
+      "type": "object",
+      "title": "Card Data"
+    }
+  },
+  "required": [
+    "data"
+  ],
+  "type": "object"
 }
