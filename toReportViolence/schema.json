@@ -9,25 +9,25 @@
         "headline": {
           "default": "Six people beaten by mob for allegedly carrying buffalo calves in Delhi: Reports",
           "id": "/properties/headline",
-          "title": "The Headline Schema",
+          "title": "Headline of the article",
           "type": "string"
         },
         "url": {
           "default": "http://indianexpress.com/article/india/rajasthan-five-men-assaulted-by-gau-rakshaks-in-alwar-1-dead-4599964/",
           "id": "http://example.com/example.json/properties/data/properties/url",
-          "title": "Further reading",
+          "title": "URL of the article",
           "type": "string"
         },
         "story_source": {
           "default": "Express Web Desk",
           "id": "/properties/story_source",
-          "title": "Story Source",
+          "title": "Byline",
           "type": "string"
         },
         "story_source_summary": {
           "default": "Wire Copies",
           "id": "/properties/story_source_summary",
-          "title": "Story Source Summary",
+          "title": "Byline Summary",
           "type": "string",
           "enum": [
             "Wire with reporter input", "Reportage", "Wire Copies"
@@ -36,19 +36,19 @@
         "date": {
           "default": "April 5, 2017",
           "id": "http://example.com/example.json/properties/data/properties/date",
-          "title": "Date",
+          "title": "When was the article published?",
           "type": "string"
         },
         "image": {
           "default": "http://images.indianexpress.com/2017/04/cow-vigilantism-759.jpg",
           "id": "http://example.com/example.json/properties/data/properties/image",
-          "title": "Image URL",
+          "title": "URL of the Cover Image from the article",
           "type": "string"
         },
         "state": {
           "default": "Rajasthan",
           "id": "http://example.com/example.json/properties/data/properties/state",
-          "title": "State",
+          "title": "Where did the incident occur?",
           "type": "string",
           "enum": [
             "Andaman and Nicobar Island", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Dadra and Nagar Haveli", "Daman and Diu", "New Delhi", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka", "Kerala", "Lakshadweep", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Puducherry", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
@@ -81,12 +81,12 @@
         "state_ruling_party": {
           "default": "BJP",
           "id": "http://example.com/example.json/properties/data/properties/state_ruling_party",
-          "title": "State ruling party",
+          "title": "Which party’s Chief Minister was in power in the state when the incident occurred?",
           "type": "string"
         },
         "police_to_population": {
           "id": "http://example.com/example.json/properties/data/properties/police_to_population",
-          "title": "Police/Population ratio",
+          "title": "Police to Population Ratio in that state",
           "type": "string",
           "enum": [
             "Below UN recommendation", "Above UN recommendation"
@@ -94,7 +94,7 @@
         },
         "judge_to_population": {
           "id": "http://example.com/example.json/properties/data/properties/judge_to_population",
-          "title": "Judge/Population ratio",
+          "title": "Judge to Population Ratio in that state",
           "type": "string",
           "enum": [
             "Good", "Above Average", "Average", "Below Average", "Bad"
@@ -124,7 +124,7 @@
         "victim_tag": {
           "default": "farmers",
           "id": "http://example.com/example.json/properties/data/properties/victim_tag",
-          "title": "Victim's tag",
+          "title": "Victim's profession or title",
           "type": "string"
         },
         "victim_gender": {
@@ -139,13 +139,13 @@
         "victim_action": {
           "default": "were legally transporting two milch cows in a pickup truck on a Haryana-bound highway in Rajasthan",
           "id": "http://example.com/example.json/properties/data/properties/victim_action",
-          "title": "Victim's action",
+          "title": "What was victims doing when the mob lynching took place?",
           "type": "string"
         },
         "accused_religion": {
           "default": "Hindu",
           "id": "http://example.com/example.json/properties/data/properties/accused_religion",
-          "title": "The accused religion",
+          "title": "Accused's religion",
           "type": "string",
           "enum": [
             "", "Hindu", "Hindu Dalit", "Muslim", "Sikh", "Jain", "Christian", "Buddhist", "Jew"
@@ -154,13 +154,13 @@
         "accused_tag": {
           "default": "gau rakshaks",
           "id": "http://example.com/example.json/properties/data/properties/accused_tag",
-          "title": "The accused tag",
+          "title": "Accused's profession or title",
           "type": "string"
         },
         "accused_gender": {
           "default": "Male",
           "id": "http://example.com/example.json/properties/data/properties/accused_gender",
-          "title": "The accused gender",
+          "title": "Accused's gender",
           "type": "string",
           "enum": [
             "", "Boy", "Boys", "boy", "boys", "Girl", "Girls", "girl", "girls", "Man", "Men", "man", "men", "Woman", "Women", "woman", "women"
@@ -169,19 +169,19 @@
         "accused_action": {
           "default": "saw the victims's pick-up on the highway and assumed that they were illegally transporting bovines.",
           "id": "http://example.com/example.json/properties/data/properties/accused_action",
-          "title": "The accused action",
+          "title": "What were the accused doing before the mob lynching took place?",
           "type": "string"
         },
         "the_lynching": {
           "default": "The Gau Rakshaks intercepted the pick-up and proceeded to beat up the men. Pehlu Khan succumbs to injuries.",
           "id": "http://example.com/example.json/properties/data/properties/the_lynching",
-          "title": "What happened?",
+          "title": "Extra details of the lynching",
           "type": "string"
         },
         "count_injured": {
           "default": 0,
           "id": "http://example.com/example.json/properties/data/properties/count_injured",
-          "title": "Number of injured",
+          "title": "Number of victims injured",
           "maximum": 100,
           "minimum": 0,
           "type": "number"
@@ -189,7 +189,7 @@
         "count_dead": {
           "default": 0,
           "id": "http://example.com/example.json/properties/data/properties/count_dead",
-          "title": "Number of dead",
+          "title": "Number of victims dead",
           "maximum": 100,
           "minimum": 0,
           "type": "number"
@@ -197,19 +197,19 @@
         "victim_names": {
           "default": "Pehlu Khan (55), Azmat (22), Irshad, Aarif and Rafiq",
           "id": "http://example.com/example.json/properties/data/properties/victim_names",
-          "title": "Victim's names",
+          "title": "Names of the Victims",
           "type": "string"
         },
         "title": {
           "default": "Pehlu Khan (55) and others",
           "id": "http://example.com/example.json/properties/data/properties/title",
-          "title": "Title",
+          "title": "Title of the card",
           "type": "string"
         },
         "how_was_the_lynching_planned": {
           "default": "Spontaneous",
           "id": "/properties/how_was_the_lynching_planned",
-          "title": "How was the lynching planned?",
+          "title": "Was the lynching planned?",
           "type": "string",
           "enum": [
             "Planned", "Spontaneous", "Neighbourhood watch", "Planned (village decision)", "Dont know"
@@ -218,13 +218,13 @@
         "accused_names": {
           "default": "",
           "id": "http://example.com/example.json/properties/data/properties/accused_names",
-          "title": "The accused names",
+          "title": "Names of the Accused",
           "type": "string"
         },
         "did_the_police_intervene_and_prevent_the_death?": {
           "default": "Yes",
           "id": "/properties/did_the_police_intervene_and_prevent_the_death?",
-          "title": "Did the police intervene and prevent the death?",
+          "title": "Did the police intervene and prevent death?",
           "type": "string",
           "enum": [
             "Yes", "No"
@@ -233,7 +233,7 @@
         "does_the_state_criminalise_victims_actions": {
           "default": "Yes",
           "id": "http://example.com/example.json/properties/data/properties/does_the_state_criminalise_victims_actions",
-          "title": "Was the accused possibly committing a crime?",
+          "title": "If the allegation on the victim were true, would it be a punishable offence?",
           "type": "string",
           "enum": [
             "Yes", "No", "May be"
@@ -242,22 +242,22 @@
         "what_the_victim_did": {
           "default": "Transporting cattle",
           "id": "/properties/what_the_victim_did",
-          "title": "What the victim did?",
+          "title": "Broad Category - What did the victim do?",
           "type": "string"
         },
         "what_was_the_mob_doing": {
           "default": "Cattle protection",
           "id": "/properties/what_was_the_mob_doing",
-          "title": "What was the mob doing?",
+          "title": "Broad Category - What did the accused do?",
           "type": "string"
         },
         "menu": {
           "default": "Cattle Slaughter",
           "id": "http://example.com/example.json/properties/data/properties/menu",
-          "title": "Category",
+          "title": "Broad Category - Reason for the lynching",
           "type": "string",
           "enum": [
-            "Cattle protection", "Other", "Petty dispute", "Sexual harassment", "Suspected child lifting", "Murder / Death", "Petty Dispute", "General crime", "Witchcraft"
+            "Cattle protection", "Other", "Petty dispute", "Sexual harassment", "Suspected child lifting", "Murder / Death", "General crime", "Witchcraft"
           ]
         },
         "is_notable_incident": {
