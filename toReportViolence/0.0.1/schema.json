@@ -257,7 +257,7 @@
           "title": "Broad Category - Reason for the lynching",
           "type": "string",
           "enum": [
-            "Cattle protection", "Other", "Sexual harassment", "Suspected child lifting", "Murder / Death", "General crime", "Witchcraft"
+            "Cattle protection", "Other","Petty dispute", "Sexual harassment", "Suspected child lifting", "Murder / Death", "General crime", "Witchcraft"
           ]
         },
         "is_notable_incident": {
