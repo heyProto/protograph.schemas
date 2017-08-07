@@ -14,7 +14,9 @@
           "title": "Event List",
           "minItems": "2",
           "items": {
-            "title": "",
+            "title": "Event",
+            "separator": "#",
+            "hideTitle": true,
             "type": "object",
             "id": "/properties/data/properties/events/items",
             "properties": {
@@ -51,8 +53,7 @@
                   "photo": {
                     "title": "Image",
                     "type": "string",
-                    "format": "image",
-                    "ratio": "2/3",
+                    "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)",
                     "id": "/properties/data/properties/events/items/properties/single_event/properties/photo"
                   },
                   "media_caption": {
@@ -73,24 +74,36 @@
       "id": "/properties/mandatory_config",
       "properties": {
         "timeline_title": {
-          "title": "Timeline Title",
+          "title": "Title",
           "type": "string",
           "id": "/properties/mandatory_config/properties/timeline_title"
         },
         "timeline_description": {
-          "title": "Timeline Description",
+          "title": "Description",
           "type": "string",
           "id": "/properties/mandatory_config/properties/timeline_description"
         },
         "timeline_image": {
-          "title": "Timeline Image",
+          "title": "Cover Image",
           "type": "string",
           "id": "/properties/mandatory_config/properties/timeline_image",
-          "format": "image",
-          "ratio": "2/3"
+          "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)"
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+              "english",
+              "hindi"
+          ],
+          "enumNames": [
+              "English",
+              "Hindi"
+          ],
+          "default": "english"
         }
       },
-      "required": ["timeline_title", "timeline_description", "timeline_image"]
+      "required": ["timeline_title", "timeline_description", "timeline_image", "language"]
     }
-  }
+  },
+  "required": ["data", "mandatory_config"]
 }
