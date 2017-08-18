@@ -6,15 +6,66 @@
     "data": {
       "id": "/properties/data",
       "properties": {
-        "url": {
-          "default": "",
-          "id": "/properties/data/properties/url",
-          "title": "URL",
-          "type": "string"
-        }
+          "amphtml": {
+              "id": "/properties/data/properties/amphtml",
+              "type": "string"
+          },
+          "author": {
+              "id": "/properties/data/properties/author",
+              "type": "string"
+          },
+          "author_url": {
+              "id": "/properties/data/properties/author_url",
+              "type": "string"
+          },
+          "canonical": {
+              "id": "/properties/data/properties/canonical",
+              "title": "URL",
+              "type": "string"
+          },
+          "date": {
+              "id": "/properties/data/properties/date",
+              "type": "string"
+          },
+          "description": {
+              "id": "/properties/data/properties/description",
+              "type": "string"
+          },
+          "keywords": {
+              "id": "/properties/data/properties/keywords",
+              "type": "string"
+          },
+          "media": {
+              "id": "/properties/data/properties/media",
+              "type": "string"
+          },
+          "shortlink": {
+              "id": "/properties/data/properties/shortlink",
+              "type": "string"
+          },
+          "site": {
+              "id": "/properties/data/properties/site",
+              "type": "string"
+          },
+          "thumbnail_height": {
+              "id": "/properties/data/properties/thumbnail_height",
+              "type": "integer"
+          },
+          "thumbnail_url": {
+              "id": "/properties/data/properties/thumbnail_url",
+              "type": "string"
+          },
+          "thumbnail_width": {
+              "id": "/properties/data/properties/thumbnail_width",
+              "type": "integer"
+          },
+          "title": {
+              "id": "/properties/data/properties/title",
+              "type": "string"
+          }
       },
       "required": [
-        "url"
+        "canonical"
       ],
       "type": "object",
       "title": "Card Data"

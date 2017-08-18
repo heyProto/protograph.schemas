@@ -1,15 +1,18 @@
 {
   "data": {
-  "type": "link",
-  "version": "1.0",
-  "title": "Nitish Kumar to take oath as Bihar Chief Minister at 10 am on Thursday",
-  "author": "nishantshekhar1",
-  "author_url": "https://indianexpress.com/author/nishantshekhar1/",
-  "provider_name": "The Indian Express",
-  "description": "Nitish Kumar will again take oath as the chief minister of Bihar on Thursday, a day after he resigned from the post citing corruption cases against RJD leaders of the Grand Alliance, including Tejashwi Yadav.",
-  "thumbnail_url": "http://images.indianexpress.com/2015/05/lalu-nitish-l.jpg?w=759",
-  "thumbnail_width": 759,
-  "thumbnail_height": 422,
-  "url": "http://indianexpress.com/article/india/nitish-kumar-resigns-as-bihar-chief-minister-tejashwi-yadav-lalu-yadav-grand-alliance-jdu-meeting-governor-4768045/"
+    "amphtml": "http://indianexpress.com/article/india/nitish-kumar-resigns-as-bihar-chief-minister-tejashwi-yadav-lalu-yadav-grand-alliance-jdu-meeting-governor-4768045/lite/",
+    "author": "nishantshekhar1",
+    "author_url":"https://indianexpress.com/author/nishantshekhar1/",
+    "canonical":"http://indianexpress.com/article/india/nitish-kumar-resigns-as-bihar-chief-minister-tejashwi-yadav-lalu-yadav-grand-alliance-jdu-meeting-governor-4768045/",
+    "date" : "2017-07-27T13:41:00.000Z",
+    "description": "Nitish Kumar will again take oath as the chief minister of Bihar on Thursday, a day after he resigned from the post citing corruption cases against RJD leaders of the Grand Alliance, including Tejashwi Yadav.",
+    "keywords": "nitish kumar, nitish kumar resigns, tejashwi yadav, jdu meeting, bihar, grand alliance, jdu leaders meet, bjp, latest news, grand alliance, mahagathbandhan",
+    "media": "reader",
+    "shortlink": "http://wp.me/p3DY9j-k0nX",
+    "site": "The Indian Express",
+    "title": "Nitish Kumar to take oath as Bihar Chief Minister at 10 am on Thursday",
+    "thumbnail_url":"http://images.indianexpress.com/2017/08/goakerala.jpg?w=759",
+    "thumbnail_width": 759,
+    "thumbnail_height": 422
   }
 }
