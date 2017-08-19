@@ -20,13 +20,6 @@
           "title": "Description",
           "type": "string",
           "format": "textarea"
-        },
-        "tag": {
-          "default": "",
-          "description": "",
-          "id": "/properties/data/properties/tag",
-          "title": "Tag",
-          "type": "string"
         }
       },
       "required": [
