@@ -1,0 +1,16 @@
+{
+  "data": {
+    "district": "Agra",
+    "details":
+      {
+        "district_area" : "4041 sq km",
+        "district_population": "44,18,797",
+        "district_map": "https://upload.wikimedia.org/wikipedia/commons/7/7f/India_Uttar_Pradesh_location_map.svg",
+        "urban_population": "46",
+        "rural_population": "54",
+        "males": "57",
+        "females": "43",
+        "district_info": "Agra is a city in northern India’s Uttar Pradesh state. It's home to the iconic Taj Mahal, a mausoleum built for the Mughal ruler Shah Jahan’s wife, Mumtaz Mahal (who died in childbirth in 1631)."
+      }
+  }
+}
