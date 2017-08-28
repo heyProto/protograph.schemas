@@ -31,22 +31,22 @@
                 "default": ""
               },
               "urban_population": {
-                "type": "number",
+                "type": "string",
                 "title": "Urban Population",
                 "default": "50"
               },
               "rural_population": {
-                "type": "number",
+                "type": "string",
                 "title": "Rural Population",
                 "default": "50"
               },
               "males": {
-                "type": "number",
+                "type": "string",
                 "title": "Male Percentage",
                 "default": "50"
               },
               "females": {
-                "type": "number",
+                "type": "string",
                 "title": "Female Percentage",
                 "default": "50"
               },
