@@ -17,7 +17,7 @@
           "default": "",
           "description": "",
           "id": "/properties/data/properties/explainer_text",
-          "title": "Description",
+          "title": "Explainer Content",
           "type": "string",
           "format": "textarea"
         }
