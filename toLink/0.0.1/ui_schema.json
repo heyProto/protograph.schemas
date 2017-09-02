@@ -1,0 +1,46 @@
+{
+  "data": {
+    "amphtml": {
+      "ui:widget": "hidden"
+    },
+    "author": {
+      "ui:widget": "hidden"
+    },
+    "author_url": {
+      "ui:widget": "hidden"
+    },
+    "date":{
+      "ui:widget":"hidden"
+    },
+    "description": {
+      "ui:widget": "hidden"
+    },
+    "keywords": {
+      "ui:widget": "hidden"
+    },
+    "media": {
+      "ui:widget": "hidden"
+    },
+    "shortlink": {
+      "ui:widget": "hidden"
+    },
+    "site": {
+      "ui:widget": "hidden"
+    },
+    "title": {
+      "ui:widget": "hidden"
+    },
+    "thumbnail_url":{
+      "ui:widget": "hidden"
+    },
+    "thumbnail_width": {
+      "ui:widget": "hidden"
+    },
+    "thumbnail_height": {
+      "ui:widget": "hidden"
+    },
+    "canonical":{
+      "ui:help":"Currently we support only links from IndianExpress.com"
+    }
+  }
+}
