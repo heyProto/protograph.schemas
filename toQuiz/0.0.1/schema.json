@@ -192,8 +192,10 @@
                             "link_description"
                         ],
                         "addButtonText": "Add a new link",
+                        "maxItems":2,
                         "type": "object"
                     },
+                    "maxItems":2,
                     "type": "array"
                 }
             },
