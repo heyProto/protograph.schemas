@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "type": "object",
+      "properties": {
+        "image": {
+          "id": "/properties/data/properties/image",
+          "title": "Image",
+          "type": "string"
+        },
+        "audio_file": {
+          "id": "/properties/data/properties/audio_file",
+          "title": "Audio File",
+          "type": "string"
+        },
+        "subtitles": {
+          "condition": {"element": "is_subtitle_present", "value": "yes"},
+          "id": "/properties/data/properties/subtitles",
+          "title": "Subtitles",
+          "type": "string"
+        }
+      },
+      "required": ["audio_file", "image"]
+    },
+    "mandatory_config": {
+      "type": "object",
+      "id": "/properties/mandatory_config",
+      "properties": {
+        "name": {
+          "id": "/properties/mandatory_config/properties/name",
+          "title": "Name",
+          "type": "string",
+          "maxlength": "57"
+        },
+        "description": {
+          "id": "/properties/mandatory_config/properties/description",
+          "title": "Description",
+          "type": "string",
+          "maxlength": "163"
+        },
+        "is_subtitle_present": {
+          "id": "/properties/mandatory_config/properties/is_subtitle_present",
+          "title": "Does your card have subtitles?",
+          "type": "string",
+          "enum": ["yes", "no"],
+          "enumNames": ["Yes", "No"],
+          "default": "no"
+        }
+      },
+      "required": ["name", "description", "is_subtitle_present"]
+    }
+  },
+  "required": ["data", "mandatory_config"]
+}

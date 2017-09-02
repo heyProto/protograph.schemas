@@ -1,0 +1,12 @@
+{
+  "data": {
+    "audio_file": "https://storage.googleapis.com/g2gcs-hosting-toaudiophoto-066678fc87/src/audio/bhopal.mp3",
+    "image": "https://storage.googleapis.com/g2gcs-hosting-toaudiophoto-066678fc87/src/images/bhopal.jpg",
+    "subtitles": "https://storage.googleapis.com/g2gcs-hosting-toaudiophoto-066678fc87/src/subtitles/bhopal.json"
+  },
+  "mandatory_config": {
+    "name": "Bhopal Gas Tragedy",
+    "description": "Rashida Bee, a survivor of the Bhopal Gas Tragedy recounts her experiences.",
+    "is_subtitle_present": "yes"
+  }
+}
