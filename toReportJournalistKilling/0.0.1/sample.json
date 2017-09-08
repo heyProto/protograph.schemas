@@ -1,0 +1,34 @@
+{
+  "data": {
+    "details_about_journalist": {
+      "name": "Rajdeo Ranjan",
+      "age": 45,
+      "gender": "Male",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Rajdev_Ranjan%2C_a_murdered_Indian_journalist.jpg", 
+      "is_freelancer": "No",
+      "organisation": "Hindustan Daily",
+      "organisation_type": "National",
+      "beat": "politics and crime",
+      "journalist_body_of_work": "Rajdev Ranjan started his career at the Hindustan Daily in 1994. For over 24 years, Rajdev Ranjan had been an active journalist for the Hindu-language.",
+      "major_story_link_1": "https://cpj.org/killed/2016/rajdev-ranjan.php",
+      "major_story_link_2": "http://timesofindia.indiatimes.com/india/Senior-journalist-shot-dead-in-Bihar/articleshow/52259063.cms",
+      "major_story_link_3": "http://www.deccanchronicle.com/nation/current-affairs/250516/bihar-shooters-arrested-in-murder-of-journalist-rajdev-ranjan-ex-rjd-mp-suspect.html"     
+    },
+    "when_and_where_it_occur": {
+      "date": "13 May, 2016",
+      "location": "Siwan",
+      "state": "Bihar",
+      "nature_of_assault": "Shot dead",
+      "accussed_names": "Former RJD MP Mohammad Shahabuddin, Azahruddin Beig alias Laddan Mian, Rishi Kumar Jaiswal, Rohit Kumar Soni, Vijay Kumar Gupta, Ranjeet Kumar and Sonu Kumar Gupta",
+       "description_of_attack": "Rajdev Ranjan was by Siwan railway station on his way to his office from gathering news when he was murdered by attackers on bikes. Ranjan received gunshot wounds to the neck and head, both at close-range.",
+       "motive_of_attack": "Ranjan's killers may be members of a gang in Siwan. Ranjan had been threatened before and once had been held at gunpoint. Convicted murderer Mohammed Shahabuddin allegedly had made a hit list and Ranjan's name was seventh on that.",
+       "party": "BJP",
+       "is_case_registed": "Yes"
+    },
+    "addendum": {
+      "referral_link_1": "http://www.jantakareporter.com/india/shahabuddin-charge-sheeted/144281/",
+      "referral_link_2": "",
+      "referral_link_3": ""
+    }
+  }
+}
