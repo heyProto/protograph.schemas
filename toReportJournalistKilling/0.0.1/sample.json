@@ -9,7 +9,7 @@
       "organisation": "Gana Chabuk",
       "organisation_type": "Regional media",
       "beat": "Not clear",
-      "journalist_body_of_work": "",
+      "journalist_body_of_work": "Don't know",
       "major_story_link_1": "",
       "major_story_link_2": "",
       "major_story_link_3": ""     
@@ -26,9 +26,9 @@
        "is_case_registered": "Not clear"
     },
     "addendum": {
-      "referral_link_1": "",
-      "referral_link_2": "",
-      "referral_link_3": ""
+      "referral_link_1": "http://www.business-standard.com/article/pti-stories/iju-demands-inquiry-into-dhubri-scribe-s-killing-112091100391_1.html",
+      "referral_link_2": "http://www.thehoot.org/freespeech/LatestDetailRecord/458",
+      "referral_link_3": "http://www.asiasentinel.com/new/society/war-on-journalists-in-indias-assam-region/"
     }
   }
 }
