@@ -115,7 +115,7 @@
               "id": "/properties/data/properties/when_and_where_did_it_happen/properties/nature_of_assault", 
               "title": "What was the nature of assault?", 
               "type": "string",
-              "enum": ["Stabbed", "Beaten", "Shot at", "Road accident", "Other"]
+              "enum": ["Stabbed", "Beaten", "Shot at", "Road accident", "Bomb explosion", "Bomb blast", "Died of asphyxiation" ,"Other"]
             },
             "accussed_names": {
               "id": "/properties/data/properties/when_and_where_did_it_happen/properties/accussed_names", 
@@ -137,7 +137,7 @@
               "title": "Which political party's Chief Minister was in power when the attack was reported?", 
               "type": "string",
               "enum": [
-                "AAP", "AIADMK", "BJP", "BJD", "Congress", "CPI-M", "JDU", "LDF", "PDP", "SAD", "SP", "TDP", "TMC", "UDF", "NPF", "TRS", "President's rule", "AGP", "BSP", "INLD", "National Conference"
+                "AAP", "AIADMK", "BJP", "BJD", "Congress", "CPI-M", "JDU", "LDF", "PDP", "SAD", "SP", "TDP", "TMC", "UDF", "NPF", "TRS", "President's rule", "AGP", "BSP", "INLD", "National Conference", "MSCP"
               ]
             }, 
             "is_case_registered": { 
