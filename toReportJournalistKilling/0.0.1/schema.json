@@ -57,21 +57,6 @@
               "id": "/properties/data/properties/details_about_journalist/properties/journalist_body_of_work", 
               "title": "One, two sentence description on the journalist's body of work.", 
               "type": "string"
-            }, 
-            "major_story_link_1": {
-              "id": "/properties/data/properties/details_about_journalist/properties/major_story_link_1", 
-              "title": "Link #1 to major story that was done by the journalist.", 
-              "type": "string"
-            }, 
-            "major_story_link_2": {
-              "id": "/properties/data/properties/details_about_journalist/properties/major_story_link_2", 
-              "title": "Link #2 to major story that was done by the journalist.", 
-              "type": "string"
-            }, 
-            "major_story_link_3": {
-              "id": "/properties/data/properties/details_about_journalist/properties/major_story_link_3", 
-              "title": "Link #3 to major story that was done by the journalist.", 
-              "type": "string"
             }
           }, 
           "type": "object",
