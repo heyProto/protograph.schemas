@@ -23,7 +23,7 @@
             "age": {
               "id": "/properties/data/properties/details_about_journalist/properties/age",
               "title": "Age",
-              "type": ["integer", "null"]
+              "type": "string"
             },
             "gender": {
               "id": "/properties/data/properties/details_about_journalist/properties/gender",
