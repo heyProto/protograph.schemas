@@ -1,91 +1,91 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#", 
-  "definitions": {}, 
-  "id": "http://example.com/example.json", 
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
   "properties": {
     "data": {
-      "id": "/properties/data", 
+      "id": "/properties/data",
       "properties": {
         "details_about_journalist": {
-          "id": "/properties/data/properties/details_about_journalist", 
+          "id": "/properties/data/properties/details_about_journalist",
           "title": "Details of the journalist attacked",
           "properties": {
-            "name": { 
-              "id": "/properties/data/properties/details_about_journalist/properties/name", 
-              "title": "Name", 
+            "name": {
+              "id": "/properties/data/properties/details_about_journalist/properties/name",
+              "title": "Name",
               "type": "string"
             },
             "image_url": {
-              "id": "/properties/data/properties/details_about_journalist/properties/image_url", 
-              "title": "Headshot of the journalist (photograph)", 
+              "id": "/properties/data/properties/details_about_journalist/properties/image_url",
+              "title": "Headshot of the journalist (photograph)",
               "type": "string"
-            }, 
-            "age": { 
-              "id": "/properties/data/properties/details_about_journalist/properties/age", 
-              "title": "Age", 
-              "type": "integer"
-            }, 
-            "gender": { 
-              "id": "/properties/data/properties/details_about_journalist/properties/gender", 
-              "title": "Gender", 
+            },
+            "age": {
+              "id": "/properties/data/properties/details_about_journalist/properties/age",
+              "title": "Age",
+              "type": ["integer", "null"]
+            },
+            "gender": {
+              "id": "/properties/data/properties/details_about_journalist/properties/gender",
+              "title": "Gender",
               "type": "string",
               "enum": ["Male", "Female", "Transgender"]
-            },  
+            },
             "is_freelancer": {
-              "id": "/properties/data/properties/details_about_journalist/properties/is_freelancer", 
-              "title": "Was the journalist under attack a freelancer?", 
+              "id": "/properties/data/properties/details_about_journalist/properties/is_freelancer",
+              "title": "Was the journalist under attack a freelancer?",
               "type": "string",
               "enum": ["Yes", "No", "Not clear"]
-            }, 
+            },
             "organisation": {
-              "id": "/properties/data/properties/details_about_journalist/properties/organisation", 
-              "title": "What organisation was the journalist reporting, freelancing for?", 
+              "id": "/properties/data/properties/details_about_journalist/properties/organisation",
+              "title": "What organisation was the journalist reporting, freelancing for?",
               "type": "string"
-            }, 
+            },
             "organisation_type": {
-              "id": "/properties/data/properties/details_about_journalist/properties/organisation_type", 
-              "title": "How would you classify the above organisation?", 
+              "id": "/properties/data/properties/details_about_journalist/properties/organisation_type",
+              "title": "How would you classify the above organisation?",
               "type": "string",
               "enum": ["National mainstream media", "Regional media", "Not clear"]
             },
-            "beat": { 
-              "id": "/properties/data/properties/details_about_journalist/properties/beat", 
-              "title": "What beat (specialisation) was the journalist covering?", 
+            "beat": {
+              "id": "/properties/data/properties/details_about_journalist/properties/beat",
+              "title": "What beat (specialisation) was the journalist covering?",
               "type": "string"
-            }, 
+            },
             "journalist_body_of_work": {
-              "id": "/properties/data/properties/details_about_journalist/properties/journalist_body_of_work", 
-              "title": "One, two sentence description on the journalist's body of work.", 
+              "id": "/properties/data/properties/details_about_journalist/properties/journalist_body_of_work",
+              "title": "One, two sentence description on the journalist's body of work.",
               "type": "string"
             }
-          }, 
+          },
           "type": "object",
           "required": [
             "name", "gender", "organisation_type", "journalist_body_of_work"
           ]
         },
         "when_and_where_it_occur": {
-          "id": "/properties/data/properties/when_and_where_did_it_happen", 
+          "id": "/properties/data/properties/when_and_where_did_it_happen",
           "title": "Details of the attack",
           "properties": {
             "date": {
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/date", 
-              "title": "Date", 
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/date",
+              "title": "Date",
               "type": "string"
-            }, 
+            },
             "location": {
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/location", 
-              "title": "Location", 
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/location",
+              "title": "Location",
               "type": "string"
-            }, 
+            },
             "state": {
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/state", 
-              "title": "State", 
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/state",
+              "title": "State",
               "type": "string",
               "enum": [
                 "Andaman and Nicobar Island", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Dadra and Nagar Haveli", "Daman and Diu", "New Delhi", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka", "Kerala", "Lakshadweep", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Puducherry", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
               ]
-            }, 
+            },
             "lat": {
               "id": "/properties/data/properties/when_and_where_it_occur/properties/lat",
               "type": "number",
@@ -96,42 +96,42 @@
               "type": "number",
               "title": "Longitude"
             },
-            "nature_of_assault": { 
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/nature_of_assault", 
-              "title": "What was the nature of assault?", 
+            "nature_of_assault": {
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/nature_of_assault",
+              "title": "What was the nature of assault?",
               "type": "string",
               "enum": ["Stabbed", "Beaten", "Shot at", "Road accident", "Bomb explosion", "Bomb blast", "Died of asphyxiation" ,"Other"]
             },
             "accussed_names": {
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/accussed_names", 
-              "title": "What is (are) the name(s) of the accused?", 
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/accussed_names",
+              "title": "What is (are) the name(s) of the accused?",
               "type": "string"
-            }, 
-            "description_of_attack": { 
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/description_of_attack", 
-              "title": "A one, two sentence description of the attack", 
+            },
+            "description_of_attack": {
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/description_of_attack",
+              "title": "A one, two sentence description of the attack",
               "type": "string"
             },
             "motive_of_attack": {
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/motive_of_attack", 
-              "title": "Why was the journalist attacked?", 
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/motive_of_attack",
+              "title": "Why was the journalist attacked?",
               "type": "string"
-            }, 
+            },
             "party": {
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/party", 
-              "title": "Which political party's Chief Minister was in power when the attack was reported?", 
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/party",
+              "title": "Which political party's Chief Minister was in power when the attack was reported?",
               "type": "string",
               "enum": [
                 "AAP", "AIADMK", "BJP", "BJD", "Congress", "CPI-M", "JDU", "LDF", "PDP", "SAD", "SP", "TDP", "TMC", "UDF", "NPF", "TRS", "President's rule", "AGP", "BSP", "INLD", "National Conference", "MSCP"
               ]
-            }, 
-            "is_case_registered": { 
-              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/is_case_registered", 
-              "title": "Was a case resisted?", 
+            },
+            "is_case_registered": {
+              "id": "/properties/data/properties/when_and_where_did_it_happen/properties/is_case_registered",
+              "title": "Was a case resisted?",
               "type": "string",
               "enum": ["Yes", "No", "Not clear"]
             }
-          }, 
+          },
           "type": "object",
           "required": [
             "nature_of_assault", "state", "party", "is_case_registered", "lat", "lng"
@@ -139,29 +139,29 @@
         },
         "addendum": {
           "id": "/properties/data/properties/addendum",
-          "title": "Reference Links", 
+          "title": "Reference Links",
           "properties": {
             "referral_link_1": {
-              "id": "/properties/data/properties/addendum/properties/referral_link_1", 
-              "title": "Story #1", 
+              "id": "/properties/data/properties/addendum/properties/referral_link_1",
+              "title": "Story #1",
               "type": "string"
-            }, 
-            "referral_link_2": { 
-              "id": "/properties/data/properties/addendum/properties/referral_link_2", 
-              "title": "Story #2", 
+            },
+            "referral_link_2": {
+              "id": "/properties/data/properties/addendum/properties/referral_link_2",
+              "title": "Story #2",
               "type": "string"
-            }, 
+            },
             "referral_link_3": {
-              "id": "/properties/data/properties/addendum/properties/referral_link_3", 
-              "title": "Story #3", 
+              "id": "/properties/data/properties/addendum/properties/referral_link_3",
+              "title": "Story #3",
               "type": "string"
             }
-          }, 
+          },
           "type": "object"
         }
-      }, 
+      },
       "type": "object"
     }
-  }, 
+  },
   "type": "object"
 }
