@@ -65,7 +65,8 @@
           }
       },
       "required": [
-        "canonical"
+        "canonical",
+        "date"
       ],
       "type": "object",
       "title": "Card Data"
