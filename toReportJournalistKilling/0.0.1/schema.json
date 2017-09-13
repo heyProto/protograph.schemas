@@ -100,7 +100,7 @@
               "id": "/properties/data/properties/when_and_where_did_it_happen/properties/nature_of_assault",
               "title": "What was the nature of assault?",
               "type": "string",
-              "enum": ["Stabbed", "Beaten", "Shot at", "Road accident", "Bomb explosion", "Bomb blast", "Died of asphyxiation" ,"Other"]
+              "enum": ["Stabbed", "Beaten", "Shot at", "Road accident", "Bomb blast", "Died of asphyxiation" ,"Other"]
             },
             "accussed_names": {
               "id": "/properties/data/properties/when_and_where_did_it_happen/properties/accussed_names",
