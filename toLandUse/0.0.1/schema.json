@@ -11,10 +11,6 @@
           "title": "District",
           "type": "string"
         },
-        "exploitation":{
-          "type":"string",
-          "title":"Overall Analysis"
-        },
         "total_reporting_area": {
           "title": "Total Reporting Area",
           "type": "number"
