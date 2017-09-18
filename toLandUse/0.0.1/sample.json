@@ -1,0 +1,15 @@
+{
+  "data": {
+    "district": "Agra",
+    "overall":"Poor",
+    "total_reporting_area":12345,
+    "area_under_forest":{
+      "number":12345,
+      "percent":50
+    },
+    "area_under_concrete":{
+      "number":23456,
+      "percent":20
+    }
+  }
+}

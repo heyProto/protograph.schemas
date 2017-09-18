@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "type": "object",
+      "title":"Land use data",
+      "properties": {
+        "district": {
+          "title": "District",
+          "type": "string"
+        },
+        "exploitation":{
+          "type":"string",
+          "title":"Overall Analysis"
+        },
+        "total_reporting_area": {
+          "title": "Total Reporting Area",
+          "type": "number"
+        },
+        "area_under_forest":{
+          "title":"Area Under Forest",
+          "type":"object",
+          "properties": {
+            "number":{
+              "type":"number",
+              "title":"Data in numbers"
+            },
+            "percent":{
+              "type":"number",
+              "title":"Data in percent"
+            }
+          }
+        },
+        "area_under_concrete":{
+          "title":"Area under Concrete",
+          "type":"object",
+          "properties": {
+            "number":{
+              "type":"number",
+              "title":"Data in numbers"
+            },
+            "percent":{
+              "type":"number",
+              "title":"Data in percent"
+            }
+          }
+        }
+      }
+    }
+  },
+  "type": "object"
+}
