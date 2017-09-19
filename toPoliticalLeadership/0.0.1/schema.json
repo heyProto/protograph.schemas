@@ -31,7 +31,7 @@
               "party": {
                 "type": "string",
                 "title": "Party",
-                "enum": ["BSP", "BJP", "SP", "Congress", "RLD", "IND"]
+                "enum": ["BSP", "BJP", "SP", "Congress", "RLD", "IND", "Apna Dal", "INC", "AITC"]
               }
             },
             "required": [
