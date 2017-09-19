@@ -10,6 +10,8 @@
     "area_under_concrete":{
       "number":23456,
       "percent":20
-    }
+    },
+    "land_score": 3,
+    "forest_score": 3
   }
 }
