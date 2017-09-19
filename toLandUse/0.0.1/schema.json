@@ -15,6 +15,18 @@
           "title": "Total Reporting Area",
           "type": "number"
         },
+        "land_score": {
+          "title": "Land Score",
+          "type":"integer",
+          "enum":[0,1,2,3,4,5],
+          "default": 3
+        },
+        "forest_score": {
+          "title": "Forest Score",
+          "type":"integer",
+          "enum":[0,1,2,3,4,5],
+          "default": 3
+        },
         "area_under_forest":{
           "title":"Area Under Forest",
           "type":"object",
