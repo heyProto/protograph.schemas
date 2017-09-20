@@ -11,6 +11,11 @@
           "title": "District",
           "type": "string"
         },
+        "rainfall_deficit_score": {
+          "type": "integer",
+          "title": "Rainfall Deficit Rating",
+          "enum":[0,1,2,3,4,5]
+        },
         "years": {
           "id": "/properties/data/properties/questions",
           "title": "Years",
@@ -35,12 +40,6 @@
                 "type": "number",
                 "title": "Annual Average Percentage Departure",
                 "default": 50
-              },
-              "annual_rating": {
-                "type": "integer",
-                "title": "Annual Rainfall Rating",
-                "default": 3,
-                "enum":[0,1,2,3,4,5]
               },
               "seasons": {
                 "title": "Seasons",

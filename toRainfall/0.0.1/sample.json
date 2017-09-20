@@ -1,6 +1,7 @@
 {
   "data": {
     "district": "Agra",
+    "rainfall_deficit_score": 4,
     "years": [
       {
         "year": "2012",
@@ -27,8 +28,7 @@
           }
         ],
         "annual": 593.2,
-        "annual_dep_perc":-23,
-        "annual_rating": 4
+        "annual_dep_perc":-23
       },
       {
         "year": "2013",
@@ -55,8 +55,7 @@
           }
         ],
         "annual": 711,
-        "annual_dep_perc":-8,
-        "annual_rating": 3
+        "annual_dep_perc":-8
       },
       {
         "year": "2014",
@@ -83,8 +82,7 @@
           }
         ],
         "annual": 362.9,
-        "annual_dep_perc":-53,
-        "annual_rating": 5
+        "annual_dep_perc":-53
       },
       {
         "year": "2015",
@@ -111,8 +109,7 @@
           }
         ],
         "annual": 373.3,
-        "annual_dep_perc":-52,
-        "annual_rating": 3
+        "annual_dep_perc":-52
       },
       {
         "year": "2016",
@@ -139,8 +136,7 @@
           }
         ],
         "annual": 622.1,
-        "annual_dep_perc":-20,
-        "annual_rating": 4
+        "annual_dep_perc":-20
       }
     ]
   }
