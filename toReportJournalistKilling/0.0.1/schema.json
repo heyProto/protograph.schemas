@@ -50,7 +50,7 @@
             },
             "beat": {
               "id": "/properties/data/properties/details_about_journalist/properties/beat",
-              "title": "What beat (specialisation) was the journalist covering?",
+              "title": "What subject (specialisation) was the journalist covering?",
               "type": "string"
             },
             "journalist_body_of_work": {
