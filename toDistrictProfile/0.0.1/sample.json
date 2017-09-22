@@ -1,11 +1,12 @@
 {
   "data": {
-    "district": "Agra",
+    "language": "hindi",
+    "district": "आगरा",
     "area" : "4,041",
     "population": "4,418,797",
     "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/India_Uttar_Pradesh_districts_2012_Aligarh.svg/250px-India_Uttar_Pradesh_districts_2012_Aligarh.svg.png",
     "urban": 54,
     "rural": 46,
-    "description": "Agra district is one of the 75 districts of Uttar Pradesh state of India, and the historical city of Agra is the district headquarters. Agra district is a part of Agra division."
+    "description": "आगरा जिले उत्तर प्रदेश राज्य के 75 जिलों में से एक है और आगरा का ऐतिहासिक शहर जिला मुख्यालय है। आगरा जिला आगरा डिवीजन का एक हिस्सा है।"
   }
 }

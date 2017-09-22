@@ -7,6 +7,20 @@
       "type": "object",
       "title":"Rainfall Data",
       "properties": {
+        "language": {
+          "id": "/properties/language",
+          "type": "string",
+          "default": "hindi",
+          "enum": [
+              "english",
+              "hindi"
+          ],
+          "enumNames": [
+              "English",
+              "Hindi"
+          ],
+          "title": "Language"
+        },
         "district": {
           "title": "District",
           "type": "string"
