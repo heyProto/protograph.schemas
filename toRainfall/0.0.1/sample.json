@@ -1,6 +1,7 @@
 {
   "data": {
-    "district": "Agra",
+    "language": "hindi",
+    "district": "आगरा",
     "rainfall_deficit_score": 4,
     "years": [
       {
