@@ -1,50 +1,64 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#", 
-  "definitions": {}, 
-  "id": "http://example.com/example.json", 
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
   "properties": {
     "data": {
-      "id": "/properties/data", 
-      "properties": { 
+      "id": "/properties/data",
+      "properties": {
+        "language": {
+          "id": "/properties/language",
+          "type": "string",
+          "default": "hindi",
+          "enum": [
+              "english",
+              "hindi"
+          ],
+          "enumNames": [
+              "English",
+              "Hindi"
+          ],
+          "title": "Language"
+        },
         "district": {
-          "id": "/properties/data/properties/district", 
-          "title": "District name", 
-          "type": "string"
-        }, 
-        "description": {
-          "id": "/properties/data/properties/description", 
-          "title": "District description", 
-          "type": "string"
-        }, 
-        "area": {
-          "id": "/properties/data/properties/area", 
-          "title": "Area", 
+          "id": "/properties/data/properties/district",
+          "title": "District name",
           "type": "string"
         },
-         "population": { 
-          "id": "/properties/data/properties/population", 
-          "title": "Population", 
+        "description": {
+          "id": "/properties/data/properties/description",
+          "title": "District description",
           "type": "string"
-        }, 
-        "rural": { 
-          "id": "/properties/data/properties/rural", 
-          "title": "Rural population (in %)", 
+        },
+        "area": {
+          "id": "/properties/data/properties/area",
+          "title": "Area",
+          "type": "string"
+        },
+         "population": {
+          "id": "/properties/data/properties/population",
+          "title": "Population",
+          "type": "string"
+        },
+        "rural": {
+          "id": "/properties/data/properties/rural",
+          "title": "Rural population (in %)",
           "type": "integer"
-        }, 
+        },
         "urban": {
-          "id": "/properties/data/properties/urban", 
-          "title": "Urban population (in %)", 
+          "id": "/properties/data/properties/urban",
+          "title": "Urban population (in %)",
           "type": "integer"
         },
         "map": {
-          "id": "/properties/data/properties/map", 
-          "title": "District map", 
+          "id": "/properties/data/properties/map",
+          "title": "District map",
           "type": "string"
         }
-      }, 
+      },
       "type": "object",
       "required": ["area", "description", "district", "map", "population", "rural", "urban"]
     }
-  }, 
+  },
   "type": "object"
 }
