@@ -1,7 +1,8 @@
 {
   "data": {
-    "district": "Agra",
-    "overall":"Poor",
+    "language": "hindi",
+    "district": "आगरा",
+    "overall_score":4,
     "total_reporting_area":12345,
     "area_under_forest":{
       "number":12345,
@@ -10,8 +11,6 @@
     "area_under_concrete":{
       "number":23456,
       "percent":20
-    },
-    "land_score": 3,
-    "forest_score": 3
+    }
   }
 }
