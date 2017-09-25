@@ -6,6 +6,20 @@
     "data": {
       "type": "object",
       "properties": {
+        "language": {
+          "id": "/properties/language",
+          "type": "string",
+          "default": "hindi",
+          "enum": [
+              "english",
+              "hindi"
+          ],
+          "enumNames": [
+              "English",
+              "Hindi"
+          ],
+          "title": "Language"
+        },
         "district": {
           "title": "District",
           "type": "string"
@@ -19,19 +33,33 @@
             "separator": "#",
             "hideTitle": true,
             "properties": {
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "default":"Person"
+              },
               "assembly": {
                 "title": "Constituency",
                 "id": "/properties/data/properties/questions/items/properties/question",
-                "type": "string"
-              },
-              "name": {
                 "type": "string",
-                "title": "Name"
+                "default":"Constituency"
               },
               "party": {
                 "type": "string",
                 "title": "Party",
-                "enum": ["बसपा", "भाजपा", "एसपी", "कांग्रेस", "आर एल डी", "आईएनडी", "अपना दल", "ए आई टी सी"]
+                "enum":["बसपा", "भाजपा", "एसपी", "कांग्रेस", "आर एल डी", "आईएनडी", "अपना दल", "ए आई टी सी"],
+                "default":"BSP"
+              },
+              "party_color":{
+                "type":"string",
+                "format":"color",
+                "title":"Party Color"
+              },
+              "gender":{
+                "type":"string",
+                "title":"Gender",
+                "enum":["Male","Female"],
+                "default":"Male"
               }
             },
             "required": [
