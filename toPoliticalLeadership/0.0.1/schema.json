@@ -47,8 +47,7 @@
               "party": {
                 "type": "string",
                 "title": "Party",
-                "enum":["बसपा", "भाजपा", "एसपी", "कांग्रेस", "आर एल डी", "आईएनडी", "अपना दल", "ए आई टी सी"],
-                "default":"BSP"
+                "default":"भाजपा"
               },
               "party_color":{
                 "type":"string",
@@ -58,8 +57,7 @@
               "gender":{
                 "type":"string",
                 "title":"Gender",
-                "enum":["Male","Female"],
-                "default":"Male"
+                "default":"नर"
               }
             },
             "required": [
