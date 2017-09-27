@@ -36,13 +36,13 @@
               "name": {
                 "type": "string",
                 "title": "Name",
-                "default":"Person"
+                "default":"व्यक्ति का नाम"
               },
               "assembly": {
                 "title": "Constituency",
                 "id": "/properties/data/properties/questions/items/properties/question",
                 "type": "string",
-                "default":"Constituency"
+                "default":"चुनाव क्षेत्र"
               },
               "party": {
                 "type": "string",
