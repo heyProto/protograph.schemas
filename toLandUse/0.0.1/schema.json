@@ -5,27 +5,35 @@
   "properties": {
     "data": {
       "type": "object",
-      "title":"Land use data",
+      "title":"Rainfall Data",
       "properties": {
+        "language": {
+          "id": "/properties/language",
+          "type": "string",
+          "default": "hindi",
+          "enum": [
+              "english",
+              "hindi"
+          ],
+          "enumNames": [
+              "English",
+              "Hindi"
+          ],
+          "title": "Language"
+        },
         "district": {
           "title": "District",
           "type": "string"
         },
+        "overall_score": {
+          "type": "integer",
+          "title": "Overall Rating",
+          "enum":[0,1,2,3,4,5],
+          "default":3
+        },
         "total_reporting_area": {
           "title": "Total Reporting Area",
           "type": "number"
-        },
-        "land_score": {
-          "title": "Land Score",
-          "type":"integer",
-          "enum":[0,1,2,3,4,5],
-          "default": 3
-        },
-        "forest_score": {
-          "title": "Forest Score",
-          "type":"integer",
-          "enum":[0,1,2,3,4,5],
-          "default": 3
         },
         "area_under_forest":{
           "title":"Area Under Forest",

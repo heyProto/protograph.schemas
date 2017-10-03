@@ -1,16 +1,21 @@
 {
   "data": {
-    "district": "Aligarh",
+    "district": "अलीगढ़",
+    "language": "hindi",
     "details": [
       {
-        "assembly": "Baghpat",
-        "name": "Dr. Satyapal Singh",
-        "party": "BJP"
+        "assembly": "बागपत",
+        "name": "डॉ। सत्यपाल सिंह",
+        "party": "भाजपा",
+        "gender":"नर",
+        "party_color":"#FF6600"
       },
       {
-        "assembly": "Kannauj",
-        "name": "Dimple Yadav",
-        "party": "SP"
+        "assembly": "कन्नौज",
+        "name": "डिंपल यादव",
+        "party": "सपा",
+        "gender":"नारी",
+        "party_color":"#22409A"
       }
     ]
   }
