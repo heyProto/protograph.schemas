@@ -127,7 +127,7 @@
             },
             "is_case_registered": {
               "id": "/properties/data/properties/when_and_where_did_it_happen/properties/is_case_registered",
-              "title": "Was a case resisted?",
+              "title": "Was a case registered?",
               "type": "string",
               "enum": ["Yes", "No", "Not clear"]
             }
