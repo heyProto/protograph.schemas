@@ -228,7 +228,7 @@
               "type": "string",
               "title": "Social classification of the victims",
               "enum": [
-                "Hindu (caste not clear)", "Hindus majorly (plus some others)", "Muslim", "Muslim majorly (plus some others)", "Dalit", "Sikh", "Christian", "Law enforcement", "Tribal", "Not clear"
+                "Hindu (caste not clear)", "Hindus majorly (plus some others)", "Muslim", "Muslim majorly (plus some others)", "Dalit", "Sikh", "Christian", "Law enforcement", "Tribal", "Not clear", "Mixed"
               ]
             },
             "victim_social_classification_notes": {
@@ -262,7 +262,7 @@
               "type": "string",
               "title": "Social classification of the accused",
               "enum": [
-                "Hindu (caste not clear)", "Hindus majorly (plus some others)", "Muslim", "Muslim majorly (plus some others)", "Dalit", "Sikh", "Christian", "Law enforcement", "Tribal", "Not clear"
+                "Hindu (caste not clear)", "Hindus majorly (plus some others)", "Muslim", "Muslim majorly (plus some others)", "Dalit", "Sikh", "Christian", "Law enforcement", "Tribal", "Not clear", "Mixed"
               ]
             },
             "accused_social_classification_notes": {
