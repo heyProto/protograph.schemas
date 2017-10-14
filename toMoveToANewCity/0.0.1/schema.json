@@ -1,0 +1,301 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#", 
+  "definitions": {}, 
+  "id": "http://example.com/example.json", 
+  "properties": {
+    "data": {
+      "id": "/properties/data", 
+      "properties": {
+        "basic_datapoints": {
+          "id": "/properties/data/properties/basic_datapoints", 
+          "title": "Introduction Slide",
+          "subTitle": "Did you know how inviting you make this slide directly determines how many readers will click on the story?",
+          "properties": {
+            "cover_image": {
+              "id": "/properties/data/properties/basic_datapoints/properties/cover_image", 
+              "title": "Cover Image URL", 
+              "type": "string"
+            }, 
+            "title": { 
+              "id": "/properties/data/properties/basic_datapoints/properties/title", 
+              "title": "Title", 
+              "type": "string"
+            },
+            "introduction": {
+              "id": "/properties/data/properties/basic_datapoints/properties/introduction", 
+              "title": "Description", 
+              "type": "string"
+            }, 
+            "start_button_text": { 
+              "id": "/properties/data/properties/basic_datapoints/properties/start_button_text", 
+              "title": "Start Button Text", 
+              "type": "string"
+            }
+          },
+          "required": [
+            "start_button_text",
+            "title"
+          ], 
+          "type": "object"
+        }, 
+        "cities": {
+          "id": "/properties/data/properties/cities", 
+          "title": "Cities",
+          "items": {
+            "id": "/properties/data/properties/cities/items", 
+            "title": "City",
+            "hideTitle": true,
+            "separator":"#",
+            "properties": {
+              "image": {
+                "id": "/properties/data/properties/cities/items/properties/image", 
+                "title": "Image ", 
+                "type": "string"
+              }, 
+              "city": { 
+                "id": "/properties/data/properties/cities/items/properties/city", 
+                "title": "City", 
+                "type": "string"
+              }, 
+              "state": {
+                "id": "/properties/data/properties/cities/items/properties/state", 
+                "title": "State", 
+                "type": "string"
+              }, 
+              "country": {
+                "id": "/properties/data/properties/cities/items/properties/country", 
+                "title": "Country", 
+                "type": "string"
+              }, 
+              "currency": {
+                "id": "/properties/data/properties/cities/items/properties/currency", 
+                "title": "Currency", 
+                "type": "string"
+              }, 
+              "education": {
+                "id": "/properties/data/properties/cities/items/properties/education", 
+                "title": "Education costs",
+                "properties": {
+                  "description": {
+                    "id": "/properties/data/properties/cities/items/properties/education/properties/description", 
+                    "title": "Description", 
+                    "type": "string"
+                  }, 
+                  "line_items": {
+                    "id": "/properties/data/properties/cities/items/properties/education/properties/line_items",
+                    "title": "Education line items",
+                    "items": {
+                      "id": "/properties/data/properties/cities/items/properties/education/properties/line_items/items", 
+                      "title": "Line item", 
+                      "separator":"#",
+                      "hideTitle": true,
+                      "properties": {
+                        "amount": {
+                          "id": "/properties/data/properties/cities/items/properties/education/properties/line_items/items/properties/amount", 
+                          "title": "Cost", 
+                          "type": "number"
+                        }, 
+                        "head": {
+                          "id": "/properties/data/properties/cities/items/properties/education/properties/line_items/items/properties/head", 
+                          "title": "Item name", 
+                          "type": "string"
+                        }
+                      }, 
+                      "type": "object"
+                    }, 
+                    "type": "array"
+                  }
+                }, 
+                "type": "object"
+              }, 
+              "entertainment": {
+                "id": "/properties/data/properties/cities/items/properties/entertainment",
+                "title": "Entertainment costs", 
+                "properties": {
+                  "description": {
+                    "id": "/properties/data/properties/cities/items/properties/entertainment/properties/description", 
+                    "title": "Description", 
+                    "type": "string"
+                  }, 
+                  "line_items": {
+                    "id": "/properties/data/properties/cities/items/properties/entertainment/properties/line_items",
+                    "title": "Entertainment line items", 
+                    "items": {
+                      "id": "/properties/data/properties/cities/items/properties/entertainment/properties/line_items/items", 
+                      "title": "Line item",
+                      "separator":"#",
+                      "hideTitle": true,
+                      "properties": {
+                        "amount": {
+                          "id": "/properties/data/properties/cities/items/properties/entertainment/properties/line_items/items/properties/amount", 
+                          "title": "Cost", 
+                          "type": "integer"
+                        }, 
+                        "head": {
+                          "id": "/properties/data/properties/cities/items/properties/entertainment/properties/line_items/items/properties/head", 
+                          "title": "Item name.", 
+                          "type": "string"
+                        }
+                      }, 
+                      "type": "object"
+                    }, 
+                    "type": "array"
+                  }
+                }, 
+                "type": "object"
+              }, 
+              "food": {
+                "id": "/properties/data/properties/cities/items/properties/food",
+                "title": "Food costs", 
+                "properties": {
+                  "description": {
+                    "id": "/properties/data/properties/cities/items/properties/food/properties/description", 
+                    "title": "Description", 
+                    "type": "string"
+                  }, 
+                  "line_items": {
+                    "id": "/properties/data/properties/cities/items/properties/food/properties/line_items", 
+                    "title": "Food line items",
+                    "items": {
+                      "id": "/properties/data/properties/cities/items/properties/food/properties/line_items/items", 
+                      "title": "Line item",
+                      "separator":"#",
+                      "hideTitle": true,
+                      "properties": {
+                        "amount": {
+                          "id": "/properties/data/properties/cities/items/properties/food/properties/line_items/items/properties/amount", 
+                          "title": "Cost", 
+                          "type": "integer"
+                        }, 
+                        "head": {
+                          "id": "/properties/data/properties/cities/items/properties/food/properties/line_items/items/properties/head", 
+                          "title": "Item name", 
+                          "type": "string"
+                        }
+                      }, 
+                      "type": "object"
+                    }, 
+                    "type": "array"
+                  }
+                }, 
+                "type": "object"
+              }, 
+              "housing": {
+                "id": "/properties/data/properties/cities/items/properties/housing", 
+                "title": "Housing costs",
+                "properties": {
+                  "description": {
+                    "id": "/properties/data/properties/cities/items/properties/housing/properties/description", 
+                    "title": "Description", 
+                    "type": "string"
+                  }, 
+                  "line_items": {
+                    "id": "/properties/data/properties/cities/items/properties/housing/properties/line_items", 
+                    "title": "Housing line items",
+                    "items": {
+                      "id": "/properties/data/properties/cities/items/properties/housing/properties/line_items/items", 
+                      "title": "Line item",
+                      "separator":"#",
+                      "hideTitle": true,
+                      "properties": {
+                        "amount": {
+                          "id": "/properties/data/properties/cities/items/properties/housing/properties/line_items/items/properties/amount", 
+                          "title": "Cost", 
+                          "type": "integer"
+                        }, 
+                        "head": {
+                          "id": "/properties/data/properties/cities/items/properties/housing/properties/line_items/items/properties/head", 
+                          "title": "Item name", 
+                          "type": "string"
+                        }
+                      }, 
+                      "type": "object"
+                    }, 
+                    "type": "array"
+                  }
+                }, 
+                "type": "object"
+              }, 
+              "travel": {
+                "id": "/properties/data/properties/cities/items/properties/travel",
+                "title": "Travel costs", 
+                "properties": {
+                  "description": {
+                    "id": "/properties/data/properties/cities/items/properties/travel/properties/description", 
+                    "title": "Description", 
+                    "type": "string"
+                  }, 
+                  "line_items": {
+                    "id": "/properties/data/properties/cities/items/properties/travel/properties/line_items", 
+                    "title": "Travel line items",
+                    "items": {
+                      "id": "/properties/data/properties/cities/items/properties/travel/properties/line_items/items", 
+                      "title": "Line item",
+                      "separator":"#",
+                      "hideTitle": true,
+                      "properties": {
+                        "amount": {
+                          "id": "/properties/data/properties/cities/items/properties/travel/properties/line_items/items/properties/amount", 
+                          "title": "Cost", 
+                          "type": "number"
+                        }, 
+                        "head": {
+                          "id": "/properties/data/properties/cities/items/properties/travel/properties/line_items/items/properties/head", 
+                          "title": "Item name", 
+                          "type": "string"
+                        }
+                      }, 
+                      "type": "object"
+                    }, 
+                    "type": "array"
+                  }
+                }, 
+                "type": "object"
+              }
+            }, 
+            "type": "object"
+          }, 
+          "type": "array"
+        },
+        "further_reading": {
+          "id": "/properties/data/properties/result_card_data",
+          "title": "Related article links",
+          "items": {
+            "id": "/properties/data/properties/result_card_data/items",
+            "title": "Link",
+            "hideTitle": true,
+            "properties": {
+              "related_article_links": {
+                "id": "/properties/data/properties/further_reading/items/properties/related_article_links",
+                "title": "Related article URL",
+                "type": "string",
+                "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)"
+              },
+              "link_description": {
+                "id": "/properties/data/properties/further_reading/items/properties/link_description",
+                "title": "Headline of Related article",
+                "type": "string"
+              },
+              "link_image": {
+                "id": "/properties/data/properties/further_reading/items/properties/link_image",
+                "title": "Cover Image URL of Related article",
+                "type": "string"
+              }
+            },
+            "required": [
+              "related_article_links",
+              "link_image",
+              "link_description"
+            ],
+            "maxItems":2,
+            "type": "object"
+          },
+          "maxItems":2,
+          "type": "array"
+        }
+      }, 
+      "type": "object"
+    }
+  }, 
+  "type": "object"
+}

@@ -1,0 +1,355 @@
+{
+  "data": {
+    "basic_datapoints": {
+      "title": "Cost of living",
+      "introduction": "Cost of living is the amount of money you need to sustain a certain lifestyle in a given place. What will be the cost of living in the new city you plan to relocate to?",
+      "cover_image": "https://i.ndtvimg.com/i/2017-02/rupee-650_650x400_71487148241.jpg",
+      "start_button_text": "Let's find out"
+    },
+    "cities": [{
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "image": "",
+        "currency": "Rs.",
+        "housing": {
+          "description": "",
+          "line_items": [{
+              "head": "2 BHK",
+              "amount": 70000
+            },
+            {
+              "head": "3 BHK",
+              "amount": 100000
+            }
+          ]
+        },
+        "food": {
+          "description": "",
+          "line_items": [{
+              "head": "Salt",
+              "amount": 12
+            },
+            {
+              "head": "Bread",
+              "amount": 15
+            },
+            {
+              "head": "Milk",
+              "amount": 90
+            },
+            {
+              "head": "Sugar",
+              "amount": 65
+            },
+            {
+              "head": "Tea",
+              "amount": 80
+            }
+          ]
+        },
+        "education": {
+          "description": "",
+          "line_items": [{
+              "head": "School fees",
+              "amount": 100000
+            },
+            {
+              "head": "Music class",
+              "amount": 5000
+            }
+          ]
+        },
+        "entertainment": {
+          "description": "",
+          "line_items": [{
+              "head": "Movie",
+              "amount": 500
+            },
+            {
+              "head": "Drama",
+              "amount": 500
+            }
+          ]
+        },
+        "travel": {
+          "description": "",
+          "line_items": [{
+              "head": "Petrol",
+              "amount": 5000
+            },
+            {
+              "head": "Bus",
+              "amount": 10
+            },
+            {
+              "head": "Train",
+              "amount": 20
+            }
+          ]
+        }
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India",
+        "image": "",
+        "currency": "Rs.",
+        "housing": {
+          "description": "",
+          "line_items": [{
+              "head": "2 BHK",
+              "amount": 70000
+            },
+            {
+              "head": "3 BHK",
+              "amount": 1000000
+            }
+          ]
+        },
+        "food": {
+          "description": "",
+          "line_items": [{
+              "head": "Salt",
+              "amount": 12
+            },
+            {
+              "head": "Bread",
+              "amount": 15
+            },
+            {
+              "head": "Milk",
+              "amount": 90
+            },
+            {
+              "head": "Sugar",
+              "amount": 65
+            },
+            {
+              "head": "Tea",
+              "amount": 80
+            }
+          ]
+        },
+        "education": {
+          "description": "",
+          "line_items": [{
+              "head": "School fees",
+              "amount": 100000
+            },
+            {
+              "head": "Music class",
+              "amount": 5000
+            }
+          ]
+        },
+        "entertainment": {
+          "description": "",
+          "line_items": [{
+              "head": "Movie",
+              "amount": 500
+            },
+            {
+              "head": "Drama",
+              "amount": 500
+            }
+          ]
+        },
+        "travel": {
+          "description": "",
+          "line_items": [{
+              "head": "Petrol",
+              "amount": 5000
+            },
+            {
+              "head": "Bus",
+              "amount": 10
+            },
+            {
+              "head": "Train",
+              "amount": 20
+            }
+          ]
+        }
+      },
+      {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "image": "",
+        "currency": "Rs.",
+        "housing": {
+          "description": "",
+          "line_items": [{
+              "head": "2 BHK",
+              "amount": 50000
+            },
+            {
+              "head": "3 BHK",
+              "amount": 90000
+            }
+          ]
+        },
+        "food": {
+          "description": "",
+          "line_items": [{
+              "head": "Salt",
+              "amount": 12
+            },
+            {
+              "head": "Bread",
+              "amount": 15
+            },
+            {
+              "head": "Milk",
+              "amount": 90
+            },
+            {
+              "head": "Sugar",
+              "amount": 65
+            },
+            {
+              "head": "Tea",
+              "amount": 80
+            }
+          ]
+        },
+        "education": {
+          "description": "",
+          "line_items": [{
+              "head": "School fees",
+              "amount": 100000
+            },
+            {
+              "head": "Music class",
+              "amount": 500
+            }
+          ]
+        },
+        "entertainment": {
+          "description": "",
+          "line_items": [{
+              "head": "Movie",
+              "amount": 200
+            },
+            {
+              "head": "Drama",
+              "amount": 100
+            }
+          ]
+        },
+        "travel": {
+          "description": "",
+          "line_items": [{
+              "head": "Petrol",
+              "amount": 3000
+            },
+            {
+              "head": "Bus",
+              "amount": 100
+            },
+            {
+              "head": "Train",
+              "amount": 10
+            }
+          ]
+        }
+      },
+      {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "image": "",
+        "currency": "Rs.",
+        "housing": {
+          "description": "",
+          "line_items": [{
+              "head": "2 BHK",
+              "amount": 90000
+            },
+            {
+              "head": "3 BHK",
+              "amount": 100000
+            }
+          ]
+        },
+        "food": {
+          "description": "",
+          "line_items": [{
+              "head": "Salt",
+              "amount": 24
+            },
+            {
+              "head": "Bread",
+              "amount": 30
+            },
+            {
+              "head": "Milk",
+              "amount": 180
+            },
+            {
+              "head": "Sugar",
+              "amount": 120
+            },
+            {
+              "head": "Tea",
+              "amount": 160
+            }
+          ]
+        },
+        "education": {
+          "description": "",
+          "line_items": [{
+              "head": "School fees",
+              "amount": 200000
+            },
+            {
+              "head": "Music class",
+              "amount": 1000
+            }
+          ]
+        },
+        "entertainment": {
+          "description": "",
+          "line_items": [{
+              "head": "Movie",
+              "amount": 1000
+            },
+            {
+              "head": "Drama",
+              "amount": 1000
+            }
+          ]
+        },
+        "travel": {
+          "description": "",
+          "line_items": [{
+              "head": "Petrol",
+              "amount": 6000
+            },
+            {
+              "head": "Bus",
+              "amount": 200
+            },
+            {
+              "head": "Train",
+              "amount": 50
+            }
+          ]
+        }
+      }
+    ],
+    "further_reading": [
+      {
+        "related_article_links": "http://www.moneycontrol.com/news/india/rbi-monetary-policy-mpc-cuts-repo-rate-by-25-basis-points-2342965.html",
+        "link_description": "RBI cuts repo rate by 25 bps: Industrial outlook bearish...",
+        "link_image": "http://static-news.moneycontrol.com/static-mcnews/2017/07/bitcoin_1280-770x435.jpg"
+      },
+      {
+        "related_article_links": "http://www.moneycontrol.com/news/india/rbi-monetary-policy-mpc-cuts-repo-rate-by-25-basis-points-2342965.html",
+        "link_description": "RBI cuts repo rate by 25 bps: Industrial outlook bearish...",
+        "link_image": "http://static-news.moneycontrol.com/static-mcnews/2017/07/bitcoin_1280-770x435.jpg"
+      }
+    ]
+  }
+}
