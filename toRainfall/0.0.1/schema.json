@@ -28,7 +28,7 @@
         "rainfall_deficit_score": {
           "type": "integer",
           "title": "Rainfall Deficit Rating",
-          "enum":[0,1,2,3,4,5]
+          "enum":[-1,0,1,2,3,4,5]
         },
         "years": {
           "id": "/properties/data/properties/questions",
