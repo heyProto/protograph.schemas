@@ -25,9 +25,9 @@
           "title": "District",
           "type": "string"
         },
-        "overall_score": {
+        "land_score": {
           "type": "integer",
-          "title": "Overall Rating",
+          "title": "Land Rating",
           "enum":[0,1,2,3,4,5],
           "default":3
         },
