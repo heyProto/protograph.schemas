@@ -1,0 +1,11 @@
+{
+  "data":{
+    "details": {
+      "items": {
+        "gender": {
+          "ui:widget": "hidden"
+        }
+      }
+    }
+  }
+}
