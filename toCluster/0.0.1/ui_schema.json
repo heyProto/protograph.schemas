@@ -1,0 +1,23 @@
+{
+    "section1": {
+        "data": {
+            "links": {
+                "items": {
+                    "favicon_url": {
+                        "ui:widget": "hidden"
+                    },
+                    "publication_name": {
+                        "ui:widget": "hidden"
+                    }
+                }
+            }
+        }
+    },
+    "section2": {
+        "data": {
+            "analysis": {
+                "ui:widget": "textarea"
+            }
+        }
+    }
+}
