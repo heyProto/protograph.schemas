@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "language": {
+          "id": "/properties/language",
+          "type": "string",
+          "default": "english",
+          "enum": [
+              "english",
+              "hindi"
+          ],
+          "enumNames": [
+              "English",
+              "Hindi"
+          ],
+          "title": "Language"
+        },
+        "name": {
+          "id": "/properties/data/properties/name",
+          "title": "Company name",
+          "type": "string"
+        },
+        "description": {
+          "id": "/properties/data/properties/description",
+          "title": "Company description",
+          "type": "string"
+        },
+        "type": {
+          "id": "/properties/data/properties/type",
+          "title": "Company type",
+          "examples": [
+            "Private Sector"
+          ],
+          "type": "string"
+        },
+        "industry": {
+          "id": "/properties/data/properties/industry",
+          "title": "Industry type",
+          "example": [
+            "Banking",
+            "Financial services"
+          ],
+          "type": "string"
+        },
+        "website": {
+          "id": "/properties/data/properties/website",
+          "title": "Company website",
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "required": [
+        "name",
+        "description"
+      ]
+    }
+  },
+  "type": "object"
+}
