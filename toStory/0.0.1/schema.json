@@ -83,6 +83,18 @@
           "enumNames":["Vertically focused","Horizontally focused"],
           "default":"h"
         },
+        "country": {
+          "title": "Country",
+          "type": "string"
+        },
+        "state": {
+          "title": "State",
+          "type": "string"
+        },
+        "city": {
+          "title": "City",
+          "type": "string"
+        },
         "publishername":{
           "type":"string"
         },
