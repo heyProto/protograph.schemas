@@ -84,7 +84,7 @@
           "format":"uri"
         },
         "col7imageurl":{
-          "title":"Col 7 Image URL",
+          "title":"Minimised Image URL",
           "type":"string",
           "format":"uri"
         },

@@ -11,9 +11,6 @@
         },
         "interactive":{
             "ui:widget":"hidden"
-        },
-        "col7imageurl":{
-            "ui:widget":"hidden"
         }
    }
 }
