@@ -1,0 +1,195 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "/properties/data/properties/name",
+          "type": "string",
+          "title": "Company Name",
+          "examples": [
+            "Godrej Consumer Products Ltd"
+          ]
+        },
+        "sector": {
+          "id": "/properties/data/properties/sector",
+          "type": "string",
+          "title": "Company Sector",
+          "examples": [
+            "Banking"
+          ]
+        },
+        "year": {
+          "id": "/properties/data/properties/year",
+          "type": "integer",
+          "title": "Survey Year",
+          "default": 0,
+          "examples": [
+            2017
+          ]
+        },
+        "current_non_discrimination": {
+          "id": "/properties/data/properties/current_non_discrimination",
+          "type": "number",
+          "title": "Non-Discrimination current score",
+          "default": 0,
+          "examples": [
+            0.36666667461395264
+          ]
+        },
+        "current_employees_well_being": {
+          "id": "/properties/data/properties/employees_well_being_2017",
+          "type": "number",
+          "title": "Employees Well Being current score",
+          "default": 0,
+          "examples": [
+            0.6309523582458496
+          ]
+        },
+        "current_community_development": {
+          "id": "/properties/data/properties/current_community_development",
+          "type": "number",
+          "title": "Community Development current score",
+          "default": 0,
+          "examples": [
+            0.6571428775787354
+          ]
+        },
+        "current_supply_chain": {
+          "id": "/properties/data/properties/current_supply_chain",
+          "type": "number",
+          "title": "Supply Chain current score",
+          "default": 0,
+          "examples": [
+            0.4701298773288727
+          ]
+        },
+        "current_community_business_stakeholder": {
+          "id": "/properties/data/properties/current_community_business_stakeholder",
+          "type": "number",
+          "title": "Community Business Stakeholder current score",
+          "default": 0,
+          "examples": [
+            0.11249999701976776
+          ]
+        },
+        "previous_non_discrimination": {
+          "id": "/properties/data/properties/previous_non_discrimination",
+          "type": "number",
+          "title": "Non Discrimination previous score",
+          "default": 0,
+          "examples": [
+            0.9111111164093018
+          ]
+        },
+        "previous_employees_well_being": {
+          "id": "/properties/data/properties/previous_employees_well_being",
+          "type": "number",
+          "title": "Employees Well Being previous score",
+          "default": 0,
+          "examples": [
+            0.5974025726318359
+          ]
+        },
+        "previous_community_development": {
+          "id": "/properties/data/properties/previous_community_development",
+          "type": "number",
+          "title": "Community Development previous score",
+          "default": 0,
+          "examples": [
+            0.6142857074737549
+          ]
+        },
+        "previous_supply_chain": {
+          "id": "/properties/data/properties/previous_supply_chain",
+          "type": "number",
+          "title": "Supply Chain previous score",
+          "default": 0,
+          "examples": [
+            0.5896103978157043
+          ]
+        },
+        "previous_community_business_stakeholder": {
+          "id": "/properties/data/properties/previous_community_business_stakeholder",
+          "type": "number",
+          "title": "Community Business Stakeholder previous score",
+          "default": 0,
+          "examples": [
+            0.14687499403953552
+          ]
+        },
+        "change_non_discrimination": {
+          "id": "/properties/data/properties/change_non_discrimination",
+          "type": "number",
+          "title": "Non-Discrimination change",
+          "default": 0,
+          "examples": [
+            59.75609588623047
+          ]
+        },
+        "change_employees_well_being": {
+          "id": "/properties/data/properties/change_employees_well_being",
+          "type": "number",
+          "title": "Employees Well Being change",
+          "default": 0,
+          "examples": [
+            -5.615942001342773
+          ]
+        },
+        "change_community_development": {
+          "id": "/properties/data/properties/change_community_development",
+          "type": "number",
+          "title": "Community Development change",
+          "default": 0,
+          "examples": [
+            -6.976744174957275
+          ]
+        },
+        "change_supply_chain": {
+          "id": "/properties/data/properties/change_supply_chain",
+          "type": "number",
+          "title": "Supply Chain change",
+          "default": 0,
+          "examples": [
+            20.26431655883789
+          ]
+        },
+        "change_community_business_stakeholder": {
+          "id": "/properties/data/properties/change_community_business_stakeholder",
+          "type": "number",
+          "title": "Community Business Stakeholder change",
+          "default": 0,
+          "examples": [
+            23.404254913330078
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "sector",
+        "year",
+        "current_non_discrimination",
+        "current_employees_well_being",
+        "current_community_development",
+        "current_supply_chain",
+        "current_community_business_stakeholder",
+        "previous_non_discrimination",
+        "previous_employees_well_being",
+        "previous_community_development",
+        "previous_supply_chain",
+        "previous_community_business_stakeholder",
+        "change_non_discrimination",
+        "change_employees_well_being",
+        "change_community_development",
+        "change_supply_chain",
+        "change_community_business_stakeholder"
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "company": "Tata Motors",
+    "question": "How is Tata Motors performing on Gender?",
+    "score": 3,
+    "total": 5,
+    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+    "element": "Non-Discrimination",
+    "subQuestions": [
+      {
+        "question": "Businesses have Policies that explicitly mentions Non-Discrimination, Equal Opportunity as principle in employment",
+        "answer": 0.67
+      },
+      {
+        "question": "Policies include: non-discrimination and equal opportnities in Recruitment",
+        "answer": 1.0
+      },
+      {
+        "question": "Are you mad or just plain stupid?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Why do we fall Bruce?",
+        "answer": "So that we can learn to pick ourselves up again"
+      },
+      {
+        "question": "Answer to the Ultimate Question of Life, the Universe, and Everything",
+        "answer": "42"
+      },
+      {
+        "question": "How do I grow a tree?",
+        "answer": "Give it love and care"
+      }
+    ]
+  }
+}

@@ -51,6 +51,11 @@
           "id": "/properties/data/properties/website",
           "title": "Company website",
           "type": "string"
+        },
+        "management": {
+          "id": "/properties/data/properties/management",
+          "title": "Company management",
+          "type": "string"
         }
       },
       "type": "object",
@@ -62,3 +67,4 @@
   },
   "type": "object"
 }
+

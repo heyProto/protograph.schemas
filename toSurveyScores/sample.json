@@ -1,0 +1,22 @@
+{
+    "data": {
+      "name": "Godrej Consumer Products Ltd",
+      "sector": "Banking",
+      "year": 2017,
+      "current_non_discrimination": 0.366666666666667,
+      "current_employees_well_being": 0.630952380952381,
+      "current_community_development": 0.657142857142857,
+      "current_supply_chain": 0.47012987012987,
+      "current_community_business_stakeholder": 0.1125,
+      "previous_non_discrimination": 0.911111111111111,
+      "previous_employees_well_being": 0.597402597402597,
+      "previous_community_development": 0.614285714285714,
+      "previous_supply_chain": 0.58961038961039,
+      "previous_community_business_stakeholder": 0.146875,
+      "change_non_discrimination": 59.756097560975576,
+      "change_employees_well_being": -5.615942028985585,
+      "change_community_development": -6.9767441860465444,
+      "change_supply_chain": 20.264317180616818,
+      "change_community_business_stakeholder": 23.404255319148938
+    }
+  }
