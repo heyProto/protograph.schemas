@@ -79,7 +79,7 @@
               "title": "Title"
             },
             "hint": {
-              "$id": "/properties/data/properties/title_and_hint/properties/hint",
+              "id": "/properties/data/properties/title_and_hint/properties/hint",
               "type": "string",
               "title": "Hint Text"
             }
