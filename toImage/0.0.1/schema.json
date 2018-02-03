@@ -5,6 +5,10 @@
   "properties": {
     "data": {
       "properties": {
+        "title":{
+          "type": "string",
+          "title": "Title"
+        },
         "url_16column": {
           "type": "string",
           "title": "Col-16 Image URL",
@@ -17,7 +21,7 @@
       },
       "type": "object",
       "required": [
-        "url_16column"
+        "title","url_16column"
       ]
     },
     "mandatory_config": {

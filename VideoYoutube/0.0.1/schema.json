@@ -5,16 +5,20 @@
   "properties": {
     "data": {
       "properties": {
-        "media_url": {
-          "id": "/properties/data/properties/media_url",
+        "title":{
           "type": "string",
-          "title": "Url",
-          "default": ""
+          "title": "Title"
+        },
+        "youtube_url": {
+          "id": "/properties/data/properties/youtube_url",
+          "type": "string",
+          "title": "Url"
         }
       },
       "type": "object",
       "required": [
-        "media_url"
+        "youtube_url",
+        "title"
       ]
     }
   },
