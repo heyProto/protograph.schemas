@@ -1,0 +1,13 @@
+{
+  "data": {
+    "count": {
+      "employed_count": 2137,
+      "killed_count": 414,
+      "convicted_count": 2
+    },
+    "banner_image": {
+      "desktop": "banner.png",
+      "mobile": ""
+    }
+  }
+}
