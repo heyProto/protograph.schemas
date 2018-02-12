@@ -1,0 +1,19 @@
+{
+   "data":{
+        "range_non_discrimination":{
+            "ui:widget":"hidden"
+        },
+        "range_employees_well_being":{
+            "ui:widget":"hidden"
+        },
+        "range_community_development": {
+            "ui:widget":"hidden"
+        },
+        "range_supply_chain": {
+            "ui:widget":"hidden"
+        },
+        "range_community_business_stakeholder": {
+            "ui:widget":"hidden"
+        }
+   }
+}

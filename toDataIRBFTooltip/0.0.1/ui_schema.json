@@ -1,0 +1,19 @@
+{
+   "data":{
+        "change_non_discrimination":{
+          "ui:widget":"hidden"
+        },
+        "change_employees_well_being": {
+          "ui:widget":"hidden"
+        },
+        "change_community_development": {
+          "ui:widget":"hidden"
+        },
+        "change_supply_chain": {
+          "ui:widget":"hidden"
+        },
+        "change_community_business_stakeholder": {
+          "ui:widget":"hidden"
+        }
+   }
+}
