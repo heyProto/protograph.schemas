@@ -7,7 +7,7 @@
     },
     "banner_image": {
       "desktop": "https://s3.ap-south-1.amazonaws.com/cdn.protograph/3dcab1e230b429d5a921/banner.png",
-      "mobile": ""
+      "mobile": "https://s3.ap-south-1.amazonaws.com/cdn.protograph/3dcab1e230b429d5a921/banner.png"
     }
   }
 }
