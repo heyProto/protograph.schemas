@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "properties": {
+        "title":{
+          "type": "string",
+          "title": "Title"
+        },
+        "media_id": {
+          "type": "string",
+          "title": "Media ID"
+        },
+        "player_id":{
+          "type": "string",
+          "title": "Player ID"
+        }
+      },
+      "type": "object",
+      "required": [
+        "media_id",
+        "title",
+        "player_id"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ],
+  "type": "object"
+}
