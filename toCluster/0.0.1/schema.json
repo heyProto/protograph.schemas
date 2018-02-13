@@ -19,6 +19,12 @@
           "type": "string",
           "format": "alt-datetime"
         },
+        "series":{
+          "title": "Series",
+          "type": "string",
+          "minLength":3,
+          "maxLength": 15
+        },
         "links": {
           "id": "/properties/data/properties/links",
           "title": "Links",
@@ -69,10 +75,7 @@
       },
       "title": "Card Data",
       "type": "object",
-      "required": [
-        "title",
-        "published_date"
-      ]
+      "required": ["title", "published_date"]
     }
   },
   "type": "object"
