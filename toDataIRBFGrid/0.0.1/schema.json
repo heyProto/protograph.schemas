@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "name": {
+          "title": "Company Name",
+          "type": "string"
+        },
+        "sector":{
+          "title": "Sector",
+          "type": "string"
+        },
+        "ownership":{
+          "title": "Ownership",
+          "type": "string",
+          "enum":["Private","Public"],
+          "default":"Private"
+        },
+        "year":{
+          "title": "Current Year",
+          "type": "integer"
+        },
+        "non_discrimination":{
+          "title":"Current Non Discrimination",
+          "type":"number"
+        },
+        "employees_well_being":{
+          "title":"Current Employees Well Being",
+          "type":"number"
+        },
+        "community_development": {
+          "title":"Current Community Development",
+          "type":"number"
+        },
+        "supply_chain": {
+          "title":"Current Supply Chain",
+          "type":"number"
+        },
+        "community_business_stakeholder": {
+          "title":"Current Community Business Stakeholder",
+          "type":"number"
+        },
+        "range_non_discrimination":{
+          "title":"Range of Current Non Discrimination",
+          "type":"string"
+        },
+        "range_employees_well_being":{
+          "title":"Range of Current Employees Well Being",
+          "type":"string"
+        },
+        "range_community_development": {
+          "title":"Range of Current Community Development",
+          "type":"string"
+        },
+        "range_supply_chain": {
+          "title":"Range of Current Supply Chain",
+          "type":"string"
+        },
+        "range_community_business_stakeholder": {
+          "title":"Range of Current Community Business Stakeholder",
+          "type":"string"
+        }
+      },
+      "title":"Card Data",
+      "type": "object"
+    }
+  },
+  "type": "object"
+}
