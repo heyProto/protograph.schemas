@@ -1,7 +1,7 @@
 {
   "data": {
     "title": "How is Axis Bank performing on Supply Chain?",
-    "data_point": "42",
+    "data_point": 42,
     "growth_fall_summary":"Axis bank performance has grown by ++11%++ this year.",
     "description": "Supply Chain Management encompasses the planning and management of all activities involved in sourcing and procurement, conversion, and all logistics management activities.",
     "sub_questions": [
