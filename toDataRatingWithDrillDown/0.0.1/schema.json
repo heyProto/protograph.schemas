@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "title": {
+          "id": "/properties/data/properties/url",
+          "title": "Title",
+          "type": "string"
+        },
+        "data_point":{
+          "title": "Data Point",
+          "type": "string"
+        },
+        "growth_fall_summary":{
+          "title":"Growth Fall Summary",
+          "type":"string"
+          
+        },
+        "description":{
+          "title": "Description",
+          "type": "string"
+        },
+        "sub_questions":{
+          "id":"/properties/data/properties/details",
+          "items":{
+            "properties": {
+              "question":{
+                "type":"string",
+                "title":"Question",
+                "default":"Question?"
+              },
+              "answer":{
+                "type":"string",
+                "title":"Answer",
+                "default":"Answer"
+              }
+            },
+            "title":"Sub Question",
+            "type":"object"
+          },
+          "title":"Sub Questions",
+          "type":"array"
+        },
+        "current_score":{
+          "id":"/properties/data/properties/details",
+          "items":{
+            "properties": {
+              "year":{
+                "type":"number",
+                "title":"Year",
+                "default":2015
+              },
+              "value":{
+                "type":"number",
+                "title":"Answer",
+                "default":0
+              }
+            },
+            "title":"Current Score",
+            "type":"object"
+          },
+          "title":"Current Scores",
+          "type":"array"
+        },
+        "average_score":{
+          "id":"/properties/data/properties/details",
+          "items":{
+            "properties": {
+              "year":{
+                "type":"number",
+                "title":"Year",
+                "default":2015
+              },
+              "value":{
+                "type":"number",
+                "title":"Answer",
+                "default":0
+              }
+            },
+            "title":"Average Score",
+            "type":"object"
+          },
+          "title":"Average Scores",
+          "type":"array"
+        }
+      },
+      "title":"Card Data",
+      "type": "object",
+      "required": [
+        "description"
+      ]
+    }
+  },
+  "type": "object"
+}
