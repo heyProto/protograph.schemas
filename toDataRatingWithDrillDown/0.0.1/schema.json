@@ -16,9 +16,8 @@
           "type": "number"
         },
         "growth_fall_summary":{
-          "title":"Growth Fall Summary",
+          "title":"Increase / Decrease Summary",
           "type":"string"
-          
         },
         "description":{
           "title": "Description",
