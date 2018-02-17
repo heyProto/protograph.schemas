@@ -1,8 +1,8 @@
 {
   "data": {
     "cover_image": {
-      "desktop": "https://cdn.protograph.pykih.com/9e058a64d0949988645e/desktop-background.png",
-      "mobile": "https://cdn.protograph.pykih.com/9e058a64d0949988645e/mobile-background.png"
+      "desktop": "https://cdn.protograph.pykih.com/9e058a64d0949988645e/img/desktop-background.png",
+      "mobile": "https://cdn.protograph.pykih.com/9e058a64d0949988645e/img/mobile-background.png"
     },
     "map_info": {
       "distance": "11 km",
