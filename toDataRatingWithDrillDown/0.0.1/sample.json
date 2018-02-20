@@ -1,41 +1,103 @@
 {
   "data": {
-    "title": "How is Axis Bank performing on Supply Chain?",
-    "data_point": 42,
-    "growth_fall_summary":"Axis bank performance has grown by ++11%++ this year.",
-    "description": "Supply Chain Management encompasses the planning and management of all activities involved in sourcing and procurement, conversion, and all logistics management activities.",
+    "title": "Score on Element: Community Development",
+    "description": "This element measures companies disclosures, policies and knowledge systems on its role in fostering community development by addressing local priorities and respecting local concerns and knowledge.",
+    "name": "BHARAT HEAVY ELECTRICALS LTD",
+    "brand_name": "India Responsible Business Forum",
+    "data_point": 66,
+    "growth_fall_summary": "No change as compared to last year",
     "sub_questions": [
       {
-        "question":"Does the company have policies that identify disadvantaged to be proactively targeted for diversity in organisation?",
-        "answer" : "Yes, for recruitment (R) and career advancement (CA)."
+        "question": "Has disclosed in public domain policy and/ or detailed mechanisms on identifying thrust areas for community development projects?",
+        "answer": "Yes, detailed mechanisms"
+      },
+      {
+        "question": "Has disclosed in public domain policy and/ or detailed mechanisms on identifying backward regions for implementing community development projects?",
+        "answer": "Yes, mechanisms"
+      },
+      {
+        "question": "Has disclosed in public domain policy and/ or detailed mechanisms on identifying target stakeholders and communities with whom they plan to impelemnt their community development projects? Does it specifically mention women, SC/ ST, PwD and children?",
+        "answer": "Yes, specifically mentions women, SC, ST, PWD and Children"
+      },
+      {
+        "question": "Has disclosed in public domain knowledge systems on consultation with stakeholders (community, women, elderly, children) for the formulation of Corporate Social Responsibility policy?",
+        "answer": "No"
+      },
+      {
+        "question": "Has disclosed in public domain whether it has carried out the needs assessment for initiating CSR project?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Has disclosed in public domain whether the needs assessment for initiating CSR project involved vulnerable groups?",
+        "answer": "No"
+      },
+      {
+        "question": "Has disclosed in public domain policy and/ or detailed mechanisms for implementing CSR projects?",
+        "answer": "Yes, mechanisms"
+      },
+      {
+        "question": "Has disclosed in public domain its contribution for CSR projects as % of profits?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Has disclosed in public domain the number of beneficiaries of its CSR projects?",
+        "answer": "No"
+      },
+      {
+        "question": "Has disclosed in public domain the distribution of its expenses on CSR projects across themes?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Has disclosed in public domain details of the projects implemented under CSR?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Has disclosed in public domain steps taken to ensure that community development initiative is successfully adopted by the community?",
+        "answer": "No"
+      },
+      {
+        "question": "Has disclosed in public domain policy and/ or detailed mechanisms for monitoring CSR projects?",
+        "answer": "Yes, mechanisms"
+      },
+      {
+        "question": "Has disclosed in public domain whether it has carried out any independent impact assessment of its CSR  projects?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Has disclosed in public domain whether the independent impact assessment of its CSR  projects involve stakeholders like women, children, PwD, SC, ST and elderly?",
+        "answer": "No"
+      },
+      {
+        "question": "Has disclosed in public domain the frequency of CSR committee meetings?",
+        "answer": "Yes"
       }
     ],
-    "current_score":[
+    "current_score": [
       {
-        "year":2015,
-        "value":0.5
+        "year": 2015,
+        "value": 0.514285714285714
       },
       {
-        "year":2016,
-        "value":0.85
+        "year": 2016,
+        "value": 0.657142857142857
       },
       {
-        "year":2017,
-        "value":0.65
+        "year": 2017,
+        "value": 0.657142857142857
       }
     ],
-    "average_score":[
+    "average_score": [
       {
-        "year":2015,
-        "value":0.6
+        "year": 2015,
+        "value": 0.484054834054834
       },
       {
-        "year":2016,
-        "value":0.75
+        "year": 2016,
+        "value": 0.56260162601626
       },
       {
-        "year":2017,
-        "value":0.65
+        "year": 2017,
+        "value": 0.59519906323185
       }
     ]
   }

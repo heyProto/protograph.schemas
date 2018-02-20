@@ -11,6 +11,14 @@
           "title": "Title",
           "type": "string"
         },
+        "name":{
+          "title": "Name",
+          "type": "string"
+        },
+        "brand_name": {
+          "title": "Brand Name",
+          "type": "string"
+        },
         "data_point":{
           "title": "Data Point",
           "type": "number"
