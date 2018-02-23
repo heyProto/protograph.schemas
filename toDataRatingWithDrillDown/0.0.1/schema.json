@@ -19,6 +19,10 @@
           "title": "Brand Name",
           "type": "string"
         },
+        "has_brand_logo":{
+          "title":"Brand Logo",
+          "type":"boolean"
+        },
         "data_point":{
           "title": "Data Point",
           "type": "number"
