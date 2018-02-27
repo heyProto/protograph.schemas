@@ -1,0 +1,3494 @@
+{
+  "data": {
+    "basic_datapoints": {
+      "faviconurl": "http://0.gravatar.com/blavatar/efe0300e7f891c5c802ed340f6b20b67",
+      "series": "Education",
+      "intersection": "Outcomes",
+      "sub_intersection": "",
+      "class": 3,
+      "subject": "maths",
+      "population": "all"
+    },
+    "district_data": [
+      {
+        "state": "arunachal pradesh",
+        "district": "west kameng",
+        "value": 44.73
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "anjaw",
+        "value": 51.69
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "siang",
+        "value": 64.32
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "tawang",
+        "value": 55.28
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "longding",
+        "value": 47.14
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "lohit",
+        "value": 53.19
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "upper siang",
+        "value": 38.89
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "changlang",
+        "value": 32.87
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "kurung kumey",
+        "value": 59.09
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "lower dibang vvalueey",
+        "value": 43.86
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "east siang",
+        "value": 39.59
+      },
+      {
+        "state": "arunachal pradesh",
+        "value": 56.37
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "papum pare",
+        "value": 51.71
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "namsai",
+        "value": 45.41
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "upper subansiri",
+        "value": 47.11
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "dibang vvalueey",
+        "value": 55.98
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "east kameng",
+        "value": 44.83
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "tirap",
+        "value": 56.93
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "lower subansiri",
+        "value": 51.79
+      },
+      {
+        "state": "arunachal pradesh",
+        "district": "west siang",
+        "value": 58.31
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "baramula",
+        "value": 70.29
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "kishtwar",
+        "value": 54.42
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "badgam",
+        "value": 69.1
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "rajauri",
+        "value": 63.62
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "kargil",
+        "value": 60.17
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "doda",
+        "value": 54.25
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "udhampur",
+        "value": 62.06
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "reasi",
+        "value": 56.44
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "kupwara",
+        "value": 65.57
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "kulgam",
+        "value": 68.13
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "leh (ladakh)",
+        "value": 59.75
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "ramban",
+        "value": 62.66
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "ganderbal",
+        "value": 66.95
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "anantnag",
+        "value": 66.09
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "shopian",
+        "value": 0
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "samba",
+        "value": 69.18
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "bandipora",
+        "value": 60.28
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "punch",
+        "value": 57.48
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "pulwama",
+        "value": 21.9
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "kathua",
+        "value": 56.72
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "srinagar",
+        "value": 66.24
+      },
+      {
+        "state": "jammu and kashmir",
+        "district": "jammu",
+        "value": 58.75
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "vizianagaram",
+        "value": 68.56
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "srikakulam",
+        "value": 74.5
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "visakhapatnam",
+        "value": 70.72
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "kurnool",
+        "value": 64.93
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "guntur",
+        "value": 74.91
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "nellore",
+        "value": 73.75
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "chittoor",
+        "value": 68.5
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "kadapa",
+        "value": 78.63
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "krishna",
+        "value": 76.92
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "east godavari",
+        "value": 76.42
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "west godavari",
+        "value": 68.56
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "anantapur",
+        "value": 76.57
+      },
+      {
+        "state": "andhra pradesh",
+        "district": "prakasam",
+        "value": 77.17
+      },
+      {
+        "state": "telangana",
+        "district": "kamareddy",
+        "value": 66.26
+      },
+      {
+        "state": "telangana",
+        "district": "nalgonda",
+        "value": 71.44
+      },
+      {
+        "state": "telangana",
+        "district": "yadadri",
+        "value": 65.31
+      },
+      {
+        "state": "telangana",
+        "district": "komaram bheem",
+        "value": 60.82
+      },
+      {
+        "state": "telangana",
+        "district": "rajanna",
+        "value": 71.81
+      },
+      {
+        "state": "telangana",
+        "district": "hyderbad",
+        "value": 71.2
+      },
+      {
+        "state": "telangana",
+        "district": "siddipet",
+        "value": 75.97
+      },
+      {
+        "state": "telangana",
+        "value": 73.29
+      },
+      {
+        "state": "telangana",
+        "district": "bhadradr",
+        "value": 66.84
+      },
+      {
+        "state": "telangana",
+        "district": "peddapvaluei",
+        "value": 66.75
+      },
+      {
+        "state": "telangana",
+        "district": "jogulamba",
+        "value": 64.86
+      },
+      {
+        "state": "telangana",
+        "district": "adilabad",
+        "value": 51.12
+      },
+      {
+        "state": "telangana",
+        "district": "jagtial",
+        "value": 68.54
+      },
+      {
+        "state": "telangana",
+        "district": "vikarabad",
+        "value": 70.28
+      },
+      {
+        "state": "telangana",
+        "district": "jayashankar",
+        "value": 65.69
+      },
+      {
+        "state": "telangana",
+        "district": "khammam",
+        "value": 75.13
+      },
+      {
+        "state": "telangana",
+        "district": "nirmal",
+        "value": 70.41
+      },
+      {
+        "state": "telangana",
+        "district": "medak",
+        "value": 63.68
+      },
+      {
+        "state": "telangana",
+        "value": 65.95
+      },
+      {
+        "state": "telangana",
+        "district": "medchal-malkajgiri",
+        "value": 74.14
+      },
+      {
+        "state": "telangana",
+        "district": "karimnagar",
+        "value": 63.88
+      },
+      {
+        "state": "telangana",
+        "district": "jangaon",
+        "value": 75.45
+      },
+      {
+        "state": "telangana",
+        "district": "nizamabad",
+        "value": 66.1
+      },
+      {
+        "state": "telangana",
+        "district": "mahabubnagar",
+        "value": 66.5
+      },
+      {
+        "state": "telangana",
+        "district": "mahabubabad",
+        "value": 67.73
+      },
+      {
+        "state": "telangana",
+        "district": "suryapet",
+        "value": 65.96
+      },
+      {
+        "state": "telangana",
+        "district": "nagarkurnool",
+        "value": 60.5
+      },
+      {
+        "state": "telangana",
+        "district": "wanaparthy",
+        "value": 75.61
+      },
+      {
+        "state": "telangana",
+        "district": "sangareddy",
+        "value": 70.66
+      },
+      {
+        "state": "telangana",
+        "district": "rangareddy",
+        "value": 72.48
+      },
+      {
+        "state": "telangana",
+        "district": "mancherial",
+        "value": 73.59
+      },
+      {
+        "state": "manipur",
+        "district": "tamenglong",
+        "value": 75.66
+      },
+      {
+        "state": "manipur",
+        "district": "ukhrul",
+        "value": 75.07
+      },
+      {
+        "state": "manipur",
+        "district": "chandel",
+        "value": 70.68
+      },
+      {
+        "state": "manipur",
+        "district": "imphal east",
+        "value": 64.69
+      },
+      {
+        "state": "manipur",
+        "district": "thoubal",
+        "value": 67.22
+      },
+      {
+        "state": "manipur",
+        "district": "senapati",
+        "value": 69.14
+      },
+      {
+        "state": "manipur",
+        "district": "imphal west",
+        "value": 62.11
+      },
+      {
+        "state": "manipur",
+        "district": "bishnupur",
+        "value": 61.87
+      },
+      {
+        "state": "manipur",
+        "district": "churachandpur",
+        "value": 66.22
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "bhind",
+        "value": 61.5
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "tikamgarh",
+        "value": 60.44
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "mandla",
+        "value": 61.6
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "umaria",
+        "value": 60.74
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "chhindwara",
+        "value": 64.11
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "katni",
+        "value": 53.93
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "shivpuri",
+        "value": 59.66
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "dewas",
+        "value": 67.47
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "hoshangabad",
+        "value": 67.53
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "chhatarpur",
+        "value": 67.64
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "raisen",
+        "value": 62.92
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "guna",
+        "value": 58.04
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "sidhi",
+        "value": 56.44
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "panna",
+        "value": 52.59
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "bhopal",
+        "value": 68.04
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "ashoknagar",
+        "value": 64.05
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "shajapur",
+        "value": 61.5
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "betul",
+        "value": 64.22
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "sehore",
+        "value": 63.28
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "rajgarh",
+        "value": 61.78
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "harda",
+        "value": 60.23
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "dindori",
+        "value": 60.06
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "seoni",
+        "value": 60.82
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "rewa",
+        "value": 58.89
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "datia",
+        "value": 55.64
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "vidisha",
+        "value": 57.56
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "jhabua",
+        "value": 53.34
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "mandsaur",
+        "value": 61.58
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "khargone",
+        "value": 56.48
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "sagar",
+        "value": 72.06
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "narsimhapur",
+        "value": 74.01
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "agar malwa",
+        "value": 67.01
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "balaghat",
+        "value": 63.92
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "neemuch",
+        "value": 56.86
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "singrauli",
+        "value": 52.99
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "ujjain",
+        "value": 54.23
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "shahdol",
+        "value": 65.32
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "indore",
+        "value": 68.98
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "morena",
+        "value": 63.44
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "dhar",
+        "value": 56.88
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "burhanpur",
+        "value": 67.74
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "barwani",
+        "value": 64.16
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "alirajpur",
+        "value": 49.78
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "anuppur",
+        "value": 56.33
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "gwalior",
+        "value": 64.25
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "satna",
+        "value": 52.16
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "khandwa",
+        "value": 64.62
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "jabalpur",
+        "value": 61.23
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "damoh",
+        "value": 60.64
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "sheopur",
+        "value": 53.14
+      },
+      {
+        "state": "madhya pradesh",
+        "district": "ratlam",
+        "value": 60.03
+      },
+      {
+        "state": "daman & diu",
+        "district": "daman",
+        "value": 64.26
+      },
+      {
+        "state": "daman & diu",
+        "district": "diu",
+        "value": 39.34
+      },
+      {
+        "state": "haryana",
+        "district": "kaithal",
+        "value": 60.34
+      },
+      {
+        "state": "haryana",
+        "district": "yamunanagar",
+        "value": 57.09
+      },
+      {
+        "state": "haryana",
+        "district": "mahendragarh",
+        "value": 63.42
+      },
+      {
+        "state": "haryana",
+        "district": "kurukshetra",
+        "value": 53.14
+      },
+      {
+        "state": "haryana",
+        "district": "rohtak",
+        "value": 58.62
+      },
+      {
+        "state": "haryana",
+        "district": "rewari",
+        "value": 64.43
+      },
+      {
+        "state": "haryana",
+        "district": "sonipat",
+        "value": 53.28
+      },
+      {
+        "state": "haryana",
+        "district": "jind",
+        "value": 53.81
+      },
+      {
+        "state": "haryana",
+        "district": "palwal",
+        "value": 53.21
+      },
+      {
+        "state": "haryana",
+        "district": "hisar",
+        "value": 57.97
+      },
+      {
+        "state": "haryana",
+        "district": "sirsa",
+        "value": 56.22
+      },
+      {
+        "state": "haryana",
+        "district": "faridabad",
+        "value": 62.89
+      },
+      {
+        "state": "haryana",
+        "district": "bhiwani",
+        "value": 57.39
+      },
+      {
+        "state": "haryana",
+        "district": "panchkula",
+        "value": 52.2
+      },
+      {
+        "state": "haryana",
+        "district": "panipat",
+        "value": 47.09
+      },
+      {
+        "state": "haryana",
+        "district": "ambala",
+        "value": 55
+      },
+      {
+        "state": "haryana",
+        "district": "fatehabad",
+        "value": 51.95
+      },
+      {
+        "state": "haryana",
+        "district": "karnal",
+        "value": 50.21
+      },
+      {
+        "state": "haryana",
+        "district": "gurgaon",
+        "value": 65.15
+      },
+      {
+        "state": "haryana",
+        "district": "mewat",
+        "value": 46.86
+      },
+      {
+        "state": "haryana",
+        "district": "jhajjar",
+        "value": 58.56
+      },
+      {
+        "state": "gujarat",
+        "district": "mahisagar",
+        "value": 62.86
+      },
+      {
+        "state": "gujarat",
+        "district": "banas kantha",
+        "value": 67.96
+      },
+      {
+        "state": "gujarat",
+        "district": "the dangs",
+        "value": 65.16
+      },
+      {
+        "state": "gujarat",
+        "district": "valsad",
+        "value": 67.83
+      },
+      {
+        "state": "gujarat",
+        "district": "jamnagar",
+        "value": 64.26
+      },
+      {
+        "state": "gujarat",
+        "district": "tapi",
+        "value": 69.3
+      },
+      {
+        "state": "gujarat",
+        "district": "gandhinagar",
+        "value": 66.45
+      },
+      {
+        "state": "gujarat",
+        "district": "porbandar",
+        "value": 65.96
+      },
+      {
+        "state": "gujarat",
+        "district": "ahmedabad",
+        "value": 64.35
+      },
+      {
+        "state": "gujarat",
+        "district": "amreli",
+        "value": 64.2
+      },
+      {
+        "state": "gujarat",
+        "district": "devbhoomi dwarka",
+        "value": 58.97
+      },
+      {
+        "state": "gujarat",
+        "district": "gir somnath",
+        "value": 62.11
+      },
+      {
+        "state": "gujarat",
+        "district": "aravvaluei",
+        "value": 67.61
+      },
+      {
+        "state": "gujarat",
+        "district": "bhavnagar",
+        "value": 67.31
+      },
+      {
+        "state": "gujarat",
+        "district": "navsari",
+        "value": 65.15
+      },
+      {
+        "state": "gujarat",
+        "district": "anand",
+        "value": 59.96
+      },
+      {
+        "state": "gujarat",
+        "district": "morbi",
+        "value": 61.82
+      },
+      {
+        "state": "gujarat",
+        "district": "patan",
+        "value": 61.86
+      },
+      {
+        "state": "gujarat",
+        "district": "surat",
+        "value": 72.09
+      },
+      {
+        "state": "gujarat",
+        "district": "junagadh",
+        "value": 68.04
+      },
+      {
+        "state": "gujarat",
+        "district": "rajkot",
+        "value": 65.88
+      },
+      {
+        "state": "gujarat",
+        "district": "botad",
+        "value": 69.73
+      },
+      {
+        "state": "gujarat",
+        "district": "kachchh",
+        "value": 64.79
+      },
+      {
+        "state": "gujarat",
+        "district": "dohad",
+        "value": 63.43
+      },
+      {
+        "state": "gujarat",
+        "district": "vadodara",
+        "value": 55.16
+      },
+      {
+        "state": "gujarat",
+        "district": "sabar kantha",
+        "value": 63.58
+      },
+      {
+        "state": "gujarat",
+        "district": "bharuch",
+        "value": 57.33
+      },
+      {
+        "state": "gujarat",
+        "district": "kheda",
+        "value": 63.1
+      },
+      {
+        "state": "gujarat",
+        "district": "chhotaudepur",
+        "value": 52.83
+      },
+      {
+        "state": "gujarat",
+        "district": "narmada",
+        "value": 59.77
+      },
+      {
+        "state": "gujarat",
+        "district": "panch mahals",
+        "value": 68.7
+      },
+      {
+        "state": "gujarat",
+        "district": "mahesana",
+        "value": 69.27
+      },
+      {
+        "state": "gujarat",
+        "district": "surendranagar",
+        "value": 55.17
+      },
+      {
+        "state": "andaman & nicobar islands",
+        "district": "andamans",
+        "value": 59.62
+      },
+      {
+        "state": "andaman & nicobar islands",
+        "district": "nicobars",
+        "value": 63.63
+      },
+      {
+        "state": "andaman & nicobar islands",
+        "district": "middle and north andamans",
+        "value": 64.27
+      },
+      {
+        "state": "sikkim",
+        "district": "south sikkim",
+        "value": 53.96
+      },
+      {
+        "state": "sikkim",
+        "district": "east sikkim",
+        "value": 50.85
+      },
+      {
+        "state": "sikkim",
+        "district": "north sikkim",
+        "value": 60.92
+      },
+      {
+        "state": "sikkim",
+        "district": "west sikkim",
+        "value": 55.43
+      },
+      {
+        "state": "delhi",
+        "district": "north east delhi",
+        "value": 51.52
+      },
+      {
+        "state": "delhi",
+        "district": "south delhi",
+        "value": 45.24
+      },
+      {
+        "state": "delhi",
+        "district": "east delhi",
+        "value": 57.9
+      },
+      {
+        "state": "delhi",
+        "district": "north delhi",
+        "value": 53.72
+      },
+      {
+        "state": "delhi",
+        "district": "central delhi",
+        "value": 45.36
+      },
+      {
+        "state": "delhi",
+        "district": "south west delhi",
+        "value": 53.36
+      },
+      {
+        "state": "delhi",
+        "district": "north west delhi",
+        "value": 50.85
+      },
+      {
+        "state": "delhi",
+        "district": "new delhi",
+        "value": 58.03
+      },
+      {
+        "state": "delhi",
+        "district": "west delhi",
+        "value": 57.06
+      },
+      {
+        "state": "goa",
+        "district": "south goa",
+        "value": 58.2
+      },
+      {
+        "state": "goa",
+        "district": "north goa",
+        "value": 58.44
+      },
+      {
+        "state": "punjab",
+        "district": "hoshiarpur",
+        "value": 55.91
+      },
+      {
+        "state": "punjab",
+        "district": "bathinda",
+        "value": 36.11
+      },
+      {
+        "state": "punjab",
+        "district": "jalandhar",
+        "value": 64.71
+      },
+      {
+        "state": "punjab",
+        "district": "barnala",
+        "value": 45.64
+      },
+      {
+        "state": "punjab",
+        "district": "kapurthala",
+        "value": 55.61
+      },
+      {
+        "state": "punjab",
+        "district": "gurdaspur",
+        "value": 60.11
+      },
+      {
+        "state": "punjab",
+        "district": "fazilka",
+        "value": 55.9
+      },
+      {
+        "state": "punjab",
+        "district": "rupnagar",
+        "value": 37.7
+      },
+      {
+        "state": "punjab",
+        "district": "taran taran",
+        "value": 52.32
+      },
+      {
+        "state": "punjab",
+        "district": "firozpur",
+        "value": 62.94
+      },
+      {
+        "state": "punjab",
+        "district": "fatehgarh sahib",
+        "value": 43.89
+      },
+      {
+        "state": "punjab",
+        "district": "mansa",
+        "value": 47.01
+      },
+      {
+        "state": "punjab",
+        "district": "amritsar",
+        "value": 56.78
+      },
+      {
+        "state": "punjab",
+        "district": "nawanshahr",
+        "value": 59.99
+      },
+      {
+        "state": "punjab",
+        "district": "patiala",
+        "value": 45.75
+      },
+      {
+        "state": "punjab",
+        "district": "sangrur",
+        "value": 63.71
+      },
+      {
+        "state": "punjab",
+        "district": "faridkot",
+        "value": 54.38
+      },
+      {
+        "state": "punjab",
+        "district": "moga",
+        "value": 55.37
+      },
+      {
+        "state": "punjab",
+        "district": "pathankot",
+        "value": 50.95
+      },
+      {
+        "state": "punjab",
+        "district": "ludhiana",
+        "value": 46.73
+      },
+      {
+        "state": "punjab",
+        "district": "mohali",
+        "value": 44.91
+      },
+      {
+        "state": "punjab",
+        "district": "muktsar",
+        "value": 41.05
+      },
+      {
+        "state": "karnataka",
+        "district": "mysuru",
+        "value": 72.28
+      },
+      {
+        "state": "karnataka",
+        "district": "bengaluru u north",
+        "value": 64.34
+      },
+      {
+        "state": "karnataka",
+        "district": "hassan",
+        "value": 78.86
+      },
+      {
+        "state": "karnataka",
+        "district": "koppal",
+        "value": 72.09
+      },
+      {
+        "state": "karnataka",
+        "district": "chamarajanagara",
+        "value": 73.61
+      },
+      {
+        "state": "karnataka",
+        "district": "uttara kannada",
+        "value": 76.83
+      },
+      {
+        "state": "karnataka",
+        "district": "raichur",
+        "value": 74.67
+      },
+      {
+        "state": "karnataka",
+        "district": "mandya",
+        "value": 69.05
+      },
+      {
+        "state": "karnataka",
+        "district": "vijayapura",
+        "value": 76.3
+      },
+      {
+        "state": "karnataka",
+        "district": "tumakuru madhugiri",
+        "value": 69.58
+      },
+      {
+        "state": "karnataka",
+        "district": "chikkabvalueapura",
+        "value": 72.14
+      },
+      {
+        "state": "karnataka",
+        "district": "kalaburgi",
+        "value": 64.27
+      },
+      {
+        "state": "karnataka",
+        "district": "dharwad",
+        "value": 79.52
+      },
+      {
+        "state": "karnataka",
+        "district": "ramanagara",
+        "value": 77.97
+      },
+      {
+        "state": "karnataka",
+        "district": "bidar",
+        "value": 68.18
+      },
+      {
+        "state": "karnataka",
+        "district": "belagavi",
+        "value": 80.43
+      },
+      {
+        "state": "karnataka",
+        "district": "uttara kannada sirsi",
+        "value": 73.3
+      },
+      {
+        "state": "karnataka",
+        "district": "bengaluru u south",
+        "value": 69.67
+      },
+      {
+        "state": "karnataka",
+        "district": "yadagiri",
+        "value": 74.69
+      },
+      {
+        "state": "karnataka",
+        "district": "udupi",
+        "value": 74.72
+      },
+      {
+        "state": "karnataka",
+        "district": "bagalkot",
+        "value": 82.42
+      },
+      {
+        "state": "karnataka",
+        "district": "shivamogga",
+        "value": 68.38
+      },
+      {
+        "state": "karnataka",
+        "district": "chitradurga",
+        "value": 77.92
+      },
+      {
+        "state": "karnataka",
+        "district": "bvalueari",
+        "value": 71.8
+      },
+      {
+        "state": "karnataka",
+        "district": "tumakuru",
+        "value": 73.11
+      },
+      {
+        "state": "karnataka",
+        "district": "davanagere",
+        "value": 77.3
+      },
+      {
+        "state": "karnataka",
+        "district": "gadag",
+        "value": 78.05
+      },
+      {
+        "state": "karnataka",
+        "district": "belagavi chikkodi",
+        "value": 81.37
+      },
+      {
+        "state": "karnataka",
+        "district": "haveri",
+        "value": 78.06
+      },
+      {
+        "state": "karnataka",
+        "district": "dakshina kannada",
+        "value": 69.94
+      },
+      {
+        "state": "karnataka",
+        "district": "chikkamagaluru",
+        "value": 67.35
+      },
+      {
+        "state": "karnataka",
+        "district": "kodagu",
+        "value": 65.02
+      },
+      {
+        "state": "karnataka",
+        "district": "kolar",
+        "value": 69.03
+      },
+      {
+        "state": "karnataka",
+        "value": 76.62
+      },
+      {
+        "state": "maharashtra",
+        "district": "solapur",
+        "value": 74.02
+      },
+      {
+        "state": "maharashtra",
+        "district": "ahmadnagar",
+        "value": 71.41
+      },
+      {
+        "state": "maharashtra",
+        "district": "akola",
+        "value": 59.49
+      },
+      {
+        "state": "maharashtra",
+        "district": "aurangabad",
+        "value": 65.26
+      },
+      {
+        "state": "maharashtra",
+        "district": "latur",
+        "value": 67.94
+      },
+      {
+        "state": "maharashtra",
+        "district": "kolhapur",
+        "value": 68.24
+      },
+      {
+        "state": "maharashtra",
+        "district": "amravati",
+        "value": 55.86
+      },
+      {
+        "state": "maharashtra",
+        "district": "nagpur",
+        "value": 63.88
+      },
+      {
+        "state": "maharashtra",
+        "district": "gadchiroli",
+        "value": 69.37
+      },
+      {
+        "state": "maharashtra",
+        "district": "parbhani",
+        "value": 66.1
+      },
+      {
+        "state": "maharashtra",
+        "district": "jalna",
+        "value": 60.58
+      },
+      {
+        "state": "maharashtra",
+        "district": "hingoli",
+        "value": 67.37
+      },
+      {
+        "state": "maharashtra",
+        "district": "sangli",
+        "value": 63.53
+      },
+      {
+        "state": "maharashtra",
+        "district": "buldana",
+        "value": 65.06
+      },
+      {
+        "state": "maharashtra",
+        "district": "nashik",
+        "value": 61.87
+      },
+      {
+        "state": "maharashtra",
+        "district": "osmanabad",
+        "value": 66.95
+      },
+      {
+        "state": "maharashtra",
+        "district": "washim",
+        "value": 68.2
+      },
+      {
+        "state": "maharashtra",
+        "district": "nanded",
+        "value": 67.17
+      },
+      {
+        "state": "maharashtra",
+        "district": "raigarh",
+        "value": 68.72
+      },
+      {
+        "state": "maharashtra",
+        "district": "ratnagiri",
+        "value": 76.44
+      },
+      {
+        "state": "maharashtra",
+        "district": "sindhudurg",
+        "value": 75.19
+      },
+      {
+        "state": "maharashtra",
+        "district": "bhandara",
+        "value": 62.83
+      },
+      {
+        "state": "maharashtra",
+        "district": "chandrapur",
+        "value": 56.17
+      },
+      {
+        "state": "maharashtra",
+        "district": "thane",
+        "value": 60.66
+      },
+      {
+        "state": "maharashtra",
+        "district": "wardha",
+        "value": 53.65
+      },
+      {
+        "state": "maharashtra",
+        "district": "mumbai II",
+        "value": 0
+      },
+      {
+        "state": "maharashtra",
+        "value": 58.8
+      },
+      {
+        "state": "maharashtra",
+        "district": "jalgaon",
+        "value": 61.89
+      },
+      {
+        "state": "maharashtra",
+        "district": "pune",
+        "value": 63.78
+      },
+      {
+        "state": "maharashtra",
+        "district": "bid",
+        "value": 71.29
+      },
+      {
+        "state": "maharashtra",
+        "district": "satara",
+        "value": 74.46
+      },
+      {
+        "state": "maharashtra",
+        "district": "yavatmal",
+        "value": 53.43
+      },
+      {
+        "state": "maharashtra",
+        "district": "nandurbar",
+        "value": 62.12
+      },
+      {
+        "state": "maharashtra",
+        "district": "palghar",
+        "value": 56.69
+      },
+      {
+        "state": "maharashtra",
+        "district": "dhule",
+        "value": 65.61
+      },
+      {
+        "state": "maharashtra",
+        "district": "gondiya",
+        "value": 58.99
+      },
+      {
+        "state": "odisha",
+        "district": "sonepur",
+        "value": 60.22
+      },
+      {
+        "state": "odisha",
+        "district": "jajpur",
+        "value": 66.77
+      },
+      {
+        "state": "odisha",
+        "district": "rayagada",
+        "value": 49.51
+      },
+      {
+        "state": "odisha",
+        "district": "bargarh",
+        "value": 60.06
+      },
+      {
+        "state": "odisha",
+        "district": "dhenkanal",
+        "value": 48.56
+      },
+      {
+        "state": "odisha",
+        "district": "kalahandi",
+        "value": 52.44
+      },
+      {
+        "state": "odisha",
+        "district": "nayagarh",
+        "value": 70.56
+      },
+      {
+        "state": "odisha",
+        "district": "balasore",
+        "value": 66.03
+      },
+      {
+        "state": "odisha",
+        "district": "khordha",
+        "value": 62.6
+      },
+      {
+        "state": "odisha",
+        "district": "boudh",
+        "value": 56.78
+      },
+      {
+        "state": "odisha",
+        "district": "gajapati",
+        "value": 51.49
+      },
+      {
+        "state": "odisha",
+        "district": "puri",
+        "value": 68.05
+      },
+      {
+        "state": "odisha",
+        "district": "deogarh",
+        "value": 67.94
+      },
+      {
+        "state": "odisha",
+        "district": "jharsuguda",
+        "value": 54.26
+      },
+      {
+        "state": "odisha",
+        "district": "malkangiri",
+        "value": 61.08
+      },
+      {
+        "state": "odisha",
+        "district": "cuttack",
+        "value": 73.96
+      },
+      {
+        "state": "odisha",
+        "district": "koraput",
+        "value": 45.68
+      },
+      {
+        "state": "odisha",
+        "district": "sambalpur",
+        "value": 43.52
+      },
+      {
+        "state": "odisha",
+        "district": "ganjam",
+        "value": 71.28
+      },
+      {
+        "state": "odisha",
+        "district": "nuapada",
+        "value": 55.06
+      },
+      {
+        "state": "odisha",
+        "district": "jagatsinghpur",
+        "value": 77.02
+      },
+      {
+        "state": "odisha",
+        "district": "bolangir",
+        "value": 62.66
+      },
+      {
+        "state": "odisha",
+        "district": "kandhamal",
+        "value": 46.55
+      },
+      {
+        "state": "odisha",
+        "district": "nabarangpur",
+        "value": 62.55
+      },
+      {
+        "state": "odisha",
+        "district": "bhadrak",
+        "value": 66.63
+      },
+      {
+        "state": "odisha",
+        "district": "sundergarh",
+        "value": 56.38
+      },
+      {
+        "state": "odisha",
+        "district": "keonjhar",
+        "value": 54.14
+      },
+      {
+        "state": "odisha",
+        "district": "kendrapara",
+        "value": 52.57
+      },
+      {
+        "state": "odisha",
+        "district": "mayurbhanj",
+        "value": 50.86
+      },
+      {
+        "state": "odisha",
+        "district": "angul",
+        "value": 62.97
+      },
+      {
+        "state": "kerala",
+        "district": "kollam",
+        "value": 74.66
+      },
+      {
+        "state": "kerala",
+        "district": "pathanamthitta",
+        "value": 69.86
+      },
+      {
+        "state": "kerala",
+        "district": "kozhikode",
+        "value": 72.16
+      },
+      {
+        "state": "kerala",
+        "district": "malappuram",
+        "value": 71.35
+      },
+      {
+        "state": "kerala",
+        "district": "wayanad",
+        "value": 67.02
+      },
+      {
+        "state": "kerala",
+        "district": "ernakulam",
+        "value": 75.87
+      },
+      {
+        "state": "kerala",
+        "district": "thiruvananthapuram",
+        "value": 81.78
+      },
+      {
+        "state": "kerala",
+        "district": "kasaragod",
+        "value": 64.26
+      },
+      {
+        "state": "kerala",
+        "district": "kannur",
+        "value": 68.98
+      },
+      {
+        "state": "kerala",
+        "district": "alappuzha",
+        "value": 71.97
+      },
+      {
+        "state": "kerala",
+        "district": "palakkad",
+        "value": 64.52
+      },
+      {
+        "state": "kerala",
+        "district": "kottayam",
+        "value": 73.02
+      },
+      {
+        "state": "kerala",
+        "district": "idukki",
+        "value": 67.55
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "solan",
+        "value": 57.43
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "kinnaur",
+        "value": 64.56
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "shimla",
+        "value": 62.35
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "hamirpur (h.p.)",
+        "value": 62.61
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "kullu",
+        "value": 56.21
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "chamba",
+        "value": 57.97
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "sirmaur",
+        "value": 41.1
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "bilaspur (h.p.)",
+        "value": 66.25
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "mandi",
+        "value": 71.04
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "kangra",
+        "value": 76.2
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "una",
+        "value": 57.61
+      },
+      {
+        "state": "himachal pradesh",
+        "district": "lahul & spiti",
+        "value": 58.04
+      },
+      {
+        "state": "tripura",
+        "district": "khowai",
+        "value": 59.34
+      },
+      {
+        "state": "tripura",
+        "district": "unakoti",
+        "value": 53.96
+      },
+      {
+        "state": "tripura",
+        "district": "south tripura",
+        "value": 71.88
+      },
+      {
+        "state": "tripura",
+        "district": "gomati",
+        "value": 60.61
+      },
+      {
+        "state": "tripura",
+        "district": "sepahijala",
+        "value": 58.74
+      },
+      {
+        "state": "tripura",
+        "district": "north tripura",
+        "value": 61.31
+      },
+      {
+        "state": "tripura",
+        "district": "west tripura",
+        "value": 60.19
+      },
+      {
+        "state": "tripura",
+        "district": "dhalai",
+        "value": 54.41
+      },
+      {
+        "state": "mizoram",
+        "district": "lawngtlai",
+        "value": 49.62
+      },
+      {
+        "state": "mizoram",
+        "district": "serchhip",
+        "value": 59.46
+      },
+      {
+        "state": "mizoram",
+        "district": "champhai",
+        "value": 62.63
+      },
+      {
+        "state": "mizoram",
+        "district": "saiha",
+        "value": 68.46
+      },
+      {
+        "state": "mizoram",
+        "district": "mamit",
+        "value": 58.24
+      },
+      {
+        "state": "mizoram",
+        "district": "aizawl",
+        "value": 65.15
+      },
+      {
+        "state": "mizoram",
+        "district": "kolasib",
+        "value": 67.53
+      },
+      {
+        "state": "mizoram",
+        "district": "lunglei",
+        "value": 57.96
+      },
+      {
+        "state": "assam",
+        "district": "baksa",
+        "value": 67.44
+      },
+      {
+        "state": "assam",
+        "district": "bongaigaon",
+        "value": 78.61
+      },
+      {
+        "state": "assam",
+        "district": "nalbari",
+        "value": 73.27
+      },
+      {
+        "state": "assam",
+        "value": 68.18
+      },
+      {
+        "state": "assam",
+        "district": "hailakandi",
+        "value": 70.26
+      },
+      {
+        "state": "assam",
+        "district": "dima hasao",
+        "value": 64.29
+      },
+      {
+        "state": "assam",
+        "district": "tinsukia",
+        "value": 60.34
+      },
+      {
+        "state": "assam",
+        "district": "kamrup",
+       "value": 64.33
+      },
+      {
+        "state": "assam",
+        "district": "sonitpur",
+        "value": 70.67
+      },
+      {
+        "state": "assam",
+        "district": "karimganj",
+        "value": 65.25
+      },
+      {
+        "state": "assam",
+        "district": "lakhimpur",
+        "value": 69.99
+      },
+      {
+        "state": "assam",
+        "district": "sibsagar",
+        "value": 62.95
+      },
+      {
+        "state": "assam",
+        "district": "morigaon",
+        "value": 76.17
+      },
+      {
+        "state": "assam",
+        "district": "jorhat",
+        "value": 64.1
+      },
+      {
+        "state": "assam",
+        "district": "goalpara",
+        "value": 67.22
+      },
+      {
+        "state": "assam",
+        "district": "kokrajhar",
+        "value": 74.49
+      },
+      {
+        "state": "assam",
+        "district": "nagaon",
+        "value": 82.31
+      },
+      {
+        "state": "assam",
+        "district": "udalguri",
+        "value": 68.82
+      },
+      {
+        "state": "assam",
+        "district": "cachar",
+        "value": 71.16
+      },
+      {
+        "state": "assam",
+        "district": "dhubri",
+        "value": 67.76
+      },
+      {
+        "state": "assam",
+        "district": "golaghat",
+        "value": 57
+      },
+      {
+        "state": "assam",
+        "district": "dibrugarh",
+        "value": 63.09
+      },
+      {
+        "state": "assam",
+        "district": "darrang",
+        "value": 72.09
+      },
+      {
+        "state": "assam",
+        "district": "dhemaji",
+        "value": 55.83
+      },
+      {
+        "state": "assam",
+        "district": "karbi anglong",
+        "value": 69.38
+      },
+      {
+        "state": "assam",
+        "district": "chirang",
+        "value": 69.99
+      },
+      {
+        "state": "assam",
+        "district": "barpeta",
+        "value": 72.44
+      },
+      {
+        "state": "meghalaya",
+        "district": "west garo hills",
+        "value": 62.03
+      },
+      {
+        "state": "meghalaya",
+        "district": "west khasi hills",
+        "value": 50.79
+      },
+      {
+        "state": "meghalaya",
+        "district": "south west khasi hills",
+        "value": 62
+      },
+      {
+        "state": "meghalaya",
+        "district": "north garo hills",
+        "value": 51.4
+      },
+      {
+        "state": "meghalaya",
+        "district": "south west garo hills",
+        "value": 57.85
+      },
+      {
+        "state": "meghalaya",
+        "district": "west jaintia hills",
+        "value": 47.71
+      },
+      {
+        "state": "meghalaya",
+        "district": "east jaintia hills",
+        "value": 49.98
+      },
+      {
+        "state": "meghalaya",
+        "district": "south garo hills",
+        "value": 52.74
+      },
+      {
+        "state": "meghalaya",
+        "district": "east khasi hills",
+        "value": 67.31
+      },
+      {
+        "state": "meghalaya",
+        "district": "ri bhoi",
+        "value": 58.79
+      },
+      {
+        "state": "meghalaya",
+        "district": "east garo hills",
+        "value": 44.64
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "mahasamund",
+        "value": 50.15
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "baster",
+        "value": 62.79
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "sukma",
+        "value": 58.82
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "balodabazar",
+        "value": 60.85
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "surajpur",
+        "value": 66.39
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "janjgir - champa",
+        "value": 52.71
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "korba",
+        "value": 62.26
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "gariaband",
+        "value": 55.64
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "dhamtari",
+        "value": 46.25
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "bemetara",
+        "value": 59.15
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "narayanpur",
+        "value": 58.66
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "raigarh (chhattisgarh)",
+        "value": 56.84
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "surguja",
+        "value": 74.34
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "kondagaon",
+        "value": 56.12
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "balod",
+        "value": 61.83
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "kanker",
+        "value": 48.84
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "jashpur",
+        "value": 67.59
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "bijapur",
+        "value": 53.08
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "balrampur",
+        "value": 63.37
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "rajnandgaon",
+        "value": 60.08
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "kawardha",
+        "value": 58.36
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "koriya",
+        "value": 50.61
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "raipur",
+        "value": 55.5
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "bilaspur",
+        "value": 51.94
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "dantewada",
+        "value": 52.28
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "mungeli",
+        "value": 61.54
+      },
+      {
+        "state": "chhattisgarh",
+        "district": "durg",
+        "value": 68.9
+      },
+      {
+        "state": "tamil nadu",
+        "district": "kanniyakumari",
+        "value": 65.75
+      },
+      {
+        "state": "tamil nadu",
+        "district": "cuddalore",
+        "value": 60.76
+      },
+      {
+        "state": "tamil nadu",
+        "district": "ramanathapuram",
+        "value": 64.53
+      },
+      {
+        "state": "tamil nadu",
+        "district": "tiruchirappvaluei",
+        "value": 52.51
+      },
+      {
+        "state": "tamil nadu",
+        "district": "dharmapuri",
+        "value": 72.79
+      },
+      {
+        "state": "tamil nadu",
+        "district": "viluppuram",
+        "value": 67.55
+      },
+      {
+        "state": "tamil nadu",
+        "district": "theni",
+        "value": 54.27
+      },
+      {
+        "state": "tamil nadu",
+        "district": "vellore",
+        "value": 58.95
+      },
+      {
+        "state": "tamil nadu",
+        "district": "kancheepuram",
+        "value": 64.61
+      },
+      {
+        "state": "tamil nadu",
+        "district": "sivaganga",
+        "value": 66.4
+      },
+      {
+        "state": "tamil nadu",
+        "district": "thiruvarur",
+        "value": 59.2
+      },
+      {
+        "state": "tamil nadu",
+        "district": "tiruvannamalai",
+        "value": 65.83
+      },
+      {
+        "state": "tamil nadu",
+        "district": "chennai",
+        "value": 58.86
+      },
+      {
+        "state": "tamil nadu",
+        "district": "thiruvvalueur",
+        "value": 61.85
+      },
+      {
+        "state": "tamil nadu",
+        "district": "nagapattinam",
+        "value": 58.36
+      },
+      {
+        "state": "tamil nadu",
+        "district": "dindigul",
+        "value": 59.4
+      },
+      {
+        "state": "tamil nadu",
+        "district": "virudhunagar",
+        "value": 60.74
+      },
+      {
+        "state": "tamil nadu",
+        "district": "coimbatore",
+        "value": 55.84
+      },
+      {
+        "state": "tamil nadu",
+        "district": "erode",
+        "value": 64.1
+      },
+      {
+        "state": "tamil nadu",
+        "district": "karur",
+        "value": 65.03
+      },
+      {
+        "state": "tamil nadu",
+        "district": "salem",
+        "value": 62
+      },
+      {
+        "state": "tamil nadu",
+        "district": "krishanagiri",
+        "value": 0
+      },
+      {
+        "state": "tamil nadu",
+        "district": "the nilgiris",
+        "value": 61.1
+      },
+      {
+        "state": "tamil nadu",
+        "district": "thanjavur",
+        "value": 63.08
+      },
+      {
+        "state": "tamil nadu",
+        "district": "namakkal",
+        "value": 57.32
+      },
+      {
+        "state": "tamil nadu",
+        "district": "perambalur",
+        "value": 67.37
+      },
+      {
+        "state": "tamil nadu",
+        "district": "madurai",
+        "value": 55.81
+      },
+      {
+        "state": "tamil nadu",
+        "district": "pudukkottai",
+        "value": 56.02
+      },
+      {
+        "state": "tamil nadu",
+        "district": "tirunelveli",
+        "value": 65.53
+      },
+      {
+        "state": "tamil nadu",
+        "district": "thoothukkudi",
+        "value": 60.19
+      },
+      {
+        "state": "west bengal",
+        "district": "south twenty four pargan",
+        "value": 73.45
+      },
+      {
+        "state": "west bengal",
+        "district": "north twenty four pargana",
+        "value": 67.58
+      },
+      {
+        "state": "west bengal",
+        "district": "haora",
+        "value": 74.56
+      },
+      {
+        "state": "west bengal",
+        "district": "paschim medinipur",
+        "value": 73.24
+      },
+      {
+        "state": "west bengal",
+        "district": "purba bardhaman",
+        "value": 74.89
+      },
+      {
+        "state": "west bengal",
+        "district": "murshidabad",
+        "value": 67.03
+      },
+      {
+        "state": "west bengal",
+        "district": "siliguri",
+        "value": 63.49
+      },
+      {
+        "state": "west bengal",
+        "district": "jhargram",
+        "value": 70.5
+      },
+      {
+        "state": "west bengal",
+        "district": "hugli",
+        "value": 72.07
+      },
+      {
+        "state": "west bengal",
+        "district": "paschim bardhaman",
+        "value": 75.86
+      },
+      {
+        "state": "west bengal",
+        "district": "kolkata",
+        "value": 77.86
+      },
+      {
+        "state": "west bengal",
+        "district": "puruliya",
+        "value": 67.38
+      },
+      {
+        "state": "west bengal",
+        "district": "maldah",
+        "value": 69.24
+      },
+      {
+        "state": "west bengal",
+        "district": "koch bihar",
+        "value": 74.75
+      },
+      {
+        "state": "west bengal",
+        "district": "jalpaiguri",
+        "value": 57.28
+      },
+      {
+        "state": "west bengal",
+        "district": "purba medinipur",
+        "value": 75.95
+      },
+      {
+        "state": "west bengal",
+        "district": "uttar dinajpur",
+        "value": 62.7
+      },
+      {
+        "state": "west bengal",
+        "district": "nadia",
+        "value": 72.11
+      },
+      {
+        "state": "uttarakhand",
+        "district": "nainital",
+        "value": 67.75
+      },
+      {
+        "state": "uttarakhand",
+        "district": "bageshwar",
+        "value": 69.2
+      },
+      {
+        "state": "uttarakhand",
+        "district": "udham singh nagar",
+        "value": 67.74
+      },
+      {
+        "state": "uttarakhand",
+        "district": "chamoli",
+        "value": 61.16
+      },
+      {
+        "state": "uttarakhand",
+        "district": "garhwal",
+        "value": 70.7
+      },
+      {
+        "state": "uttarakhand",
+        "district": "pithoragarh",
+        "value": 68.12
+      },
+      {
+        "state": "uttarakhand",
+        "district": "almora",
+        "value": 68.12
+      },
+      {
+        "state": "uttarakhand",
+        "district": "dehradun",
+        "value": 63.82
+      },
+      {
+        "state": "uttarakhand",
+        "district": "rudraprayag",
+        "value": 69.9
+      },
+      {
+        "state": "uttarakhand",
+        "district": "haridwar",
+        "value": 73.98
+      },
+      {
+        "state": "uttarakhand",
+        "district": "uttarkashi",
+        "value": 57.08
+      },
+      {
+        "state": "uttarakhand",
+        "district": "champawat",
+        "value": 58.45
+      },
+      {
+        "state": "uttarakhand",
+        "district": "tehri garhwal",
+        "value": 67.34
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "kannauj",
+        "value": 52.99
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "barabanki",
+        "value": 66.97
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "mainpuri",
+        "value": 60.05
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "gonda",
+        "value": 59.79
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "mau",
+        "value": 53.16
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "varanasi",
+        "value": 54.88
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "sambhal (bhim nagar)",
+        "value": 45.76
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "mirzapur",
+        "value": 47.9
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "deoria",
+        "value": 54.83
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "bijnor",
+        "value": 59.83
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "fatehpur",
+        "value": 61.13
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "bvalueia",
+        "value": 55.85
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "pilibhit",
+        "value": 50.41
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "jyotiba phule nagar (amroha)",
+        "value": 67.64
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "jaunpur",
+        "value": 58.56
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "bareilly",
+        "value": 62.98
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "pratapgarh",
+        "value": 54.82
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "bhadoi",
+        "value": 58.83
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "azamgarh",
+        "value": 65.53
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "ambedkar nagar",
+        "value": 71.72
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "mathura",
+        "value": 70.01
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "basti",
+        "value": 65.51
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "valueahabad",
+        "value": 54.65
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "banda",
+        "value": 56.93
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "etawah",
+        "value": 67.26
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "mahoba",
+        "value": 64.7
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "sant kabir nagar",
+        "value": 58.49
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "rae bareli",
+        "value": 64.92
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "kanpur nagar",
+        "value": 52.02
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "kanpur dehat",
+        "value": 57.81
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "sonbhadra",
+        "value": 54.89
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "kaushambi",
+        "value": 57.77
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "shahjahanpur",
+        "value": 57.2
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "shrawasti",
+        "value": 41.81
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "aligarh",
+        "value": 62.12
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "unnao",
+        "value": 53.33
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "lucknow",
+        "value": 50.23
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "bulandshahr",
+        "value": 47.82
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "amethi - csm nagar",
+        "value": 46.17
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "firozabad",
+        "value": 58.82
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "hapur (panchsheel nagar)",
+        "value": 58.7
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "chitrakoot",
+        "value": 61.41
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "hamirpur (u.p.)",
+        "value": 56.12
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "kheri",
+        "value": 41.08
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "saharanpur",
+        "value": 56.33
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "gautam buddha nagar",
+        "value": 62.14
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "jhansi",
+        "value": 61.03
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "jalaun",
+        "value": 63.99
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "hathras",
+        "value": 68.7
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "siddharthnagar",
+        "value": 56.94
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "meerut",
+        "value": 70.82
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "shamli (prabudh nagar)",
+        "value": 36.16
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "budaun",
+        "value": 46.3
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "hardoi",
+        "value": 48.04
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "balrampur",
+        "value": 50.72
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "lalitpur",
+        "value": 60.21
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "gorakhpur",
+        "value": 55.13
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "maharajganj",
+        "value": 61.27
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "moradabad",
+        "value": 50.37
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "sitapur",
+        "value": 55.94
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "sultanpur",
+        "value": 51.36
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "chandauli",
+        "value": 63.43
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "baghpat",
+        "value": 63.16
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "etah",
+        "value": 56.96
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "faizabad",
+        "value": 54.31
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "kushinagar",
+        "value": 55.63
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "ghaziabad",
+        "value": 61.1
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "auraiya",
+        "value": 60.91
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "rampur",
+        "value": 55.7
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "ghazipur",
+        "value": 49.88
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "farrukhabad",
+        "value": 57.37
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "kanshiram nagar",
+        "value": 17.7
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "muzaffarnagar",
+        "value": 62.13
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "bahraich",
+        "value": 62.71
+      },
+      {
+        "state": "uttar pradesh",
+        "district": "agra",
+        "value": 60.5
+      },
+      {
+        "state": "rajasthan",
+        "district": "tonk",
+        "value": 73.8
+      },
+      {
+        "state": "rajasthan",
+        "district": "sirohi",
+        "value": 66.21
+      },
+      {
+        "state": "rajasthan",
+        "district": "sawai madhopur",
+        "value": 71.63
+      },
+      {
+        "state": "rajasthan",
+        "district": "jhalawar",
+        "value": 69.35
+      },
+      {
+        "state": "rajasthan",
+        "district": "pratapgarh (raj.)",
+        "value": 66.59
+      },
+      {
+        "state": "rajasthan",
+        "district": "hanumangarh",
+        "value": 70.21
+      },
+      {
+        "state": "rajasthan",
+        "district": "udaipur",
+        "value": 72.97
+      },
+      {
+        "state": "rajasthan",
+        "district": "nagaur",
+        "value": 76.69
+      },
+      {
+        "state": "rajasthan",
+        "district": "banswara",
+        "value": 65.99
+      },
+      {
+        "state": "rajasthan",
+        "district": "ganganagar",
+        "value": 67.39
+      },
+      {
+        "state": "rajasthan",
+        "district": "karauli",
+        "value": 68.01
+      },
+      {
+        "state": "rajasthan",
+        "district": "pali",
+        "value": 66.51
+      },
+      {
+        "state": "rajasthan",
+        "district": "bhilwara",
+        "value": 60.73
+      },
+      {
+        "state": "rajasthan",
+        "district": "jodhpur",
+        "value": 72.83
+      },
+      {
+        "state": "rajasthan",
+        "district": "sikar",
+        "value": 77.87
+      },
+      {
+        "state": "rajasthan",
+        "district": "rajsamand",
+        "value": 65.3
+      },
+      {
+        "state": "rajasthan",
+        "district": "chittaurgarh",
+        "value": 64.34
+      },
+      {
+        "state": "rajasthan",
+        "district": "dausa",
+        "value": 76.32
+      },
+      {
+        "state": "rajasthan",
+        "district": "kota",
+        "value": 73.59
+      },
+      {
+        "state": "rajasthan",
+        "district": "barmer",
+        "value": 74.76
+      },
+      {
+        "state": "rajasthan",
+        "district": "ajmer",
+        "value": 74.75
+      },
+      {
+        "state": "rajasthan",
+        "district": "alwar",
+        "value": 68.96
+      },
+      {
+        "state": "rajasthan",
+        "district": "dhaulpur",
+        "value": 80.55
+      },
+      {
+        "state": "rajasthan",
+        "district": "jalor",
+        "value": 68.59
+      },
+      {
+        "state": "rajasthan",
+        "district": "jhunjhunu",
+        "value": 79.87
+      },
+      {
+        "state": "rajasthan",
+        "district": "baran",
+        "value": 72.46
+      },
+      {
+        "state": "rajasthan",
+        "district": "bikaner",
+        "value": 71.18
+      },
+      {
+        "state": "rajasthan",
+        "district": "bharatpur",
+        "value": 76.86
+      },
+      {
+        "state": "rajasthan",
+        "district": "jaisalmer",
+        "value": 73.01
+      },
+      {
+        "state": "rajasthan",
+        "district": "jaipur",
+        "value": 77.8
+      },
+      {
+        "state": "rajasthan",
+        "district": "bundi",
+        "value": 72.58
+      },
+      {
+        "state": "rajasthan",
+        "district": "dungarpur",
+        "value": 64.2
+      },
+      {
+        "state": "rajasthan",
+        "district": "churu",
+        "value": 73.64
+      },
+      {
+        "state": "puducherry",
+        "district": "yanam",
+        "value": 62.88
+      },
+      {
+        "state": "puducherry",
+        "district": "mahe",
+        "value": 56.76
+      },
+      {
+        "state": "puducherry",
+        "district": "karaikal",
+        "value": 67.71
+      },
+      {
+        "state": "puducherry",
+        "district": "puducherry",
+        "value": 60.72
+      },
+      {
+        "state": "bihar",
+        "district": "darbhanga",
+        "value": 49.74
+      },
+      {
+        "state": "bihar",
+        "district": "kishanganj",
+        "value": 52.56
+      },
+      {
+        "state": "bihar",
+        "district": "madhubani",
+        "value": 59.26
+      },
+      {
+        "state": "bihar",
+        "district": "purnia",
+        "value": 60.91
+      },
+      {
+        "state": "bihar",
+        "district": "gopalganj",
+        "value": 62.6
+      },
+      {
+        "state": "bihar",
+        "district": "supaul",
+        "value": 58.89
+      },
+      {
+        "state": "bihar",
+        "district": "lakhisarai",
+        "value": 68.9
+      },
+      {
+        "state": "bihar",
+        "district": "buxar",
+        "value": 62.46
+      },
+      {
+        "state": "bihar",
+        "district": "sitamarhi",
+        "value": 61.9
+      },
+      {
+        "state": "bihar",
+        "district": "khagaria",
+        "value": 61.87
+      },
+      {
+        "state": "bihar",
+        "district": "munger",
+        "value": 63.33
+      },
+      {
+        "state": "bihar",
+        "district": "gaya",
+        "value": 66.39
+      },
+      {
+        "state": "bihar",
+        "district": "pashchim champaran",
+        "value": 63.95
+      },
+      {
+        "state": "bihar",
+        "district": "sheikhpura",
+        "value": 59.26
+      },
+      {
+        "state": "bihar",
+        "district": "vaishali",
+        "value": 60.08
+      },
+      {
+        "state": "bihar",
+        "district": "katihar",
+        "value": 49.93
+      },
+      {
+        "state": "bihar",
+        "district": "purba champaran",
+        "value": 54.19
+      },
+      {
+        "state": "bihar",
+        "district": "sheohar",
+        "value": 61.63
+      },
+      {
+        "state": "bihar",
+        "district": "muzaffarpur",
+        "value": 89.7
+      },
+      {
+        "state": "bihar",
+        "district": "nalanda",
+        "value": 64.24
+      },
+      {
+        "state": "bihar",
+        "district": "aurangabad (bihar)",
+        "value": 62.19
+      },
+      {
+        "state": "bihar",
+        "district": "madhepura",
+        "value": 63.13
+      },
+      {
+        "state": "bihar",
+        "district": "begusarai",
+        "value": 64.2
+      },
+      {
+        "state": "bihar",
+        "district": "siwan",
+        "value": 57.71
+      },
+      {
+        "state": "bihar",
+        "district": "rohtas",
+        "value": 61.94
+      },
+      {
+        "state": "bihar",
+        "district": "kaimur (bhabua)",
+        "value": 61.58
+      },
+      {
+        "state": "bihar",
+        "district": "samastipur",
+        "value": 62.42
+      },
+      {
+        "state": "bihar",
+        "district": "bhagalpur",
+        "value": 59.1
+      },
+      {
+        "state": "bihar",
+        "district": "bhojpur",
+        "value": 57.2
+      },
+      {
+        "state": "bihar",
+        "district": "jamui",
+        "value": 64.7
+      },
+      {
+        "state": "bihar",
+        "district": "saran",
+        "value": 62.14
+      },
+      {
+        "state": "bihar",
+        "district": "araria",
+        "value": 64.67
+      },
+      {
+        "state": "bihar",
+        "district": "nawada",
+        "value": 67.58
+      },
+      {
+        "state": "bihar",
+        "district": "arwal",
+        "value": 59.43
+      },
+      {
+        "state": "bihar",
+        "district": "banka",
+        "value": 61.49
+      },
+      {
+        "state": "bihar",
+        "district": "saharsa",
+        "value": 59.61
+      },
+      {
+        "state": "bihar",
+        "district": "jehanabad",
+        "value": 57.66
+      },
+      {
+        "state": "bihar",
+        "district": "patna",
+        "value": 68.11
+      },
+      {
+        "state": "jharkhand",
+        "district": "godda",
+        "value": 65.41
+      },
+      {
+        "state": "jharkhand",
+        "district": "dhanbad",
+        "value": 70.38
+      },
+      {
+        "state": "jharkhand",
+        "district": "sahibganj",
+        "value": 55.35
+      },
+      {
+        "state": "jharkhand",
+        "district": "dumka",
+        "value": 67.73
+      },
+      {
+        "state": "jharkhand",
+        "district": "kodarma",
+        "value": 63.31
+      },
+      {
+        "state": "jharkhand",
+        "district": "simdega",
+        "value": 61.88
+      },
+      {
+        "state": "jharkhand",
+        "district": "bokaro",
+        "value": 72.46
+      },
+      {
+        "state": "jharkhand",
+        "district": "khunti",
+        "value": 62.23
+      },
+      {
+        "state": "jharkhand",
+        "district": "ramgarh",
+        "value": 73.52
+      },
+      {
+        "state": "jharkhand",
+        "district": "giridih",
+        "value": 65.79
+      },
+      {
+        "state": "jharkhand",
+        "district": "jamtara",
+        "value": 59.63
+      },
+      {
+        "state": "jharkhand",
+        "district": "ranchi",
+        "value": 65.18
+      },
+      {
+        "state": "jharkhand",
+        "district": "chatra",
+        "value": 66.15
+      },
+      {
+        "state": "jharkhand",
+        "district": "palamu",
+        "value": 63.03
+      },
+      {
+        "state": "jharkhand",
+        "district": "gumla",
+        "value": 61.49
+      },
+      {
+        "state": "jharkhand",
+        "district": "purbi singhbhum",
+        "value": 59.95
+      },
+      {
+        "state": "jharkhand",
+        "district": "latehar",
+        "value": 60.52
+      },
+      {
+        "state": "jharkhand",
+        "district": "hazaribag",
+        "value": 69.95
+      },
+      {
+        "state": "jharkhand",
+        "district": "pakaur",
+        "value": 65.25
+      },
+      {
+        "state": "jharkhand",
+        "district": "lohardaga",
+        "value": 58.58
+      },
+      {
+        "state": "jharkhand",
+        "district": "pashchimi singhbhum",
+        "value": 64.65
+      },
+      {
+        "state": "jharkhand",
+        "district": "deoghar",
+        "value": 65.4
+      },
+      {
+        "state": "jharkhand",
+        "district": "saraikela-kharsawan",
+        "value": 72.29
+      },
+      {
+        "state": "jharkhand",
+        "district": "garhwa",
+        "value": 64.81
+      },
+      {
+        "state": "nagaland",
+        "district": "mokokchung",
+        "value": 75.16
+      },
+      {
+        "state": "nagaland",
+        "district": "tuensang",
+        "value": 69.54
+      },
+      {
+        "state": "nagaland",
+        "district": "longleng",
+        "value": 52.77
+      },
+      {
+        "state": "nagaland",
+        "district": "zunheboto",
+        "value": 73.86
+      },
+      {
+        "state": "nagaland",
+        "district": "wokha",
+        "value": 77.23
+      },
+      {
+        "state": "nagaland",
+        "district": "kiphire",
+        "value": 62.86
+      },
+      {
+        "state": "nagaland",
+        "district": "mon",
+        "value": 54.09
+      },
+      {
+        "state": "nagaland",
+        "district": "peren",
+        "value": 55.97
+      },
+      {
+        "state": "nagaland",
+        "district": "dimapur",
+        "value": 63.09
+      },
+      {
+        "state": "nagaland",
+        "district": "phek",
+        "value": 72.56
+      },
+      {
+        "state": "nagaland",
+        "district": "kohima",
+        "value": 58.24
+      },
+      {
+        "state": "dadra & nagar haveli",
+        "district": "dadra and nagar haveli",
+        "value": 65.57
+      },
+      {
+        "state": "lakshadweep",
+        "district": "lakshadweep",
+        "value": 57.3
+      },
+      {
+        "state": "chandigarh",
+        "district": "chandigarh",
+        "value": 70.77
+      }
+    ]   
+  }
+}

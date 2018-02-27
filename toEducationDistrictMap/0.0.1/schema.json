@@ -1,0 +1,92 @@
+{
+  "id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "type": "object",
+      "properties": {
+        "basic_datapoints": {
+          "id": "/properties/data/properties/basic_datapoints",
+          "type": "object",
+          "properties": {
+            "faviconurl": {
+              "id": "/properties/data/properties/basic_datapoints/properties/faviconurl",
+              "type": "string",
+              "title": "FaviconurL"
+            },
+            "series": {
+              "id": "/properties/data/properties/basic_datapoints/properties/series",
+              "type": "string",
+              "title": "Series"
+            },
+            "intersection": {
+              "id": "/properties/data/properties/basic_datapoints/properties/intersection",
+              "type": "string",
+              "title": "Intersection"
+            },
+            "sub_intersection": {
+              "id": "/properties/data/properties/basic_datapoints/properties/sub_intersection",
+              "type": "string",
+              "title": "Sub Intersection"
+            },
+            "class": {
+              "id": "/properties/data/properties/basic_datapoints/properties/class",
+              "type": "integer",
+              "title": "Class",
+              "enum": [3, 5, 8],
+              "enumNames": [3, 5, 8]
+            },
+            "subject": {
+              "id": "/properties/data/properties/basic_datapoints/properties/subject",
+              "type": "string",
+              "title": "Subject",
+              "enum": ["maths", "evs", "science", "language", "sst"],
+              "enumNames": ["Maths", "EVS", "Science", "Language", "SST"]
+            },
+            "population": {
+              "id": "/properties/data/properties/basic_datapoints/properties/population",
+              "type": "string",
+              "title": "Population",
+              "enum": ["all", "male", "female", "urban", "rural", "govt", "aided", "gen", "obc", "st", "sc"],
+              "enumNames": ["All", "Male", "Female", "Urban", "Rural", "Govt", "Aided", "General", "OBC", "ST", "SC"]
+
+            }
+          }
+        },
+        "district_data": {
+          "id": "/properties/data/properties/district_data",
+          "title": "District Data",
+          "type": "array",
+          "items": {
+            "id": "/properties/data/properties/district_data/items",
+            "type": "object",
+            "title": "District",
+            "hideTitle": true,
+            "separator":"#",
+            "properties": {
+              "state": {
+                "id": "/properties/data/properties/district_data/items/properties/state",
+                "type": "string",
+                "title": "State"
+              },
+              "district": {
+                "id": "/properties/data/properties/district_data/items/properties/district",
+                "type": "string",
+                "title": "District"
+              },
+              "value": {
+                "id": "/properties/data/properties/district_data/items/properties/all",
+                "type": "number",
+                "title": "Value"
+              }
+            }
+          },
+          "minItems" : 697
+        }
+      }
+    }
+  }
+}
