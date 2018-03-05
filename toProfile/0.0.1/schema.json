@@ -11,37 +11,43 @@
           "title": "Image URL",
           "type": "string"
         },
-        "title":{
+        "title": {
           "title": "Title",
           "type": "string"
         },
-        "description":{
+        "description": {
           "title": "Description",
           "type": "string"
         },
-        "details":{
-          "id":"/properties/data/properties/details",
-          "items":{
+        "details": {
+          "id": "/properties/data/properties/details",
+          "items": {
             "properties": {
-              "key":{
-                "type":"string",
-                "title":"Detail Name",
-                "default":"Detail Name"
+              "key": {
+                "type": "string",
+                "title": "Detail Name",
+                "default": "Detail Name"
               },
-              "value":{
-                "type":"string",
-                "title":"Detail Value",
-                "default":"Detail Value"
+              "value": {
+                "type": "string",
+                "title": "Detail Value",
+                "default": "Detail Value"
               }
             },
-            "title":"Detail",
-            "type":"object"
+            "title": "Detail",
+            "type": "object"
           },
-          "title":"Details",
-          "type":"array"
+          "title": "Details",
+          "type": "array"
+        },
+        "section": {
+          "id": "/properties/data/properties/section",
+          "type": "string",
+          "title": "Section",
+          "default": ""
         }
       },
-      "title":"Card Data",
+      "title": "Card Data",
       "type": "object",
       "required": [
         "description"

@@ -1,7 +1,10 @@
 {
-   "data":{
-        "growth_fall_summary":{
-            "ui:help":"Use ++ or -- before and after text to indicate growth or fall, can only be used once"
+    "data": {
+        "growth_fall_summary": {
+            "ui:help": "Use ++ or -- before and after text to indicate growth or fall, can only be used once"
+        },
+        "section": {
+            "ui:widget": "hidden"
         }
-   }
+    }
 }

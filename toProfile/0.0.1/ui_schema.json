@@ -1,0 +1,13 @@
+{
+    "data": {
+        "section": {
+            "ui:widget": "hidden"
+        },
+        "description": {
+            "ui:widget": "textarea",
+            "ui:options": {
+                "rows": 10
+            }
+        }
+    }
+}

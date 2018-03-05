@@ -8,6 +8,12 @@
       "id": "/properties/data",
       "type": "object",
       "properties": {
+        "section": {
+          "id": "/properties/data/properties/section",
+          "type": "string",
+          "title": "Section",
+          "default": ""
+        },
         "events": {
           "id": "/properties/data/properties/events",
           "type": "array",
@@ -22,7 +28,10 @@
             "properties": {
               "single_event": {
                 "title": "",
-                "condition": {"element": "timeline_mode", "value": "single"},
+                "condition": {
+                  "element": "timeline_mode",
+                  "value": "single"
+                },
                 "type": "object",
                 "id": "/properties/data/properties/events/items/properties/single_event",
                 "properties": {
@@ -32,7 +41,10 @@
                     "format": "alt-date",
                     "default": "2009-07-17",
                     "id": "/properties/data/properties/events/items/properties/single_event/properties/timestamp_date",
-                    "condition": {"element": "timestamp_mode", "value": "date"}
+                    "condition": {
+                      "element": "timestamp_mode",
+                      "value": "date"
+                    }
                   },
                   "header": {
                     "title": "Title",
@@ -62,7 +74,10 @@
                     "id": "/properties/data/properties/events/items/properties/single_event/properties/media_caption"
                   }
                 },
-                "required":["timestamp_date", "message"]
+                "required": [
+                  "timestamp_date",
+                  "message"
+                ]
               }
             }
           }
@@ -103,8 +118,16 @@
           "title": "Language"
         }
       },
-      "required": ["timeline_title", "timeline_description", "timeline_image", "language"]
+      "required": [
+        "timeline_title",
+        "timeline_description",
+        "timeline_image",
+        "language"
+      ]
     }
   },
-  "required": ["data", "mandatory_config"]
+  "required": [
+    "data",
+    "mandatory_config"
+  ]
 }
