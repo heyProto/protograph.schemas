@@ -1,0 +1,11 @@
+{
+    "data":{
+        "html_string":{
+            "ui:widget":"textarea"
+        },
+        "style":{
+            "ui:widget":"textarea",
+            "ui:help":"Please do not add your own fonts"
+        }
+    }
+}
