@@ -1,0 +1,7 @@
+{
+    "data":{
+        "persona":["Entrepreneur/Business Professional","Researcher","Government Representative","Bank Professional"],
+        "purpose":["Explore water-as-a-service model","Assess the potential of private ownership of SPIS","Improve irrigation efficiency (Per Drop More Crop)","Double cultivators'income through capital investment","Double cultivators'income through crop diversification","Promote National Mission on Oilseeds and Oil Palm (NMOOP)","Promote farm mechanization","Promote climate resilient farming for small farms","Understand the potential of solarization of feeder","Promote 1 HP & sub-HP pumps","None of the above applies"],
+        "image_url":"http://localhost:8080/dist/0.0.1/background.png"
+    }
+}

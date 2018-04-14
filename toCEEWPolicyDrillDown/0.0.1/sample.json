@@ -1,0 +1,24 @@
+{
+    "data":{
+        "title":"Solarization of Feeder",
+        "verdict":"Suitable",
+        "description":"Given the high power purchase rate for the respective DISCOM, extent feeder segregation, and penetration of electric pumps, solarization of feeder would be the way to promote solar-powered irrigation in Anantapur. It would ensure rapid and efficient solarization of irrigation power at large scale.",
+        "parameters":[{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        },{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        },{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        },{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        },{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        },{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        },{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        },{
+            "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.","display":"XXXX","percentile":"XXXX"
+        }]
+    }
+}

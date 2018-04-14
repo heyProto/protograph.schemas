@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "title":{
+          "type":"string",
+          "title":"Title"
+        },
+        "verdict":{
+          "type":"string",
+          "title":"Verdict"
+        },
+        "description":{
+          "type":"string",
+          "title":"Description"
+        },
+        "parameters":{
+          "id": "/properties/data/parameters",
+          "type":"array",
+          "title":"Parameters",
+          "items":{
+            "type":"object",
+            "title":"Parameter",
+            "properties": {
+              "title":{
+                "type":"string",
+                "title":"Title"
+              },
+              "display":{
+                "type":"string",
+                "title":"Display"
+              },
+              "percentile":{
+                "type":"string",
+                "title":"Percentile"
+              }
+            }
+          }
+        } 
+      },
+      "title":"Card Data",
+      "type": "object"
+    }
+  },
+  "type": "object"
+}

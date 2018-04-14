@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "title":{
+          "type":"string",
+          "title":"Title"
+        },
+        "display":{
+          "type":"string",
+          "title":"Display"
+        },
+        "percentile":{
+          "type":"string",
+          "title":"Percentile"
+        }
+      },
+      "title":"Card Data",
+      "type": "object"
+    }
+  },
+  "type": "object"
+}
