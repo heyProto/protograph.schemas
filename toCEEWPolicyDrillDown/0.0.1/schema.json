@@ -18,6 +18,10 @@
           "type":"string",
           "title":"Description"
         },
+        "district":{
+          "type":"string",
+          "title":"District"
+        },
         "parameters":{
           "id": "/properties/data/parameters",
           "type":"array",

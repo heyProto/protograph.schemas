@@ -17,6 +17,10 @@
         "percentile":{
           "type":"string",
           "title":"Percentile"
+        },
+        "district":{
+          "type":"string",
+          "title":"District"
         }
       },
       "title":"Card Data",
