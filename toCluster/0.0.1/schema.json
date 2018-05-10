@@ -15,9 +15,7 @@
         "title": {
           "id": "/properties/data/properties/title",
           "title": "Title",
-          "type": "string",
-          "minLength": 50,
-          "maxLength": 140
+          "type": "string"
         },
         "published_date": {
           "id": "/properties/data/properties/published_date",
@@ -25,10 +23,10 @@
           "type": "string",
           "format": "date-time"
         },
-        "series": {
+        "series":{
           "title": "Series",
           "type": "string",
-          "minLength": 3,
+          "minLength":3,
           "maxLength": 15
         },
         "links": {
@@ -81,10 +79,7 @@
       },
       "title": "Card Data",
       "type": "object",
-      "required": [
-        "title",
-        "published_date"
-      ]
+      "required": ["title", "published_date"]
     }
   },
   "type": "object"

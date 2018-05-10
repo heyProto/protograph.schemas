@@ -15,8 +15,8 @@
         "headline":{
           "title": "Headline",
           "type": "string",
-          "minLength":30,
-          "maxLength": 95
+          "minLength":11,
+          "maxLength":90
         },
         "byline":{
           "title": "Byline",
@@ -28,6 +28,10 @@
           "title": "Publish Date",
           "type": "string",
           "format":"date-time"
+        },
+        "hide_byline": {
+          "title": "Hide Byline",
+          "type": "boolean"
         },
         "series":{
           "title": "Series",
