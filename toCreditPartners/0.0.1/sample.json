@@ -4,37 +4,31 @@
       {
         "title": "Partners",
         "name": "Knight Foundation",
-        "logo": "knight.png",
+        "logo": "https://cdn.protograph.pykih.com/d583b2ea191031c6f0fc/img/knight.png",
         "url": "https://knightfoundation.org/"
       },
       {
         "title": "Partners",
         "name": "International Center for Journalists",
-        "logo": "icfj.png",
-        "url": "https://www.icfj.org/"
-      },
-      {
-        "title": "Partners",
-        "name": "International Center for Journalists",
-        "logo": "icfj.png",
+        "logo": "https://cdn.protograph.pykih.com/d583b2ea191031c6f0fc/img/icfj.png",
         "url": "https://www.icfj.org/"
       },
       {
         "title": "Built by",
         "name": "Code for Kenya",
-        "logo": "cfk.png",
+        "logo": "https://cdn.protograph.pykih.com/d583b2ea191031c6f0fc/img/cfk.png",
         "url": "https://codeforkenya.org/"
       },
       {
         "title": "Funded by",
         "name": "Knight Foundation",
-        "logo": "knight.png",
+        "logo": "https://cdn.protograph.pykih.com/d583b2ea191031c6f0fc/img/knight.png",
         "url": "https://knightfoundation.org/"
       },
       {
         "title": "Funded by",
         "name": "International Center for Journalists",
-        "logo": "icfj.png",
+        "logo": "https://cdn.protograph.pykih.com/d583b2ea191031c6f0fc/img/icfj.png",
         "url": "https://www.icfj.org/"
       }
     ]
