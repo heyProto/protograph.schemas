@@ -205,7 +205,6 @@
                         },
                         "required": [
                             "related_article_links",
-                            "message",
                             "link_image",
                             "link_description"
                         ],
