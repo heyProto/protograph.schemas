@@ -5,7 +5,7 @@
   "properties": {
     "data": {
       "properties": {
-        "title":{
+        "title": {
           "type": "string",
           "title": "Title"
         },
@@ -24,20 +24,21 @@
         },
         "credit": {
           "type": "string",
-          "title": "Credit"
+          "title": "Type caption for image"
         },
         "credit_link": {
           "type": "string",
-          "title": "Credit link"
+          "title": "On click of caption, link out to URL",
+          "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)"
         }
       },
       "type": "object",
       "required": [
-        "title","url_16column"
+        "title",
+        "url_16column"
       ]
     },
-    "mandatory_config": {
-    }
+    "mandatory_config": {}
   },
   "required": [
     "mandatory_config",
