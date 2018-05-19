@@ -17,6 +17,18 @@
         "url_7column": {
           "type": "string",
           "title": "Col-7 Image URL"
+        },
+        "fit_to_size": {
+          "type": "boolean",
+          "title": "  Fit to size"
+        },
+        "credit": {
+          "type": "string",
+          "title": "Credit"
+        },
+        "credit_link": {
+          "type": "string",
+          "title": "Credit link"
         }
       },
       "type": "object",
