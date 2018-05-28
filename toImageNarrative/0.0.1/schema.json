@@ -39,14 +39,14 @@
           "title": "On click of caption, link out to URL",
           "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)"
         },
-        "tab": {
-          "type": "boolean",
-          "title": "Open in new tab"
-        },
-        "link":{
-          "type":"string",
-          "title":"On click of image, link out to URL",
+        "link": {
+          "type": "string",
+          "title": "On click of image, link out to URL",
           "pattern": "((?:https?\\:\/\/|www\\.)(?:[-a-z0-9]+\\.)*[-a-z0-9]+.*)"
+        },
+        "tab":{
+          "type":"boolean",
+          "title":"Open in new tab"
         }
       },
       "type": "object",
