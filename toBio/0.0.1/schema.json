@@ -23,10 +23,11 @@
           "type": "string",
           "title": "Designation"
         },
-        "description": {
+        "bio": {
           "id": "/properties/data/properties/description",
           "type": "string",
-          "title": "Description"
+          "title": "Bio",
+          "maxLength": 1000
         },
         "linkedin_url": {
           "id": "/properties/data/properties/linkedin_url",

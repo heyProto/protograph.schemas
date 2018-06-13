@@ -21,11 +21,8 @@
         "col7imageurl": {
             "ui:help": "Hint: 540px width. 5:3 aspect ratio."
         },
-        "left":{
-            "ui:widget":"updown"
-        },
-        "top":{
-            "ui:widget":"updown"
+        "bio":{
+            "ui:widget":"textarea"
         }
    }
 }

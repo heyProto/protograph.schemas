@@ -1,14 +1,18 @@
 {
-  "data": {
-    "url":"http://indianexpress.com/article/india/looking-ahead-in-2018-stories-that-will-take-center-stage-in-india-5004665/",
-    "headline":"Looking ahead in 2018: Stories that will take center stage in India",
-    "byline":"Express Web Desk",
-    "publishedat":"2017-12-30T12:51:00.000Z",
-    "genre": "Development",
-    "sponsored": true,
-    "domainurl":"http://indianexpress.com",
-    "faviconurl":"http://0.gravatar.com/blavatar/efe0300e7f891c5c802ed340f6b20b67",
-    "publishername":"IndianExpress",
-    "imageurl": "https://cdn.protograph.pykih.com/Assets/2018-the-year-ahead.jpg"
-  }
+    "data":
+    {
+        "publishedat": "2017-11-02T12:00:00",
+        "byline": "Nidhi Sethi ",
+        "hasdata": false,
+        "hasimage": true,
+        "hasvideo": false,
+        "headline": "Police Create Green Corridor In Lucknow To Fly Boiler Blast Victims To Delhi's AIIMS",
+        "imageurl": "https://i.ndtvimg.com/i/2017-11/ntpc-injured-taken-to-aiims_650x400_41509606413.jpg",
+        "series": "\u0905\u0902\u0917\u0926\u093e\u0928 \u0915\u0940 \u0928\u0908 \u0926\u0941\u0928\u093f\u092f\u093e",
+        "summary": "A \"green corridor\" is a special route to enable immediate medical care and facilitate timely travel of harvested organs from one hospital to another. The street signals are manually operated to avoid red lights and peak traffic.",
+        "url": "https://www.ndtv.com/india-news/up-police-create-green-corridor-in-lucknow-to-fly-boiler-blast-victims-to-delhis-aiims-1770186",
+        "isinteractive": true,
+        "left":50,
+        "top":50
+    }
 }
