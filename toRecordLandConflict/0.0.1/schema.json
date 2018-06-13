@@ -39,17 +39,17 @@
         },
         "no_of_household_affected": {
           "id": "/properties/data/properties/no_of_household_affected",
-          "type": "integer",
+          "type": "string",
           "title": "No. of Household affected"
         },
         "investment": {
           "id": "/properties/data/properties/investment",
-          "type": "number",
+          "type": "string",
           "title": "Investment(in crores, Rs.)"
         },
         "land_area_affected": {
           "id": "/properties/data/properties/land_area_affected",
-          "type": "number",
+          "type": "string",
           "title": "Land Area Affected"
         },
         "year": {
