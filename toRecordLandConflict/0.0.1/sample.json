@@ -6,9 +6,9 @@
     "district": "Prakasham",
     "state": "Andhra Pradesh",
     "type_of_industry": "Other Kind of Land Use",
-    "no_of_household_affected": 27,
-    "investment": 5.67,
-    "land_area_affected": 35,
+    "no_of_household_affected": "27",
+    "investment": "5.67",
+    "land_area_affected": "35",
     "year": "1994",
     "parties_involved_state": "M.P. Government",
     "parties_involved_corporate": "ACB India LTD.",
@@ -19,6 +19,7 @@
     "major_human_rights_violation_related_to_conflict": "Tribals allege forest department harass them by filing false charges and putting them in jail.",
     "summary": "In 1994, 35 acres of land was given to 27 Dalit families under land reforms in Amanigudipadu village in Prakasam district. However, people of Reddy community force evicted Dalits from their land and encroached it. Dalits were farming on that land. Since then, Dalits have been fighting to regain their land. They are supported by All India Agricultural Workers Union and have given representations to local authorities including district collector. Under AP Assigned Lands (Prohibition of Transfers) Act 1977, the assigned lands cannot be sold or purchased.",
     "source_of_information": "Vamsadhara project-displaced: Naidu for quick settlement of cases, Vamsadhara displaced families launch relay fast, Displaced families demand reasonable package",
-    "links": "Prakasham Assigned lands.jpg"
+    "links": "Prakasham Assigned lands.jpg",
+    "industry": "Land Use"
   }
 }
