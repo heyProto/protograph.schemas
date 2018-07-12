@@ -127,12 +127,17 @@
         "top":{
           "title":"Top (in %)",
           "type":"number"
+        },
+        "external_identifier": {
+          "id": "/properties/data/properties/top",
+          "title": "External Identifier",
+          "type": "string"
         }
       },
       "title":"Card Data",
       "type": "object",
       "required": [
-        "url","headline","byline","publishedat"
+        "url", "headline", "byline", "publishedat"
       ]
     }
   },
