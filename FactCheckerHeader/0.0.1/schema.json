@@ -1,0 +1,181 @@
+{
+	"$schema": "http://json-schema.org/draft-06/schema#",
+    "id": "http://example.com/example.json",
+    "type": "object",
+    "properties": {
+    	"data": {
+    		"id": "/properties/data",
+    		"type": "object",
+    		"properties": {
+	    		"description": {
+					"id": "/properties/data/properties/description",
+					"type": "string",
+					"title": "Description",
+					"maxLength": 400
+				},
+    			"incidentChart": {
+    				"id": "/properties/data/properties/incidentChart",
+    						"type": "object",
+    						"title": "Number of incidents",
+    						"properties": {
+    							"incidentNumber": {
+    								"id": "/properties/data/properties/incidentChart/properties/incidentNumber",
+    								"type": "integer",
+    								"title": "Number of incidents",
+    								"default": 257,
+    								"maximum": 999
+    							}
+    						}
+    			},
+    			"deathInjuryChart": {
+    				"id": "/properties/data/properties/deathInjuryChart",
+    						"type": "object",
+    						"title": "Deaths and injuries",
+    						"properties": {
+    							"deathLabel": {
+    								"id": "/properties/data/properties/deathInjuryChart/properties/deathLabel",
+    								"type": "string",
+    								"maxLength": 12,
+    								"title": "Label for deaths",
+    								"default": "Deaths"
+    							},
+    							"injuryLabel": {
+    								"id": "/properties/data/properties/deathInjuryChart/properties/injuryLabel",
+    								"type": "string",
+    								"maxLength": 12,
+    								"title": "Label for injuries",
+    								"default": "Injuries"
+    							},
+    							"deathNumber": {
+    								"id": "/properties/data/properties/deathInjuryChart/properties/deathNumber",
+    								"type": "integer",
+    								"title": "Number of deaths",
+    								"default": 92,
+    								"minimum": 1,
+    								"maximum": 999
+    							},
+    							"injuryNumber": {
+    								"id": "/properties/data/properties/deathInjuryChart/properties/injuryNumber",
+    								"type": "integer",
+    								"title": "Number of injuries",
+    								"default": 550,
+    								"minimum": 1,
+    								"maximum": 999
+    							}
+    						}
+    			},
+    			"leftLineChart": {
+					"id": "/properties/data/properties/leftLineChart",
+					"type": "object",
+					"title": "Left line chart",
+					"properties": {
+						"label": {
+							"id": "/properties/data/properties/leftLineChart/properties/label",
+							"type": "string",
+							"title": "Label",
+							"maxLength": 40,
+							"default": "Religion of victims"
+						},
+						"datapoints": {
+							"id": "/properties/data/properties/leftLineChart/properties/datapoints",
+							"type": "array",
+							"title": "Data points",
+							"minItems": 4,
+							"maxItems": 4,
+							"items": {
+								"id": "/properties/data/properties/leftLineChart/properties/datapoints/items",
+								"type": "object",
+								"properties": {
+									"category": {
+										"id": "/properties/data/properties/leftLineChart/properties/datapoints/items/properties/category",
+										"type": "string",
+										"title": "Category"
+									},
+									"percentage": {
+										"id": "/properties/data/properties/leftLineChart/properties/datapoints/items/properties/percentage",
+										"type": "integer",
+										"title": "Percentage"
+									}
+								}								
+							}
+						}
+					}
+				},
+				"middleLineChart": {
+					"id": "/properties/data/properties/middleLineChart",
+					"type": "object",
+					"title": "Middle line chart",
+					"properties": {
+						"label": {
+							"id": "/properties/data/properties/middleLineChart/properties/label",
+							"type": "string",
+							"title": "Label",
+							"maxLength": 40,
+							"default": "Religion of perpetrators"
+						},
+						"datapoints": {
+							"id": "/properties/data/properties/middleLineChart/properties/datapoints",
+							"type": "array",
+							"title": "Data points",
+							"minItems": 4,
+							"maxItems": 4,
+							"items": {
+								"id": "/properties/data/properties/middleLineChart/properties/datapoints/items",
+								"properties": {
+									"category": {
+										"id": "/properties/data/properties/middleLineChart/properties/datapoints/items/properties/category",
+										"type": "string",
+										"title": "Category"
+									},
+									"percentage": {
+										"id": "/properties/data/properties/middleLineChart/properties/datapoints/items/properties/percentage",
+										"type": "integer",
+										"title": "Percentage"
+									}
+								},
+								"type": "object"
+							}
+						}
+					}
+				},
+				"rightLineChart": {
+					"id": "/properties/data/properties/rightLineChart",
+					"type": "object",
+					"title": "Right line chart",
+					"properties": {
+						"label": {
+							"id": "/properties/data/properties/rightLineChart/properties/label",
+							"type": "string",
+							"title": "Label",
+							"maxLength": 40,
+							"default": "Party in power"
+						},
+						"datapoints": {
+							"id": "/properties/data/properties/rightLineChart/properties/datapoints",
+							"type": "array",
+							"minItems": 4,
+							"maxItems": 4,
+							"title": "Data points",
+							"items": {
+								"type": "object",
+								"id": "/properties/data/properties/rightLineChart/properties/datapoints/items",
+								"properties": {
+									"category": {
+										"id": "/properties/data/properties/rightLineChart/properties/datapoints/items/properties/category",
+										"type": "string",
+										"title": "Category"
+									},
+									"percentage": {
+										"id": "/properties/data/properties/rightLineChart/properties/datapoints/items/properties/percentage",
+										"type": "integer",
+										"title": "Percentage"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+    	}
+    }
+}
