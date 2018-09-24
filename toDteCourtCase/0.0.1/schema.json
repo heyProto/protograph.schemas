@@ -1,0 +1,217 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "title": "DTE Case Details",
+      "required": [
+        "date",
+        "subject",
+        "location",
+        "court_involved",
+        "title",
+        "petitioner",
+        "petition_type",
+        "respondent",
+        "respondent_type",
+        "petition_filing_year",
+        "petition_result",
+        "judge_name",
+        "bench",
+        "act_referred",
+        "summary",
+        "compensation",
+        "case_status",
+        "pdf_url"
+      ],
+      "properties": {
+        "date": {
+          "$id": "#/properties/data/properties/date",
+          "type": "string",
+          "title": "Last Updated Date",
+          "default": "",
+          "examples": [
+            "2013-05-20"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "subject": {
+          "$id": "#/properties/data/properties/subject",
+          "type": "string",
+          "title": "Subject",
+          "default": "",
+          "examples": [
+            "Forests"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "location": {
+          "$id": "#/properties/data/properties/location",
+          "type": "string",
+          "title": "Location",
+          "default": "",
+          "examples": [
+            "Himachal Pradesh"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "court_involved": {
+          "$id": "#/properties/data/properties/court_involved",
+          "type": "string",
+          "title": "Court involved",
+          "default": "",
+          "examples": [
+            "National Green Tribunal (NGT)"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "title": {
+          "$id": "#/properties/data/properties/title",
+          "type": "string",
+          "title": "Title",
+          "default": "",
+          "examples": [
+            "Order of the National Green Tribunal in the matter of Shobha Dhalla Vs. State of Uttrakhand & Ors regarding construction activity in the area around Kapurthala Estate or the Savoy Hotel which have been declared as forest area"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "petitioner": {
+          "$id": "#/properties/data/properties/petitioner",
+          "type": "string",
+          "title": "Petitioner",
+          "default": "",
+          "examples": [
+            "Shobha Dhalla"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "petition_type": {
+          "$id": "#/properties/data/properties/petition_type",
+          "type": "string",
+          "title": "Petitioner type",
+          "default": "",
+          "examples": [
+            "Individual"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "respondent": {
+          "$id": "#/properties/data/properties/respondent",
+          "type": "string",
+          "title": "Respondent",
+          "default": "",
+          "examples": [
+            "State of Uttrakhand & Others"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "respondent_type": {
+          "$id": "#/properties/data/properties/respondent_type",
+          "type": "string",
+          "title": "Respondent type",
+          "default": "",
+          "examples": [
+            "Government"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "petition_filing_year": {
+          "$id": "#/properties/data/properties/petition_filing_year",
+          "type": "integer",
+          "title": "Petition filing year",
+          "default": 0,
+          "examples": [
+            2013
+          ]
+        },
+        "petition_result": {
+          "$id": "#/properties/data/properties/petition_result",
+          "type": "string",
+          "title": "Petition result (Disposition)",
+          "default": "",
+          "examples": [
+            "In favour of the petitioner"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "judge_name": {
+          "$id": "#/properties/data/properties/judge_name",
+          "type": "string",
+          "title": "Judge name",
+          "default": "",
+          "examples": [
+            "Swatanter Kumar, U. D. Salvi"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "bench": {
+          "$id": "#/properties/data/properties/bench",
+          "type": "string",
+          "title": "Bench",
+          "default": "",
+          "examples": [
+            "Principal Bench - New Delhi"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "act_referred": {
+          "$id": "#/properties/data/properties/act_referred",
+          "type": "string",
+          "title": "Act referred",
+          "default": "",
+          "examples": [
+            "Urban Planning and Development Act, Protection of Tree Act, Indian Forest Act"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "summary": {
+          "$id": "#/properties/data/properties/summary",
+          "type": "string",
+          "title": "Summary",
+          "default": "",
+          "examples": [
+            "Order of the National Green Tribunal in the matter of Shobha Dhalla Vs. State of Uttrakhand & Ors regarding construction activity in the area around Kapurthala Estate or the Savoy Hotel which have been declared as forest area"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "compensation": {
+          "$id": "#/properties/data/properties/compensation",
+          "type": "string",
+          "title": "Compensation/Fine",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "pattern": "^(.*)$"
+        },
+        "case_status": {
+          "$id": "#/properties/data/properties/case_status",
+          "type": "string",
+          "title": "Case status",
+          "default": "",
+          "examples": [
+            "Next Hearing 15/07/2013"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "pdf_url": {
+          "$id": "#/properties/data/properties/pdf_url",
+          "type": "string",
+          "title": "PDF link",
+          "default": "",
+          "examples": [
+            "http://www.indiaenvironmentportal.org.in/files/bio-medical%20waste%20Andhra%20Pradesh%20NGT%20Judgement.pdf"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}
